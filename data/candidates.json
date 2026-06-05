@@ -532,7 +532,10 @@
           "videoUrl": "https://www.youtube.com/watch?v=Duh337j26OA",
           "timestamp": 268
         }
-      }
+      },
+      "summary": "Establishment-backed rancher and ex-state Senate GOP leader; runs on low taxes, water rights, and border security.",
+      "photo": "img/james-settelmeyer.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "david-flippo",
@@ -576,7 +579,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Trump-endorsed retired Air Force colonel making illegal immigration and border security his central issue.",
+      "photo": "img/david-flippo.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "fred-simon-jr",
@@ -605,7 +611,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Gardnerville trauma surgeon and perennial candidate stressing a balanced budget and energy/immigration policy.",
+      "photo": "img/fred-simon-jr.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "tom-doyle",
@@ -648,7 +657,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "45-year casino-industry veteran who would largely continue Amodei's record; backs DACA but opposes birthright citizenship.",
+      "photo": "img/tom-doyle.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "george-forbush",
@@ -691,7 +703,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Retired police officer pitching 50-year mortgages, merit-based immigration, and curbs on drug-industry price gouging.",
+      "photo": "img/george-forbush.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "jerry-olsen",
@@ -727,7 +742,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Retired Army medic and ex-deputy taking no donations; pledges to vote his constituents' will, not Trump's line."
     },
     {
       "id": "mike-smith",
@@ -763,7 +779,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Retired Navy fighter pilot whose top priority is the national debt; would repeal the ACA.",
+      "photo": "img/mike-smith.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "sherman-tylawsky",
@@ -806,7 +825,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "28-year-old Ph.D. candidate and think-tank founder favoring consumption taxes and fewer regulations.",
+      "photo": "img/sherman-tylawsky.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "jesse-watts",
@@ -842,7 +864,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Ex-Eureka County sheriff who suspended his campaign for Settelmeyer; pitched a Nevada oil refinery and deregulation.",
+      "photo": "img/jesse-watts.png",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "jennifer-billat",
@@ -871,7 +896,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Land-development owner running primarily on public-lands issues and fuel independence from California."
     },
     {
       "id": "andrea-lowe",
@@ -896,7 +922,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "32-year-old volunteer firefighter and school board member running on healthcare, jobs, and younger leadership.",
+      "photo": "img/andrea-lowe.png",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "bruce-grego",
@@ -921,7 +950,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Attorney and ex-South Lake Tahoe councilman campaigning against the 'administrative state' and unelected officials."
     },
     {
       "id": "rick-shepherd",
@@ -964,7 +994,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Former Bernie delegate running in the GOP primary; backs universal healthcare, abortion rights, and election skepticism.",
+      "photo": "img/rick-shepherd.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "teresa-benitez-thompson",
@@ -1026,7 +1059,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Former Assembly majority leader and social worker; the field's most experienced Democrat, focused on cost of living.",
+      "photo": "img/teresa-benitez-thompson.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "greg-kidd",
@@ -1074,7 +1110,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Self-funding venture investor and Benitez-Thompson's chief rival; runs on affordability and reining in data centers.",
+      "photo": "img/greg-kidd.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "kathy-durham",
@@ -1103,7 +1142,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Union rep and civics teacher backing Medicare for All and opposing corporate consolidation.",
+      "photo": "img/kathy-durham.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "matthew-fonken",
@@ -1139,7 +1181,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Ex-state Democratic Party director pushing term limits, a lobbying ban, and a congressional stock-trading ban.",
+      "photo": "img/matthew-fonken.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "morgan-wadsworth",
@@ -1193,7 +1238,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "27-year-old anti-establishment consensus pick; backs Medicare for All, abolishing ICE, and opposing data centers.",
+      "photo": "img/morgan-wadsworth.png",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "gamy-enriquez",
@@ -1225,7 +1273,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "DoorDash driver who has faced homelessness; proposes a $1,300 UBI funded by Nevada minerals and a 'Green Marshall Plan.'",
+      "photo": "img/gamy-enriquez.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "johnny-kerns",
@@ -1254,7 +1305,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Retired homicide investigator and true-crime author focused on the economy and national debt.",
+      "photo": "img/johnny-kerns.png",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "gerold-gorman",
@@ -1271,7 +1325,10 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "2022 congressional candidate with minimal documented 2026 activity; no stated positions.",
+      "photo": "img/gerold-gorman.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "josh-hebert",
@@ -1304,7 +1361,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Physics Ph.D. who organized the anti-establishment coalition; withdrew to back Wadsworth on a money-in-politics platform.",
+      "photo": "img/josh-hebert.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "mark-jolle",
@@ -1325,7 +1385,10 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Anti-establishment coalition Democrat who withdrew without endorsing; name remains on the ballot.",
+      "photo": "img/mark-jolle.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "samuel-white",
@@ -1346,7 +1409,10 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Anti-establishment coalition Democrat who withdrew and endorsed Wadsworth; name remains on the ballot.",
+      "photo": "img/samuel-white.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "lisa-krasner",
@@ -1400,7 +1466,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Incumbent SD16 senator and attorney naming wildfire, election integrity, and education as Nevada's top challenges."
     },
     {
       "id": "monica-jaye-stabbert",
@@ -1464,7 +1531,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Conservative talk-radio host challenging Krasner; centers cost of living, attainable housing, and local hiring."
     },
     {
       "id": "michael-ginsburg",
@@ -1518,7 +1586,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Reno NV Energy manager wary of transferable tax credits; pushes EV highway fees and housing zoning reform."
     },
     {
       "id": "noah-bachman-dodge",
@@ -1539,7 +1608,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Republican candidate for Assembly District 25 with limited public position record."
     },
     {
       "id": "julie-butler",
@@ -1588,7 +1658,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "30-year state executive touting deep budget expertise; flags infrastructure and fuel-supply vulnerability."
     },
     {
       "id": "rich-harvey",
@@ -1637,7 +1708,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Career fire chief making water scarcity and wildfire prevention his signature issues."
     },
     {
       "id": "drew-ribar",
@@ -1679,7 +1751,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Towing-association founder and government-meeting regular campaigning on accountability and constitutional literacy."
     },
     {
       "id": "stacy-woodbury",
@@ -1735,7 +1808,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Veteran state administrator pitching affordability, a DOGE-style audit, and tougher crime and immigration enforcement."
     },
     {
       "id": "devon-reese",
@@ -1801,7 +1875,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Sitting Reno councilmember pitching a Truckee River park; reversed in 2026 to back a data center moratorium."
     },
     {
       "id": "kate-marshall",
@@ -1863,7 +1938,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Ex-state treasurer and lieutenant governor; consistent data-center opponent making housing and fiscal management central.",
+      "photo": "img/kate-marshall.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "kathleen-taylor",
@@ -1925,7 +2003,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Lombardo-endorsed vice-mayor and fiscal hawk; the lone council vote against the data center moratorium.",
+      "photo": "img/kathleen-taylor.jpg",
+      "photoCredit": "taylorforrenomayor.com"
     },
     {
       "id": "eddie-lorton",
@@ -1994,7 +2075,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Self-funded businessman on his fourth mayoral bid; would sell city property to cut debt and mandate 20% affordable housing.",
+      "photo": "img/eddie-lorton.jpg",
+      "photoCredit": "eddielorton.com"
     },
     {
       "id": "tim-ross",
@@ -2052,7 +2136,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Retired sheriff's sergeant calling out city fiscal dysfunction; skeptical of data centers, focused on public safety.",
+      "photo": "img/tim-ross.jpeg",
+      "photoCredit": "rossforreno.com"
     },
     {
       "id": "corinthia-yancey",
@@ -2117,7 +2204,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Security-company owner wanting growth without draining water; conditional moratorium support and budget reform.",
+      "photo": "img/corinthia-yancey.png",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "jesse-razo",
@@ -2152,7 +2242,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Longtime Reno builder and repeat mayoral candidate running unfunded, raising population-growth concerns.",
+      "photo": "img/jesse-razo.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "john-wayne-zink",
@@ -2187,7 +2280,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Musician and IT consultant known as 'The Mayor' on YouTube; names city overspending as the key issue."
     },
     {
       "id": "greg-nuttle",
@@ -2226,7 +2320,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Downtown bartender who wound down his campaign; had focused on downtown development and congestion.",
+      "photo": "img/greg-nuttle.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "matt-johnson",
@@ -2255,7 +2352,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Grassroots Ward 2 candidate stressing planning and neighborhood engagement over consultant-driven campaigns."
     },
     {
       "id": "summer-pellett",
@@ -2276,7 +2374,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Construction-firm COO and Ward 2 fundraising leader backed by development and trade interests."
     },
     {
       "id": "vanessa-vaupel",
@@ -2309,7 +2408,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Former VA chief of pharmacy running PAC-free; argues Reno deserves a deliberate data center pause with guardrails."
     },
     {
       "id": "ian-luetkehans",
@@ -2330,7 +2430,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Ward 2 council candidate running a minimal campaign with no funds or website; limited position record."
     },
     {
       "id": "meghan-ebert",
@@ -2359,7 +2460,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Incumbent Ward 4 councilmember insisting any data center moratorium be tied to codified protections."
     },
     {
       "id": "eddie-gomez",
@@ -2395,7 +2497,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "North Valleys restaurateur challenging on infrastructure that has lagged growth, plus parks and affordable housing."
     },
     {
       "id": "ed-lawson",
@@ -2466,7 +2569,10 @@
           "videoUrl": "https://www.youtube.com/watch?v=uwYKrVC_hNo",
           "timestamp": 3358
         }
-      }
+      },
+      "summary": "Incumbent Sparks mayor pinning fiscal woes on public-safety costs; pushes property-tax reform and eastward land-bill growth.",
+      "photo": "img/ed-lawson.jpg",
+      "photoCredit": "edlawson.net"
     },
     {
       "id": "charlene-bybee",
@@ -2541,7 +2647,10 @@
           "videoUrl": "https://www.youtube.com/watch?v=uwYKrVC_hNo",
           "timestamp": 3122
         }
-      }
+      },
+      "summary": "Term-limited Sparks councilmember and self-styled fiscal conservative running on workforce housing and property-tax reset.",
+      "photo": "img/charlene-bybee.jpg",
+      "photoCredit": "charleneforsparks.com"
     },
     {
       "id": "diana-mackey",
@@ -2594,7 +2703,10 @@
           "videoUrl": "https://www.youtube.com/watch?v=uwYKrVC_hNo",
           "timestamp": 2799
         }
-      }
+      },
+      "summary": "Late-entry single-issue candidate opposing the Red Hawk golf-course development; blames deficit on tax abatements.",
+      "photo": "img/diana-mackey.jpg",
+      "photoCredit": "mackey4sparks.com"
     },
     {
       "id": "wendi-rawson",
@@ -2630,7 +2742,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Urban-winery founder and outsider blaming the deficit on current leadership; opposes new resident taxes.",
+      "photo": "img/wendi-rawson.png",
+      "photoCredit": "wendiformayor.com"
     },
     {
       "id": "jamie-oconnell",
@@ -2669,7 +2784,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Billing analyst and Democrat opposing the first-responder fee; would protect first responders, cut redundant contracts."
     },
     {
       "id": "hunter-rand",
@@ -2712,7 +2828,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Pirate Party broadcast engineer pushing infrastructure-first growth and scrutiny of surveillance-tech spending."
     },
     {
       "id": "dian-vanderwell",
@@ -2751,7 +2868,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Appointed Ward 2 incumbent and realtor favoring smart infill growth; cautious first-responder-fee support."
     },
     {
       "id": "anthony-goulet",
@@ -2768,7 +2886,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Sparks Ward 2 candidate who didn't respond to questionnaires and raised no funds; no stated positions."
     },
     {
       "id": "damon-harrell",
@@ -2807,7 +2926,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Marine veteran and realtor in his first race; protects public-safety funding and wants infrastructure before growth."
     },
     {
       "id": "adam-mayberry",
@@ -2850,7 +2970,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "School board member leaving to run for council; prefers Medicaid reimbursement over a first-responder fee."
     },
     {
       "id": "sean-mccaffrey",
@@ -2889,7 +3010,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Bin-cleaning business owner fiercely opposing the first-responder fee; prioritizes reopening Fire Station 5."
     },
     {
       "id": "tracey-thomas",
@@ -2932,7 +3054,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Independent American first-timer prioritizing maintaining existing assets and higher-density town centers over sprawl."
     },
     {
       "id": "joe-lombardo",
@@ -3000,7 +3123,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Incumbent GOP governor and ex-Clark County sheriff touting 87 vetoes, school choice, and tougher immigration stances.",
+      "photo": "img/joe-lombardo.jpg",
+      "photoCredit": "upload.wikimedia.org"
     },
     {
       "id": "irina-hansen",
@@ -3017,7 +3143,10 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Salon owner mounting a longshot GOP primary challenge to Gov. Lombardo; no stated positions.",
+      "photo": "img/irina-hansen.png",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "matthew-winterhawk",
@@ -3034,7 +3163,10 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Hip-hop artist running as a longshot GOP challenger to Gov. Lombardo; no stated positions.",
+      "photo": "img/matthew-winterhawk.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "aaron-ford",
@@ -3088,7 +3220,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Term-limited AG and Democratic gubernatorial frontrunner running on lowering costs, housing, and data-center fairness.",
+      "photo": "img/aaron-ford.jpg",
+      "photoCredit": "upload.wikimedia.org"
     },
     {
       "id": "alexis-hill",
@@ -3142,7 +3277,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Washoe Commission chair and underdog Democrat; targets corporate tax giveaways and big K-12 and climate investment.",
+      "photo": "img/alexis-hill.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "stavros-anthony",
@@ -3159,7 +3297,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent GOP lieutenant governor and ex-LVMPD captain, unopposed in his primary."
     },
     {
       "id": "sandra-jauregui",
@@ -3180,7 +3319,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Assembly majority floor leader and Democratic LG frontrunner backed by Nevada's U.S. senators."
     },
     {
       "id": "courtney-burke",
@@ -3197,7 +3337,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Pediatric ICU nurse and small-business owner in the Democratic LG primary; no campaign funds reported."
     },
     {
       "id": "bridget-scheiner",
@@ -3214,7 +3355,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Veteran fire dancer in the Democratic LG primary, running on rejecting corporate PAC and lobbyist money."
     },
     {
       "id": "nicole-cannizzaro",
@@ -3264,7 +3406,10 @@
           "videoUrl": "https://www.youtube.com/watch?v=q821TMGa7nA",
           "timestamp": 47
         }
-      }
+      },
+      "summary": "Senate majority leader and deputy DA touting sole courtroom experience in the Democratic AG primary.",
+      "photo": "img/nicole-cannizzaro.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "zach-conine",
@@ -3327,7 +3472,10 @@
           "videoUrl": "https://www.youtube.com/watch?v=q821TMGa7nA",
           "timestamp": 100
         }
-      }
+      },
+      "summary": "Two-term state treasurer in the Democratic AG primary, running on fighting federal overreach and NV Energy rates.",
+      "photo": "img/zach-conine.jpg",
+      "photoCredit": "upload.wikimedia.org"
     },
     {
       "id": "adriana-guzman-fralick",
@@ -3356,7 +3504,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Trump- and Lombardo-endorsed attorney in the GOP AG primary, campaigning on closer law-enforcement ties.",
+      "photo": "img/adriana-guzman-fralick.png",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "danny-tarkanian",
@@ -3385,7 +3536,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Douglas County commissioner and perennial candidate with a famous name in the GOP AG primary.",
+      "photo": "img/danny-tarkanian.jpg",
+      "photoCredit": "upload.wikimedia.org"
     },
     {
       "id": "cisco-aguilar",
@@ -3406,7 +3560,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent Democratic secretary of state who advanced unopposed in his primary."
     },
     {
       "id": "jim-marchant",
@@ -3435,7 +3590,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Election-denying ex-assemblyman and 2020 'fake elector' who would eliminate voting machines."
     },
     {
       "id": "sharron-angle",
@@ -3460,7 +3616,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Former assemblywoman and 2010 GOP Senate nominee running on election-security doubts and voter ID."
     },
     {
       "id": "shirley-folkins-roberts",
@@ -3485,7 +3642,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Lombardo-endorsed attorney and developer backing voter ID and limits on mail-in ballots without alleging fraud."
     },
     {
       "id": "socorro-keenan",
@@ -3510,7 +3668,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Repeat SoS candidate claiming Nevada elections aren't secure and pushing to clean voter rolls."
     },
     {
       "id": "joe-dalia",
@@ -3531,7 +3690,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "First-term Henderson assemblymember and attorney (ex-Meta) in the Democratic treasurer primary."
     },
     {
       "id": "tya-mathis-coleman",
@@ -3556,7 +3716,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Deputy state treasurer arguing her in-office experience lets her manage state finances from day one."
     },
     {
       "id": "jay-maharjan",
@@ -3573,7 +3734,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Teacher and entrepreneur who led the Obama-era Startup America Partnership, in the Democratic treasurer primary."
     },
     {
       "id": "drew-johnson",
@@ -3602,7 +3764,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Conservative think-tank founder running as a government-waste expert and budget watchdog for treasurer."
     },
     {
       "id": "jeff-carter",
@@ -3623,7 +3786,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Ex-Chicago Mercantile Exchange trader and first-time candidate in the GOP treasurer primary."
     },
     {
       "id": "andy-matthews",
@@ -3652,7 +3816,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Incumbent GOP controller and transparency advocate who built the state's online spending checkbook; unopposed."
     },
     {
       "id": "robert-blackstock",
@@ -3669,7 +3834,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Democratic candidate for Nevada State Controller with limited public position record."
     },
     {
       "id": "michael-macdougall",
@@ -3690,7 +3856,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Henderson high-school teacher running in the Democratic controller primary."
     },
     {
       "id": "robert-tolle",
@@ -3707,7 +3874,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Democratic candidate for Nevada State Controller with limited public position record."
     },
     {
       "id": "mike-clark",
@@ -3775,7 +3943,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Incumbent District 2 commissioner and ex-assessor; conservative on fiscal discipline, voter ID, and infrastructure-first growth.",
+      "photo": "img/mike-clark.webp",
+      "photoCredit": "commissionermikeclark.com"
     },
     {
       "id": "jon-killoran",
@@ -3822,7 +3993,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Sports-coalition CEO and former news director challenging Clark; backs voter ID and streamlined emergency dispatch.",
+      "photo": "img/jon-killoran.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "tammy-holt-still",
@@ -3876,7 +4050,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Flood-mitigation advocate energized by 2017 Lemmon Valley flooding; centers infrastructure, water, and transparency.",
+      "photo": "img/tammy-holt-still.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "rob-pierce",
@@ -3919,7 +4096,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Navy veteran and ex-planning commissioner running on responsible, pro-business growth; Builders Alliance endorsed.",
+      "photo": "img/rob-pierce.jpg",
+      "photoCredit": "robforwashoe.com"
     },
     {
       "id": "katherine-yriarte",
@@ -3973,7 +4153,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Horse trainer and Equine Council founder, Washoe GOP endorsed; balances open-space protection with development.",
+      "photo": "img/katherine-yriarte.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "darin-balaam",
@@ -3998,7 +4181,10 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent Washoe sheriff running unopposed in a now-nonpartisan race.",
+      "photo": "img/darin-balaam.jpeg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "chris-hicks",
@@ -4034,7 +4220,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Incumbent DA since 2014 citing top-in-state incarceration rates as proof his approach keeps the county safe.",
+      "photo": "img/chris-hicks.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "wes-duncan",
@@ -4067,7 +4256,10 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Sparks city attorney and ex-prosecutor, police-union and GOP backed, attacking Hicks's charging policy as win-rate-driven.",
+      "photo": "img/wes-duncan.jpg",
+      "photoCredit": "ballotpedia.org"
     },
     {
       "id": "chris-sarman",
@@ -4088,7 +4280,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent Republican Washoe County Assessor running unopposed."
     },
     {
       "id": "justin-taylor",
@@ -4105,7 +4298,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent Republican Washoe County Treasurer running unopposed."
     },
     {
       "id": "nicole-klitzke",
@@ -4122,7 +4316,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent Republican Washoe County Public Administrator, Washoe GOP endorsed; appears unopposed."
     },
     {
       "id": "jan-galassini",
@@ -4143,7 +4338,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent Republican Washoe County Clerk; appears uncontested in 2026."
     },
     {
       "id": "kalie-work",
@@ -4164,7 +4360,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent Democratic Washoe County Recorder since 2019; appears uncontested in 2026."
     },
     {
       "id": "sheena-harvey",
@@ -4189,7 +4386,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Education-doctorate community volunteer naming chronic absenteeism the top issue in the WCSD District F race."
     },
     {
       "id": "brooke-westlake",
@@ -4229,7 +4427,8 @@
           "videoUrl": null,
           "timestamp": null
         }
-      }
+      },
+      "summary": "Parent advocate and Washoe GOP-endorsed candidate prioritizing WCSD budget deficits, enrollment, and parent voice."
     },
     {
       "id": "scott-benton",
@@ -4246,7 +4445,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Candidate for WCSD Board District F with no confirmed biography or stated positions."
     },
     {
       "id": "colleen-westlake",
@@ -4263,7 +4463,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent WCSD Board trustee for District B running unopposed."
     },
     {
       "id": "james-phoenix",
@@ -4280,7 +4481,8 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {}
+      "positions": {},
+      "summary": "Incumbent WCSD Board trustee for District C running unopposed."
     }
   ]
 }

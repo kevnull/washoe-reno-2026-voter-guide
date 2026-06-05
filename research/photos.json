@@ -1,0 +1,59 @@
+[
+  { "id": "james-settelmeyer", "name": "James Settelmeyer", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/James-Settelmeyer.jpg", "credit": "ballotpedia.org" },
+  { "id": "david-flippo", "name": "David Flippo", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/David_Flippo_2025.jpeg", "credit": "ballotpedia.org" },
+  { "id": "fred-simon-jr", "name": "Fred Simon Jr.", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Fred-Simon.PNG", "credit": "ballotpedia.org" },
+  { "id": "tom-doyle", "name": "Tom Doyle", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Thomas_Doyle_20260512_002228_1.jpg", "credit": "ballotpedia.org" },
+  { "id": "george-forbush", "name": "George Forbush", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/George_Forbush_20260325_051731.jpeg", "credit": "ballotpedia.org" },
+  { "id": "mike-smith", "name": "Mike Smith", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Michael_Smith_20260401_121217.jpg", "credit": "ballotpedia.org" },
+  { "id": "sherman-tylawsky", "name": "Sherman Tylawsky", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Sherman_Tylawsky_20260404_075905.jpg", "credit": "ballotpedia.org" },
+  { "id": "jesse-watts", "name": "Jesse Watts", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jesse_Watts_20260329_032426.png", "credit": "ballotpedia.org" },
+  { "id": "andrea-lowe", "name": "Andrea Lowe", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Andrea_Lowe_20260419_073406.png", "credit": "ballotpedia.org" },
+  { "id": "rick-shepherd", "name": "Rick Shepherd", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Rick_Shepherd.jpg", "credit": "ballotpedia.org" },
+  { "id": "teresa-benitez-thompson", "name": "Teresa Benitez-Thompson", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/TeresaBenitezThompson.jpg", "credit": "ballotpedia.org" },
+  { "id": "greg-kidd", "name": "Robert \"Greg\" Kidd", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/GregKidd24.jpeg", "credit": "ballotpedia.org" },
+  { "id": "kathy-durham", "name": "Kathy Durham", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kathy_Durham26.jpeg", "credit": "ballotpedia.org" },
+  { "id": "matthew-fonken", "name": "Matthew Fonken", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Matthew_Fonken_20260120_054541.jpg", "credit": "ballotpedia.org" },
+  { "id": "morgan-wadsworth", "name": "Morgan Wadsworth", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/MorganWadsworth2.png", "credit": "ballotpedia.org" },
+  { "id": "gamy-enriquez", "name": "Gamy Enriquez", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/GamalielZavalaEnriquez2026.jpeg", "credit": "ballotpedia.org" },
+  { "id": "johnny-kerns", "name": "Johnny Kerns", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/JohnKerns26_2026-05-14_160248.png", "credit": "ballotpedia.org" },
+  { "id": "gerold-gorman", "name": "Gerold Gorman", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Gerold_Lee_Gorman_20260326_075832.jpg", "credit": "ballotpedia.org" },
+  { "id": "josh-hebert", "name": "Josh Hebert", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Joshua_Hebert_20260211_044544.jpg", "credit": "ballotpedia.org" },
+  { "id": "mark-jolle", "name": "Mark Jolle", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Mark_Jolle_20260227_075410.jpg", "credit": "ballotpedia.org" },
+  { "id": "samuel-white", "name": "Samuel White", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Samuel_White_20260311_104427.jpg", "credit": "ballotpedia.org" },
+
+  { "id": "joe-lombardo", "name": "Joe Lombardo", "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Joe_Lombardo_by_Gage_Skidmore.jpg/250px-Joe_Lombardo_by_Gage_Skidmore.jpg", "credit": "upload.wikimedia.org" },
+  { "id": "irina-hansen", "name": "Irina Hansen", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/ihansen.png", "credit": "ballotpedia.org" },
+  { "id": "matthew-winterhawk", "name": "Matthew R. Winterhawk", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Matthew_Winterhawk_20250908_055224.jpg", "credit": "ballotpedia.org" },
+  { "id": "aaron-ford", "name": "Aaron Ford", "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Nevada_Attorney_General_Aaron_Ford_addresses_the_United_Nations_Human_Rights_Committee%2C_October_17-18%2C_2023_1_%28cropped%29.jpg/250px-Nevada_Attorney_General_Aaron_Ford_addresses_the_United_Nations_Human_Rights_Committee%2C_October_17-18%2C_2023_1_%28cropped%29.jpg", "credit": "upload.wikimedia.org" },
+  { "id": "alexis-hill", "name": "Alexis Hill", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/AlexisHill-1-2mb_20260506_190649_22692.jpeg", "credit": "ballotpedia.org" },
+
+  { "id": "nicole-cannizzaro", "name": "Nicole Cannizzaro", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Nicole_Cannizzaro.jpg", "credit": "ballotpedia.org" },
+  { "id": "zach-conine", "name": "Zach Conine", "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Zach_Conine%2C_Nevada_State_Treasurer%2C_USA_-_cropped.jpg/250px-Zach_Conine%2C_Nevada_State_Treasurer%2C_USA_-_cropped.jpg", "credit": "upload.wikimedia.org" },
+  { "id": "adriana-guzman-fralick", "name": "Adriana Guzman Fralick", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Adriana_Fralick.png", "credit": "ballotpedia.org" },
+  { "id": "danny-tarkanian", "name": "Danny Tarkanian", "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Danny_Tarkanian_by_Gage_Skidmore.jpg/250px-Danny_Tarkanian_by_Gage_Skidmore.jpg", "credit": "upload.wikimedia.org" },
+
+  { "id": "kate-marshall", "name": "Kate Marshall", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Kate-Marshall-Headshot-_2_-_1__20260505_180714_21579.jpg", "credit": "ballotpedia.org" },
+  { "id": "kathleen-taylor", "name": "Kathleen Taylor", "photoUrl": "https://taylorforrenomayor.com/wp-content/uploads/2025/09/Kathleen-Taylor-final2.jpg", "credit": "taylorforrenomayor.com" },
+  { "id": "eddie-lorton", "name": "George \"Eddie\" Lorton", "photoUrl": "https://eddielorton.com/wp-content/uploads/2022/03/George-Eddie-Lorton-Header.jpg", "credit": "eddielorton.com" },
+  { "id": "tim-ross", "name": "Tim Ross", "photoUrl": "https://img1.wsimg.com/isteam/ip/cc3e755e-c2a2-4b33-b22f-54642ff1ecd8/Tim-Ross-Mayor-Billboard-cmyk-14x48-01.jpeg", "credit": "rossforreno.com" },
+  { "id": "corinthia-yancey", "name": "Corinthia Yancey", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Corinthia_Yancey_26.png", "credit": "ballotpedia.org" },
+  { "id": "jesse-razo", "name": "Jesse Razo", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Jesse_Razo_20260406_065216.jpg", "credit": "ballotpedia.org" },
+  { "id": "greg-nuttle", "name": "Greg \"Nutt\" Nuttle", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Greg2026Nuttle.jpeg", "credit": "ballotpedia.org" },
+
+  { "id": "ed-lawson", "name": "Ed Lawson", "photoUrl": "https://static.showit.co/1200/lza2aouxFaoftqCqUDlx7g/336955/ed_lawson_website_feature_image.jpg", "credit": "edlawson.net" },
+  { "id": "charlene-bybee", "name": "Charlene Bybee", "photoUrl": "https://img1.wsimg.com/isteam/ip/2c7a67c4-2df6-410b-ab74-c4a5ff3afe57/scarf.marina.water.jpg", "credit": "charleneforsparks.com" },
+  { "id": "diana-mackey", "name": "Diana Mackey", "photoUrl": "https://static.wixstatic.com/media/8648b3_90330ee45a5549f4ae35e4286f10b1f7~mv2.jpg", "credit": "mackey4sparks.com" },
+  { "id": "wendi-rawson", "name": "Wendi Rawson", "photoUrl": "https://img1.wsimg.com/isteam/ip/87727e30-32fe-4c84-b6dd-b98051d60f73/Wendi-463245f.png", "credit": "wendiformayor.com" },
+
+  { "id": "mike-clark", "name": "Mike Clark", "photoUrl": "https://commissionermikeclark.com/wp-content/uploads/2026/05/Mike-Clark-Commissioner-1024x683.webp", "credit": "commissionermikeclark.com" },
+  { "id": "jon-killoran", "name": "Jon Killoran", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/WCC2-Headshot_20260507_003730_24252.jpeg", "credit": "ballotpedia.org" },
+
+  { "id": "tammy-holt-still", "name": "Tammy Holt-Still", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/tammy-photo-profile-smaller_20260425_193916_15485.jpg", "credit": "ballotpedia.org" },
+  { "id": "rob-pierce", "name": "Rob Pierce", "photoUrl": "https://robforwashoe.com/wp-content/uploads/2026/03/1-RobPierce-Navy-headshot-1-768x649.jpg", "credit": "robforwashoe.com" },
+  { "id": "katherine-yriarte", "name": "Katherine Yriarte", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Katherine_Yriarte.jpg", "credit": "ballotpedia.org" },
+
+  { "id": "chris-hicks", "name": "Chris Hicks", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Chris_Hicks_photo.jpg", "credit": "ballotpedia.org" },
+  { "id": "wes-duncan", "name": "Wes Duncan", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Wesley_Duncan.jpg", "credit": "ballotpedia.org" },
+
+  { "id": "darin-balaam", "name": "Darin Balaam", "photoUrl": "https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/BCD70E42-75E7-43B2-8CB9-C778EECC1E08.jpeg", "credit": "ballotpedia.org" }
+]

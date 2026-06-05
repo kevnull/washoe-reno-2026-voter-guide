@@ -5,6 +5,22 @@ let DATA = null;
 const $ = sel => document.querySelector(sel);
 const el = (tag, cls, html) => { const n = document.createElement(tag); if (cls) n.className = cls; if (html != null) n.innerHTML = html; return n; };
 const esc = s => (s == null ? '' : String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])));
+const slug = s => s.replace(/[^\w]+/g, '-').toLowerCase();
+function initials(name) {
+  const parts = name.replace(/["'][^"']*["']/g, '').replace(/[().]/g, '').trim().split(/\s+/).filter(Boolean);
+  const f = parts[0] ? parts[0][0] : '';
+  const l = parts.length > 1 ? parts[parts.length - 1][0] : '';
+  return (f + l).toUpperCase() || '?';
+}
+function avatarHtml(c, extra) {
+  const cls = `avatar avatar--${c.party || 'np'}${extra ? ' ' + extra : ''}`;
+  const ini = esc(initials(c.name));
+  if (c.photo) {
+    return `<div class="${cls}"><img src="${esc(c.photo)}" alt="${esc(c.name)}" loading="lazy" ` +
+      `onerror="this.parentNode.textContent='${ini}'"></div>`;
+  }
+  return `<div class="${cls}">${ini}</div>`;
+}
 
 const LEVEL_ORDER = ['Federal', 'Statewide', 'State Legislature', 'Washoe', 'Reno', 'Sparks'];
 const LEVEL_LABEL = {
@@ -139,16 +155,57 @@ function render() {
     (state.party !== 'all' ? `<span>Filtered to what a <b>${state.party === 'Nonpartisan' ? 'nonpartisan' : state.party}</b> voter decides</span>` : '');
 
   const levels = Object.keys(groups).sort((a, b) => LEVEL_ORDER.indexOf(a) - LEVEL_ORDER.indexOf(b));
+  buildJumpNav(levels, groups);
   if (!levels.length) {
     app.appendChild(el('div', 'empty-state', '<h2>No races match your filters.</h2><p>Try “Show everything” or clear the search.</p>'));
     return;
   }
   for (const lvl of levels) {
     const g = el('section', 'level-group');
-    g.appendChild(el('div', 'level-head', `<h2>${LEVEL_LABEL[lvl] || lvl}</h2><span class="lvl-count">${groups[lvl].length} race${groups[lvl].length === 1 ? '' : 's'}</span>`));
-    groups[lvl].forEach(item => g.appendChild(raceCard(item)));
+    g.id = 'lvl-' + slug(lvl);
+    const head = el('button', 'level-head');
+    head.type = 'button';
+    head.setAttribute('aria-expanded', 'true');
+    head.innerHTML = `<h2>${LEVEL_LABEL[lvl] || lvl}</h2><span class="lvl-count">${groups[lvl].length} race${groups[lvl].length === 1 ? '' : 's'}</span><span class="chev" aria-hidden="true">▼</span>`;
+    head.addEventListener('click', () => {
+      const collapsed = g.classList.toggle('collapsed');
+      head.setAttribute('aria-expanded', String(!collapsed));
+    });
+    const body = el('div', 'level-body');
+    groups[lvl].forEach(item => body.appendChild(raceCard(item)));
+    g.appendChild(head); g.appendChild(body);
     app.appendChild(g);
   }
+}
+
+function buildJumpNav(levels, groups) {
+  const jn = $('#jumpnav');
+  if (!levels.length) { jn.innerHTML = ''; return; }
+  jn.innerHTML = '<span class="jn-label">Jump to</span>';
+  levels.forEach(lvl => {
+    const a = el('a', 'jn-chip');
+    a.href = '#lvl-' + slug(lvl);
+    a.innerHTML = `${LEVEL_LABEL[lvl] || lvl} <span class="jn-n">${groups[lvl].length}</span>`;
+    a.addEventListener('click', e => { e.preventDefault(); jumpTo('lvl-' + slug(lvl)); });
+    jn.appendChild(a);
+  });
+  const sel = el('select', 'jn-select');
+  let opts = '<option value="">Jump to a race…</option>';
+  levels.forEach(lvl => {
+    opts += `<optgroup label="${esc(LEVEL_LABEL[lvl] || lvl)}">`;
+    groups[lvl].forEach(item => { opts += `<option value="race-${esc(item.race.id)}">${esc(item.race.title)}</option>`; });
+    opts += '</optgroup>';
+  });
+  sel.innerHTML = opts;
+  sel.addEventListener('change', e => { if (e.target.value) { jumpTo(e.target.value); e.target.value = ''; } });
+  jn.appendChild(sel);
+}
+function jumpTo(id) {
+  const node = document.getElementById(id);
+  if (!node) return;
+  const grp = node.closest('.level-group') || node;
+  if (grp.classList.contains('collapsed')) { grp.classList.remove('collapsed'); const h = grp.querySelector('.level-head'); if (h) h.setAttribute('aria-expanded', 'true'); }
+  requestAnimationFrame(() => node.scrollIntoView({ behavior: 'smooth', block: 'start' }));
 }
 
 function updateEligNote() {
@@ -164,6 +221,7 @@ function updateEligNote() {
 
 function raceCard({ race, cands, elig }) {
   const card = el('article', 'race-card' + (elig.eligible ? '' : ' ineligible'));
+  card.id = 'race-' + race.id;
   // header
   const head = el('div', 'race-head');
   const badges = [
@@ -227,8 +285,10 @@ function candCell(c, race) {
   const pills = [];
   if (race.type === 'partisan' && c.party) pills.push(`<span class="pill pill--${esc(c.party)}">${esc(c.party === 'Nonpartisan' ? 'NP' : c.party.slice(0, 3))}</span>`);
   if (c.incumbent) pills.push('<span class="pill pill--inc">Incumbent</span>');
-  td.innerHTML = `<div class="cand-name"><a href="#" data-open-cand="${esc(c.id)}">${esc(c.name)}</a> ${pills.join(' ')}</div>` +
-    `<div class="cand-sub">${esc(shortBio(c))}</div>`;
+  td.innerHTML = `<div class="cand-flex">${avatarHtml(c)}<div class="cand-info">` +
+    `<div class="cand-name"><a href="#" data-open-cand="${esc(c.id)}">${esc(c.name)}</a> ${pills.join(' ')}</div>` +
+    `<div class="cand-sub">${esc(c.summary || shortBio(c))}</div>` +
+    `</div></div>`;
   return td;
 }
 function shortBio(c) {
@@ -290,8 +350,11 @@ function openDrawer(candId, focusIssue) {
   }
 
   body.innerHTML =
+    `<div class="d-head">${avatarHtml(c, 'avatar--lg')}<div>` +
     `<p class="d-office">${esc(race ? race.title : '')}${race && race.type === 'partisan' ? ' · ' + esc(c.party) : ''}${c.incumbent ? ' · Incumbent' : ''}</p>` +
     `<h2 id="drawerName">${esc(c.name)}</h2>` +
+    (c.summary ? `<p class="d-summary">${esc(c.summary)}</p>` : '') +
+    `</div></div>` +
     (c.bio ? `<p class="d-bio">${esc(c.bio)}</p>` : '') +
     (links.length ? `<div class="d-links">${links.join('')}</div>` : '') +
     posHtml;
