@@ -1,0 +1,729 @@
+{
+  "races": [
+    {
+      "id": "cd2",
+      "title": "U.S. House — Nevada District 2",
+      "jurisdiction": "Federal",
+      "type": "partisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Open seat. Rep. Mark Amodei (R) departed in Feb. 2026, leaving Nevada's only safely Republican U.S. House seat open for the first time since 2011. CLOSED primary on June 9, 2026: only registered Republicans may vote in the GOP primary and only registered Democrats in the Democratic primary. 13 Republicans and 11 Democrats filed; the winners advance to the Nov. 2026 general. Three Democrats (Hebert, White, Jolle) and one Republican (Watts) suspended/withdrew their campaigns but remain on the ballot. GOP front-runners: James Settelmeyer (establishment-backed) and David Flippo (Trump-endorsed). Democratic front-runners: Teresa Benitez-Thompson and Greg Kidd."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "james-settelmeyer",
+      "name": "James Settelmeyer",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Fourth-generation Gardnerville-area rancher and former Nevada state Senate Republican leader (16 years in the Legislature) who resigned as director of the Nevada Department of Conservation and Natural Resources to run. Endorsed by Gov. Joe Lombardo and former Rep. Mark Amodei.",
+      "website": "https://jamesfornv.com/",
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "Nevada Independent — fundraising leaders", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026" },
+        { "label": "Nevada Independent — Settelmeyer driver's license vote fact-check", "url": "https://thenevadaindependent.com/article/did-settelmeyer-vote-to-give-undocumented-immigrants-drivers-licenses" },
+        { "label": "Campaign site", "url": "https://jamesfornv.com/" },
+        { "label": "mynews4 Know Your Candidates — Settelmeyer", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-james-settelmeyer-gop-candidate-nevada-congressional-district-2-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Know Your Candidates: Meet James Settelmeyer, GOP candidate for Nevada Congressional District 2", "url": "https://www.youtube.com/watch?v=Duh337j26OA", "channel": "mynews4 / KRNV" }
+      ],
+      "positions": {
+        "taxes": {
+          "stance": "Limited government and low taxes; touts suing and beating Democratic leaders over a tax hike passed without the required two-thirds vote.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Supports border security, especially for those who committed crimes beyond illegal entry; backs a path forward for people brought to the U.S. as children.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "abortion": {
+          "stance": "Says abortion and red flag gun laws should be left to state-level decisions.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Focuses on rural Nevada agriculture; wants to address meat-packing industry consolidation (notes four firms control ~85% of the market).",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "water": {
+          "stance": "Pledges to protect Nevada's water resources in Congress.",
+          "quote": "In Congress, he will fight to secure our borders, strengthen our economy, protect Nevada's water resources, and preserve the freedoms that make Nevada and America exceptional.",
+          "citationUrl": "https://jamesfornv.com/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "david-flippo",
+      "name": "David Flippo",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Retired Air Force Lt. Col. (Iraq veteran), small-business owner and nonprofit leader who moved to Nevada about a decade ago. Placed second in the 2024 CD4 GOP primary before switching to CD2; endorsed by President Trump and the Washoe County GOP. Largely self-funding.",
+      "website": "https://flippo4nv.com/",
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "Nevada Independent — Trump endorses Flippo", "url": "https://thenevadaindependent.com/article/president-trump-endorses-in-nevadas-most-competitive-gop-primary-race" },
+        { "label": "Nevada Current — Trump endorses Flippo; Amodei backs Settelmeyer", "url": "https://nevadacurrent.com/briefs/trump-endorses-flippo-in-nevadas-cd2/" },
+        { "label": "Campaign site", "url": "https://flippo4nv.com/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "immigration": {
+          "stance": "Centers campaign on illegal immigration and border security; cites a Battle Mountain victim of an undocumented immigrant who had a driver's license.",
+          "quote": "Tragedies like this should never happen in America.",
+          "citationUrl": "https://flippo4nv.com/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Wants Trump executive orders codified into law; ties housing supply problems to undocumented immigration.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "fred-simon-jr",
+      "name": "Fred Simon Jr.",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Trauma surgeon and small-business owner from Gardnerville, age 73. Previously ran for Congress in California, for Nevada governor in 2022, and for this seat in 2024, where he won about 33% of the GOP primary vote.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Emphasizes balancing the budget and a comprehensive energy and immigration policy; would combat corporate price gouging where profits rise despite higher prices.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "tom-doyle",
+      "name": "Tom Doyle",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Reno resident with 45 years in the casino industry and inactive CPA credentials; cites experience with the Nevada Gaming Control Board.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "immigration": {
+          "stance": "Supports DACA to a degree but opposes birthright citizenship; says criminal undocumented immigrants should be prioritized for deportation.",
+          "quote": "Criminal illegal immigrants should be prioritized for deportation",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Opposes additional taxation of higher earners; would alter rather than eliminate the Affordable Care Act.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Would broadly continue Amodei's voting record; expects gas prices to fall as Iran conflict resolves.",
+          "quote": "would probably support almost everything Mark Amodei has voted for",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "george-forbush",
+      "name": "George Forbush",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Retired police officer and fourth-generation Nevadan, age 52, who worked for the Humboldt County Sheriff's Office and Sparks Police Department.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "housing": {
+          "stance": "Proposes 50-year mortgages to improve housing affordability.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Backs a merit-based immigration points system.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Advocates a new fuel pipeline from Utah and regulating pharmaceutical and insurance industries to limit price gouging.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "jerry-olsen",
+      "name": "Jerry Olsen",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Retired Army medic and former Washoe County deputy sheriff (20 years), age 65, running a constituent-first campaign and not accepting donations.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "transparency": {
+          "stance": "Pledges to vote the way constituents want rather than his own preference; says he is not '100 percent with Trump.'",
+          "quote": "I'm going to vote what the constituents want, I'm not going to vote the way I want",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Would eliminate taxes for people over age 70.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "mike-smith",
+      "name": "Mike Smith",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Retired Navy captain and fighter pilot from Sparks, age 69, who served as Nevada's U.S. Navy emergency preparedness liaison officer.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Names the national debt as his top priority.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Would get rid of the Affordable Care Act; criticized the Washoe County GOP's endorsement of Flippo as disenfranchising voters.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "sherman-tylawsky",
+      "name": "Sherman Tylawsky",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Carson City resident, age 28, a Ph.D. candidate and founder of The George Washington Institute who previously interned in Congress.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "taxes": {
+          "stance": "Questions the value of income taxes versus consumption taxes; wants fewer regulations and taxes.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Supports Trump's immigration rhetoric and enforcement actions.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Wants to grow the supply chain to address affordability of gas, groceries and water.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "jesse-watts",
+      "name": "Jesse Watts",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Former Eureka County sheriff from Golden Valley, age 40, and executive director of the nonprofit Wounded Blue. Suspended his campaign to endorse Settelmeyer after Trump endorsed Flippo, but his name remains on the ballot.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Would build a Nevada oil refinery via public-private partnership (~$30B) and add alternative pipelines from Utah/Texas; supports deregulation and infrastructure.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Would eliminate senior taxes and repeal the ACA; supports codifying DOGE; opposes Ukraine war funding.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "jennifer-billat",
+      "name": "Jennifer Billat",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Reno-area land development business owner, age 45, running primarily on public-lands issues and aligned with Amodei's land and environmental protection work.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Wants fuel independence from California and housing expansion; makes public land her signature issue.",
+          "quote": "We're getting gas from California right now, that's just a bad plan",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "andrea-lowe",
+      "name": "Andrea Lowe",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Homemaker and eight-year volunteer firefighter from Austin, age 32, a seventh-generation Nevadan who serves on the Lander County School Board.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Names healthcare as her top priority and emphasizes bringing jobs to Nevada and younger leadership.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "bruce-grego",
+      "name": "Bruce Grego",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Attorney and former South Lake Tahoe city councilman, age 73, who moved to Carson City in 2023.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "transparency": {
+          "stance": "Campaigns on taking on the 'administrative state' and unelected officials.",
+          "quote": "I don't think unelected officials should be controlling our lives",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "rick-shepherd",
+      "name": "Rick Shepherd",
+      "raceId": "cd2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Reno resident, age 54, who was a Bernie Sanders delegate and ran as a Democrat in 2020 before registering Republican; holds heterodox positions for a GOP primary.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 13 Republicans (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 — 13 GOP candidates overview", "url": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Supports universal healthcare and free public services; proposes desalinating brackish water via reverse osmosis and molten-salt reactors to cut electricity costs.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "abortion": {
+          "stance": "Supports abortion rights and opposes Trump's immigration enforcement.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "electionIntegrity": {
+          "stance": "Argues U.S. elections have not been free and fair.",
+          "quote": "We haven't had a free, fair election in a long time",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "teresa-benitez-thompson",
+      "name": "Teresa Benitez-Thompson",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Former Nevada Assembly majority leader (first elected 2010) and licensed social worker who served as chief of staff to Nevada Attorney General Aaron Ford. The most experienced and best-known Democrat in the field.",
+      "website": "https://electteresa.com/",
+      "sources": [
+        { "label": "Nevada Independent — Meet the 8 Democrats (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district" },
+        { "label": "Nevada Independent — TBT profile", "url": "https://thenevadaindependent.com/article/lawmaker-social-worker-pageant-queen-is-congress-next-for-teresa-benitez-thompson" },
+        { "label": "Nevada Independent — fundraising leaders", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026" },
+        { "label": "Campaign policy page", "url": "https://electteresa.com/policy/" },
+        { "label": "mynews4 Know Your Candidates — Benitez-Thompson", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-teresa-benitez-thompson-democrat-running-for-nevadas-cd2-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Makes cost of living her top focus; vows to restore federal funds she says DOGE stripped from Nevada and to build affordable workforce housing.",
+          "quote": "addressing costs for families will be my number one job",
+          "citationUrl": "https://electteresa.com/policy/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Calls for a reformed immigration system and an end to aggressive enforcement she says destabilizes families and the job market.",
+          "quote": "We need a reformed immigration system that works, not federal agents pulling families apart.",
+          "citationUrl": "https://electteresa.com/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "abortion": {
+          "stance": "Supports protecting reproductive freedom through federal legislation.",
+          "quote": "Healthcare should be as accessible and inexpensive as possible",
+          "citationUrl": "https://electteresa.com/policy/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "water": {
+          "stance": "Opposes large-scale public land sales without local and tribal collaboration and wants federal wildfire prevention funding restored.",
+          "quote": null,
+          "citationUrl": "https://electteresa.com/policy/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "greg-kidd",
+      "name": "Robert \"Greg\" Kidd",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Wealthy venture investor and founder of the Hard Yaka venture firm with prior Federal Reserve experience. A self-funder who won ~36% as a nonpartisan candidate in 2024 before running as a Democrat in 2026; considered Benitez-Thompson's chief rival.",
+      "website": "https://www.kiddfornevada.com/",
+      "sources": [
+        { "label": "Nevada Independent — Meet the 8 Democrats (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district" },
+        { "label": "Nevada Independent — fundraising leaders", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026" },
+        { "label": "KUNR — Meet Greg Kidd", "url": "https://www.kunr.org/local-stories/2026-03-25/meet-greg-kidd-democratic-candidate-for-nevadas-cd2" },
+        { "label": "Campaign site", "url": "https://www.kiddfornevada.com/" },
+        { "label": "FEC candidate page", "url": "https://www.fec.gov/data/candidate/H4NV02185/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Names affordability — groceries, gas, housing, healthcare — as the top issue and runs on a record of fighting Big Tech and big banks.",
+          "quote": "Affordability. Everybody knows that, whether it's grocery prices, gas, housing and in particular, health care.",
+          "citationUrl": "https://www.kunr.org/local-stories/2026-03-25/meet-greg-kidd-democratic-candidate-for-nevadas-cd2",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Says subsidizing the data-center boom makes no sense given water and power shortages; data centers should pay the state and return power/water.",
+          "quote": "I do think... a moratorium is not enough",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "kathy-durham",
+      "name": "Kathy Durham",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Union representative and high school civics teacher from rural Nevada who comes from a military veteran family.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 8 Democrats (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 Know Your Candidates — Durham", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-kathy-durham-democrat-running-for-nevadas-cd2-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Supports Medicare for All and opposes corporate consolidation.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "matthew-fonken",
+      "name": "Matthew Fonken",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Northern Nevada organizer and former Nevada Democratic Party executive director who has worked in hospitality and as a state Assembly attaché.",
+      "website": "https://take-bac-congress.us",
+      "sources": [
+        { "label": "Nevada Independent — Meet the 8 Democrats (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 Know Your Candidates — Fonken", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-matthew-fonken-democrat-running-for-nevadas-congressional-district-2-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "transparency": {
+          "stance": "Supports congressional term limits, a 5-year lobbying ban, and a ban on stock trading by members of Congress.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Supports Medicare for All.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "morgan-wadsworth",
+      "name": "Morgan Wadsworth",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Student and former casino worker, age 27, a sixth-generation Nevadan from a conservative ranching family who became the consensus pick of the 'anti-establishment' Democratic coalition after Hebert, White and Jolle endorsed her.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 8 Democrats (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district" },
+        { "label": "Nevada Current — Democratic field narrows", "url": "https://nevadacurrent.com/2026/05/22/and-then-there-were-8-democratic-field-narrows-slightly-in-race-for-cd2/" },
+        { "label": "mynews4 Know Your Candidates — Wadsworth", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-morgan-wadsworth-democrat-running-for-nevadas-cd2-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Supports Medicare for All.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Wants to rezone vacant lots to make housing more affordable.",
+          "quote": "rezoning vacant lots to make housing more affordable",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Calls for abolishing Immigration and Customs Enforcement (ICE).",
+          "quote": "abolishing Immigration and Customs Enforcement",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Opposes building data centers due to water pollution risk.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "gamy-enriquez",
+      "name": "Gamy Enriquez",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Gamaliel 'Gamy' Zavala Enriquez, a DoorDash driver and small-business owner, grandson of a bracero laborer, who has experienced homelessness and incarceration and holds a master's in public administration.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 8 Democrats (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Proposes a $1,300 monthly universal basic income funded by Nevada's mineral resources, plus a 'Green Marshall Plan' and universal child care/parental leave.",
+          "quote": "$1,300 monthly universal basic income funded by Nevada's mineral resources",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Calls for abolishing ICE.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "johnny-kerns",
+      "name": "Johnny Kerns",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Retired homicide investigator and true-crime author who received about 2% in a 2024 state Senate primary.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 8 Democrats (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district" },
+        { "label": "mynews4 Know Your Candidates — Kerns", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-johnny-kerns-democrat-running-for-nevadas-cd2-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Focuses on stabilizing the economy and the ~$39 trillion national debt; says society will adapt to AI's workplace effects.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "gerold-gorman",
+      "name": "Gerold Gorman",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Gerold Lee Gorman, a 2022 Nevada congressional candidate with minimal documented 2026 campaign activity.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Independent — Meet the 8 Democrats (CD2)", "url": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "josh-hebert",
+      "name": "Josh Hebert",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Physics Ph.D. and self-described policy wonk who organized the 'anti-establishment' Democratic coalition. Withdrew in May 2026 and endorsed Morgan Wadsworth, but his name remains on the ballot.",
+      "website": null,
+      "sources": [
+        { "label": "KUNR — Meet Josh Hebert", "url": "https://www.kunr.org/local-stories/2026-03-23/meet-josh-hebert-democratic-candidate-for-nevadas-cd2" },
+        { "label": "Nevada Current — Democratic field narrows", "url": "https://nevadacurrent.com/2026/05/22/and-then-there-were-8-democratic-field-narrows-slightly-in-race-for-cd2/" },
+        { "label": "mynews4 Know Your Candidates — Hebert", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-josh-hebert-democrat-running-for-nevadas-cd2-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "transparency": {
+          "stance": "Signature issue is getting big money out of politics via a constitutional 'Ban Big Money Amendment' limiting political spending to voting-age citizens.",
+          "quote": "The source of all political spending has to be voting age citizens. No corporations, no organizations, no super PACs, no unions, just people.",
+          "citationUrl": "https://www.kunr.org/local-stories/2026-03-23/meet-josh-hebert-democratic-candidate-for-nevadas-cd2",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "mark-jolle",
+      "name": "Mark Jolle",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Democratic candidate and member of the CD2 'anti-establishment' coalition who withdrew from the race in May 2026 without endorsing a candidate; his name remains on the ballot.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Current — Democratic field narrows", "url": "https://nevadacurrent.com/2026/05/22/and-then-there-were-8-democratic-field-narrows-slightly-in-race-for-cd2/" },
+        { "label": "KUNR — Anti-establishment Democrats band together", "url": "https://www.kunr.org/nevada-state-government/2026-03-28/anti-establishment-democrats-for-nevada-cd2-band-together" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "samuel-white",
+      "name": "Samuel White",
+      "raceId": "cd2",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Democratic candidate and member of the CD2 'anti-establishment' coalition who withdrew in May 2026 and endorsed Morgan Wadsworth; his name remains on the ballot.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Current — Democratic field narrows", "url": "https://nevadacurrent.com/2026/05/22/and-then-there-were-8-democratic-field-narrows-slightly-in-race-for-cd2/" },
+        { "label": "KUNR — Anti-establishment Democrats band together", "url": "https://www.kunr.org/nevada-state-government/2026-03-28/anti-establishment-democrats-for-nevada-cd2-band-together" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "races": [
+    {
+      "id": "sparks-mayor",
+      "title": "Sparks Mayor",
+      "jurisdiction": "Sparks",
+      "type": "nonpartisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Incumbent Ed Lawson faces three challengers amid city fiscal concerns. Nonpartisan; open to all Sparks voters. If no candidate exceeds 50% in the June 9 primary, top two advance to the November general."
+    },
+    {
+      "id": "sparks-council-ward2",
+      "title": "Sparks City Council Ward 2",
+      "jurisdiction": "Sparks",
+      "type": "nonpartisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Four candidates including appointed/elected incumbent Dian VanderWell. Nonpartisan; if no candidate exceeds 50% in the primary, top two advance to November."
+    },
+    {
+      "id": "sparks-council-ward4",
+      "title": "Sparks City Council Ward 4",
+      "jurisdiction": "Sparks",
+      "type": "nonpartisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Open seat; incumbent Charlene Bybee is term-limited and running for mayor. Four candidates. Nonpartisan; top two advance to November if no majority."
+    },
+    {
+      "id": "wcsd-trustee-district-f",
+      "title": "Washoe County School Board Trustee, District F",
+      "jurisdiction": "Washoe County",
+      "type": "nonpartisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "At-large seat opened by Adam Mayberry leaving to run for Sparks City Council. District F covers Sparks, central Reno, and south Reno east of I-580. Three candidates; top two advance to November. Only competitive WCSD board race in 2026 (incumbents Colleen Westlake and James Phoenix unopposed)."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ed-lawson",
+      "name": "Ed Lawson",
+      "raceId": "sparks-mayor",
+      "party": "Nonpartisan",
+      "incumbent": true,
+      "bio": "Incumbent Sparks mayor since 2020 (appointed after Ron Smith's death, won 2022 by a narrow margin); Sparks resident since 1989 and former longtime city councilmember.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates: Sparks Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/sparks-mayor-race-3-candidates-challenging-incumbent-ed-lawson-bybee-election-politics-midterms-nevada-primary" },
+        { "label": "KOLO: Mayoral candidates file amid fiscal concerns", "url": "https://www.kolotv.com/2026/03/02/mayoral-candidates-officially-file-sparks-reno-races-amid-fiscal-concerns/" },
+        { "label": "2News: Sparks mayoral forum", "url": "https://www.2news.com/news/local/candidates-for-sparks-mayor-field-questions-from-neighbors-at-mayoral-forum/article_70026d7f-befc-4cc3-bec4-6896dc688294.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Says public-safety costs dominate the budget; favors a 20-year plan for financial stability and Nevada property-tax reform.",
+          "quote": "If we just take police out of our budget right now, that's $48 million, out of a $121 million budget. We wouldn't have no financial problems.",
+          "citationUrl": "https://www.2news.com/news/local/candidates-for-sparks-mayor-field-questions-from-neighbors-at-mayoral-forum/article_70026d7f-befc-4cc3-bec4-6896dc688294.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Wants to expand Sparks eastward toward the Storey County employment center and pursue a federal lands bill to increase developable land, changing the city's tax mix.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/03/02/mayoral-candidates-officially-file-sparks-reno-races-amid-fiscal-concerns/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Advocates Nevada property-tax reform to make local government more fiscally sustainable.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/sparks-mayor-race-3-candidates-challenging-incumbent-ed-lawson-bybee-election-politics-midterms-nevada-primary",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "charlene-bybee",
+      "name": "Charlene Bybee",
+      "raceId": "sparks-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Sparks City Council member (Ward 4) since 2014; lifelong Sparks resident, UNR graduate, and former American Airlines flight attendant. Term-limited on council and running for mayor.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates: Meet Charlene Bybee", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-charlene-bybee-candidate-for-sparks-mayor-election-politics-midterms" },
+        { "label": "KOLO: Mayoral candidates file amid fiscal concerns", "url": "https://www.kolotv.com/2026/03/02/mayoral-candidates-officially-file-sparks-reno-races-amid-fiscal-concerns/" },
+        { "label": "Nevada Newsmakers: Bybee cites disagreements with Sparks mayor", "url": "http://nevadanewsmakers.com/RayHagar/article.asp?ID=534" },
+        { "label": "2News: Sparks mayoral forum", "url": "https://www.2news.com/news/local/candidates-for-sparks-mayor-field-questions-from-neighbors-at-mayoral-forum/article_70026d7f-befc-4cc3-bec4-6896dc688294.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Calls herself a fiscal conservative; notes Sparks recently closed an ~$18M budget gap with layoffs and cuts, and says she declined a council salary raise to preserve city funds.",
+          "quote": "As a fiscal conservative, it's my most important job. Every dollar we spend matters to me",
+          "citationUrl": "https://www.kolotv.com/2026/03/02/mayoral-candidates-officially-file-sparks-reno-races-amid-fiscal-concerns/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Acknowledges growth is straining housing and roads, affecting quality of life; supports a connector road and public-private partnerships.",
+          "quote": "The infrastructure that it's straining is housing, it's roads, and all of those are quality of life",
+          "citationUrl": "https://www.2news.com/news/local/candidates-for-sparks-mayor-field-questions-from-neighbors-at-mayoral-forum/article_70026d7f-befc-4cc3-bec4-6896dc688294.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Supports affordable housing through public-private partnerships and a property-tax reset.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/05/29/meeting-candidates-sparks-mayor/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "diana-mackey",
+      "name": "Diana Mackey",
+      "raceId": "sparks-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Sparks resident since 1999 with a 40-year human-resources career; a late-entry, largely single-issue candidate motivated by opposition to the Red Hawk Golf Course development.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates: Sparks Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/sparks-mayor-race-3-candidates-challenging-incumbent-ed-lawson-bybee-election-politics-midterms-nevada-primary" },
+        { "label": "2News: Sparks mayoral forum", "url": "https://www.2news.com/news/local/candidates-for-sparks-mayor-field-questions-from-neighbors-at-mayoral-forum/article_70026d7f-befc-4cc3-bec4-6896dc688294.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "growth": {
+          "stance": "Opposes rapid expansion, especially the Red Hawk Golf Course development; says the city is growing too fast and should slow down.",
+          "quote": "We're growing too quickly. We can't go back, but I think we can slow down some of the growth",
+          "citationUrl": "https://www.2news.com/news/local/candidates-for-sparks-mayor-field-questions-from-neighbors-at-mayoral-forum/article_70026d7f-befc-4cc3-bec4-6896dc688294.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Blames the city's deficit partly on state tax abatements for incoming companies; favors reducing abatements, reforming property tax, and seeking state revenue help.",
+          "quote": "They're running out a deficit now...part of that I blame on all the tax abatements that the governor has given for companies to move here.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/sparks-mayor-race-3-candidates-challenging-incumbent-ed-lawson-bybee-election-politics-midterms-nevada-primary",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Wants to reduce state tax abatements given to companies relocating to the area and reform the property-tax structure.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/sparks-mayor-race-3-candidates-challenging-incumbent-ed-lawson-bybee-election-politics-midterms-nevada-primary",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "wendi-rawson",
+      "name": "Wendi Rawson",
+      "raceId": "sparks-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Small-business owner and founder of Engine 8 Urban Winery (2019); born and raised in Fallon and a Reed High School graduate, running as a fresh-perspective outsider.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates: Sparks Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/sparks-mayor-race-3-candidates-challenging-incumbent-ed-lawson-bybee-election-politics-midterms-nevada-primary" },
+        { "label": "KOLO: Mayoral candidates file amid fiscal concerns", "url": "https://www.kolotv.com/2026/03/02/mayoral-candidates-officially-file-sparks-reno-races-amid-fiscal-concerns/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Says the city has lost its way and attributes the deficit to current leadership; opposes new taxes on residents and wants to capture funds owed to the city.",
+          "quote": "Taxing our citizens is not an option. It's time to get in there and fine-tune where we are",
+          "citationUrl": "https://www.kolotv.com/2026/03/02/mayoral-candidates-officially-file-sparks-reno-races-amid-fiscal-concerns/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Criticizes the mayor's six-year focus on the federal lands bill as neglect of in-city issues; favors small-business support and downtown revitalization.",
+          "quote": "Lands Bill is his focus...he's missed the mark on what's going on within city limits.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/sparks-mayor-race-3-candidates-challenging-incumbent-ed-lawson-bybee-election-politics-midterms-nevada-primary",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "jamie-oconnell",
+      "name": "Jamie O'Connell",
+      "raceId": "sparks-council-ward2",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Financial and billing specialist/analyst and Sparks High School graduate (age 36); registered Democrat focused on transportation, public safety, and homelessness.",
+      "website": null,
+      "sources": [
+        { "label": "RGJ/AOL: Election 2026 Sparks City Council Ward 2", "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Would never cut first responders but is open to cutting redundant consulting contracts or departments.",
+          "quote": "I would never cut first responders",
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Opposes the proposed first-responder fee, arguing residents already face inflation and fees might deter people from calling for emergencies.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Supports growth in smart locations near existing roads with developer-funded improvements and early, transparent community input.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "hunter-rand",
+      "name": "Hunter W. Rand",
+      "raceId": "sparks-council-ward2",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Director/producer, broadcast engineer, and former teacher/university faculty (age 30) with a UNR journalism degree; member of the United States Pirate Party, focused on cost of living, infrastructure-first growth, and transparency.",
+      "website": null,
+      "sources": [
+        { "label": "RGJ/AOL: Election 2026 Sparks City Council Ward 2", "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html" },
+        { "label": "Ballotpedia: Hunter W. Rand", "url": "https://ballotpedia.org/Hunter_W._Rand_(Sparks_City_Council_Ward_2,_Nevada,_candidate_2026)" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Would protect special-events funding as economic driver but would consider cutting surveillance-tech grants (ShotSpotter, Flock Safety) that lack measurable results.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Supports a first-responder fee only with strict guardrails: no balance billing for residents and compassionate provisions for students and visitors.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Infrastructure-first: roads, traffic mitigation, and public safety must precede new development.",
+          "quote": "Roads, traffic mitigation and public safety must come first.",
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "dian-vanderwell",
+      "name": "Dian VanderWell",
+      "raceId": "sparks-council-ward2",
+      "party": "Nonpartisan",
+      "incumbent": true,
+      "bio": "Sparks City Council member for Ward 2 since September 2020 (appointed, then elected 2022); licensed mortgage and real estate agent (age 60) with TMCC/UNR business background.",
+      "website": null,
+      "sources": [
+        { "label": "RGJ/AOL: Election 2026 Sparks City Council Ward 2", "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Would never cut frontline public safety; would instead examine lower-impact programs like festivals or consultant projects.",
+          "quote": "I would never cut funding that directly supports public safety...especially frontline police, fire, and emergency response.",
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Cautiously supportive of a first-responder fee focused on insurance and non-residents, insisting on no surprise bills and protections so it never deters 911 calls.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Favors smarter growth over sprawl: infill and mixed-use housing near jobs to reduce traffic; supports addressing Nevada's property-tax system.",
+          "quote": "smarter growth, not sprawl: infill and mixed-use housing near jobs",
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "anthony-goulet",
+      "name": "Anthony J. Goulet",
+      "raceId": "sparks-council-ward2",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Candidate for Sparks City Council Ward 2; did not respond to media questionnaires and reported no campaign funds raised.",
+      "website": null,
+      "sources": [
+        { "label": "RGJ/AOL: Election 2026 Sparks City Council Ward 2", "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "damon-harrell",
+      "name": "Damon Harrell",
+      "raceId": "sparks-council-ward4",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Real estate agent, Panasonic employee, and U.S. Marine Corps veteran (age 54) running for office for the first time.",
+      "website": null,
+      "sources": [
+        { "label": "RGJ/AOL: See who's running for Sparks City Council Ward 4", "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Would never cut public-safety funding, calling police and fire core services.",
+          "quote": "I would never cut funding for public safety — police and fire are core services.",
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Opposes reckless development; says infrastructure must precede growth to protect existing residents.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Supports charging repeat commercial users a first-responder fee but opposes residential charges; prioritizes emergency response over billing.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "adam-mayberry",
+      "name": "Adam Mayberry",
+      "raceId": "sparks-council-ward4",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Communications professional and part-time college instructor (age 55) currently serving on the Washoe County School Board (District F), which he is leaving to run for council; holds degrees from Embry-Riddle and UNR.",
+      "website": null,
+      "sources": [
+        { "label": "RGJ/AOL: See who's running for Sparks City Council Ward 4", "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html" },
+        { "label": "Ballotpedia: Tracey Thomas (Ward 4 race page)", "url": "https://ballotpedia.org/Tracey_Thomas_(Sparks_City_Council_Ward_4,_Nevada,_candidate_2026)" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "publicSafety": {
+          "stance": "Stresses fast, professional emergency response; prefers exploring federal Medicaid supplemental reimbursement over a first-responder fee.",
+          "quote": "When someone calls 911, they deserve a fast, professional response.",
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Supports cutting consulting and administrative overhead rather than frontline services.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Emphasizes infrastructure readiness before approving new development.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "sean-mccaffrey",
+      "name": "Sean McCaffrey",
+      "raceId": "sparks-council-ward4",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Owner of Bin Masters of Northern Nevada (age 53), running as a first-time candidate.",
+      "website": null,
+      "sources": [
+        { "label": "RGJ/AOL: See who's running for Sparks City Council Ward 4", "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "publicSafety": {
+          "stance": "Fiercely opposed to a first-responder fee, warning it could deter fixed-income residents from calling 911; prioritizes reopening Fire Station 5 at the Golden Eagle location.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Calls for stronger regional coordination and criticizes 'rubberstamped' projects lacking vision.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Notes current funds are earmarked; supports fire consolidation and revenue diversification.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "tracey-thomas",
+      "name": "Tracey Thomas",
+      "raceId": "sparks-council-ward4",
+      "party": "Independent American",
+      "incumbent": false,
+      "bio": "Retired (age 62) with prior work in mortgage lending, appraisal, and county technology; running for office for the first time.",
+      "website": null,
+      "sources": [
+        { "label": "RGJ/AOL: See who's running for Sparks City Council Ward 4", "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html" },
+        { "label": "Ballotpedia: Tracey Thomas", "url": "https://ballotpedia.org/Tracey_Thomas_(Sparks_City_Council_Ward_4,_Nevada,_candidate_2026)" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "growth": {
+          "stance": "Prioritizes maintaining existing assets over new expansion; supports higher-density town centers over sprawl and eastward development aligned with I-80 widening.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Emphasizes sustainability over growth during lean years.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Calls the 'first-responder fee' name misleading and wants alternatives explored before any implementation.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "sheena-harvey",
+      "name": "Sheena Harvey",
+      "raceId": "wcsd-trustee-district-f",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Educator with a master's degree and doctorate in education; UNR graduate and longtime Reno resident active on community and government boards.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates: WCSD School Board District F", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "education": {
+          "stance": "Identifies chronic absenteeism as the most pressing issue; wants after-school programs, intramural sports, and extracurriculars to boost student engagement.",
+          "quote": "programs and services for our students to be in school after school and you know intramural sports or extracurriculars",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "brooke-westlake",
+      "name": "Brooke Westlake",
+      "raceId": "wcsd-trustee-district-f",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "37-year Reno resident, WCSD graduate, and parent advocate with two sons (one in public school, one in charter school).",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates: WCSD School Board District F", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "education": {
+          "stance": "Cites budget deficits, low enrollment, and chronic absenteeism as major concerns and says fixing them requires uncomfortable conversations about revising existing policies.",
+          "quote": "budget deficits, the low enrollment rates, and then the chronic absenteeism",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Names district budget deficits and declining enrollment as top concerns requiring difficult policy review.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "scott-benton",
+      "name": "Scott Benton",
+      "raceId": "wcsd-trustee-district-f",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Candidate for Washoe County School Board Trustee District F; was unavailable for the candidate interview series and limited public information is available.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates: WCSD School Board District F", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    }
+  ]
+}

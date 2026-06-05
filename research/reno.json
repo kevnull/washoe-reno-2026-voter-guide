@@ -1,0 +1,504 @@
+{
+  "races": [
+    {
+      "id": "reno-mayor",
+      "title": "Reno Mayor",
+      "jurisdiction": "Reno",
+      "type": "nonpartisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Open seat — incumbent Mayor Hillary Schieve is termed out. 9 candidates on the June 9, 2026 primary ballot; top two advance to the Nov. 3, 2026 general. Nonpartisan, open to ALL voters. Dominant issues: structural budget deficit (~$24-26M) and a hot-button data center moratorium."
+    },
+    {
+      "id": "reno-ward-2",
+      "title": "Reno City Council Ward 2",
+      "jurisdiction": "Reno",
+      "type": "nonpartisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Open seat — incumbent Naomi Duerr is termed out. 4 candidates in the June 9, 2026 primary; top two advance to November. Redrawn Ward 2 covers west Reno from West Fourth Street to Lakeridge Golf Course. Nonpartisan, open to ALL voters."
+    },
+    {
+      "id": "reno-ward-4",
+      "title": "Reno City Council Ward 4",
+      "jurisdiction": "Reno",
+      "type": "nonpartisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Only 2 candidates filed (incumbent Meghan Ebert and Eddie/Eduardo Gomez), so there is NO June primary for this seat — both advance directly to the Nov. 3, 2026 general. Ward 4 covers the North Valleys and the largest area zoned for industrial/data center development. Included here for completeness."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "devon-reese",
+      "name": "Devon Reese",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Reno-raised attorney who has served on the Reno City Council since 2019 (appointed At-Large, elected At-Large in 2020, then elected to the Ward 5 seat when the At-Large seat was eliminated).",
+      "website": "https://www.votereese.com/",
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KOLO Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/" },
+        { "label": "This Is Reno — Kate Marshall endorsed over data center stance (Reese reversal detailed)", "url": "https://thisisreno.com/2026/06/reno-mayor-data-center-debate/" },
+        { "label": "KUNR — Reno mayoral candidates outline challenges and solutions", "url": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions" },
+        { "label": "Wikipedia — 2026 Reno mayoral election", "url": "https://en.wikipedia.org/wiki/2026_Reno_mayoral_election" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Know Your Candidates: Meet Devon Reese, candidate for Reno Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-devon-reese-candidate-for-reno-mayor-election-politics-midterms", "channel": "News 4-Fox 11 (mynews4)" },
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "dataCenters": {
+          "stance": "Reversed course in spring 2026 to back a data center moratorium as a 'pause' for guardrails, after previously opposing regulation/moratorium as recently as Feb. 2026.",
+          "quote": null,
+          "citationUrl": "https://thisisreno.com/2026/06/reno-mayor-data-center-debate/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "water": {
+          "stance": "Campaign centers on a large Truckee River park; would relocate the Waste Management transfer station to protect the city's drinking water source.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Pitches a unifying 'greater vision' for development along the Truckee River across political and economic lines.",
+          "quote": "Whether you're a Republican or a Democrat, whether you're rich or poor...you can see a greater vision.",
+          "citationUrl": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "kate-marshall",
+      "name": "Kate Marshall",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Former federal prosecutor, two-term Nevada State Treasurer (elected 2006), and Nevada Lieutenant Governor (2019-2021) who later served as a senior advisor in the Biden White House.",
+      "website": "https://kateforreno.com/",
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KUNR — Reno mayoral candidates outline challenges and solutions", "url": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions" },
+        { "label": "This Is Reno — Kate Marshall endorsed for Reno Mayor over data center stance", "url": "https://thisisreno.com/2026/06/reno-mayor-data-center-debate/" },
+        { "label": "Wikipedia — 2026 Reno mayoral election", "url": "https://en.wikipedia.org/wiki/2026_Reno_mayoral_election" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Know Your Candidates: Meet Kate Marshall, candidate for Reno Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-kate-marshall-candidate-for-reno-mayor-election-politics-midterms", "channel": "News 4-Fox 11 (mynews4)" },
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "housing": {
+          "stance": "Calls housing the city's biggest challenge and criticizes unplanned 'build, baby, build' growth that strains rather than strengthens neighborhoods.",
+          "quote": "Housing is personal to me. Growing up, every time the rent went up, we moved.",
+          "citationUrl": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Consistently opposed since January 2026 — data centers do not belong within Reno city limits; favors regional siting parameters.",
+          "quote": "I don't think data centers belong in Reno city limits, full stop.",
+          "citationUrl": "https://thisisreno.com/2026/06/reno-mayor-data-center-debate/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Frames fiscal management as a top priority, citing her record managing state budgets and investments during the recession as Treasurer.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "kathleen-taylor",
+      "name": "Kathleen Taylor",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Native Nevadan small business owner and former Reno Planning Commission member; appointed to the Ward 1 (downtown) City Council seat in 2022 and elected in 2024, currently serving as vice-mayor. Endorsed by Gov. Joe Lombardo.",
+      "website": "https://taylorforrenomayor.com/",
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KUNR — Reno mayoral candidates outline challenges and solutions", "url": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions" },
+        { "label": "This Is Reno — data center debate (Taylor's two anti-moratorium votes)", "url": "https://thisisreno.com/2026/06/reno-mayor-data-center-debate/" },
+        { "label": "Mike's Reno Report — What Lombardo's endorsement of Kathleen Taylor reveals", "url": "https://mikesrenoreport.substack.com/p/what-lombardos-endorsement-of-kathleen" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Know Your Candidates: Meet Kathleen Taylor, candidate for Reno Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-kathleen-taylor-candidate-for-reno-mayor-election-politics-midterms", "channel": "News 4-Fox 11 (mynews4)" },
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "budget": {
+          "stance": "Makes fiscal discipline her central message, noting the city's recurring multimillion-dollar deficit and the need to say no to spending.",
+          "quote": "Every decision that we make has got to begin with fiscal discipline...saying no sometimes.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "The only council member to vote against the data center moratorium; opposes a moratorium as bad for business, though now says she supports regulating data centers.",
+          "quote": "I don't support a moratorium...It's bad for business in Reno.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Supports boosting housing supply by lessening or loosening barriers to permitting.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "eddie-lorton",
+      "name": "George \"Eddie\" Lorton",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Self-funded small business owner and perennial citywide candidate making his fourth bid for Reno mayor (also ran 2014, 2018, 2022, finishing runner-up to Schieve in 2018 and 2022). Endorsed by the Washoe County Republican Party.",
+      "website": "https://eddielorton.com/",
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KUNR — Reno mayoral candidates outline challenges and solutions", "url": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions" },
+        { "label": "Mike's Reno Report — Lombardo endorsement / GOP split", "url": "https://mikesrenoreport.substack.com/p/what-lombardos-endorsement-of-kathleen" },
+        { "label": "Wikipedia — 2026 Reno mayoral election", "url": "https://en.wikipedia.org/wiki/2026_Reno_mayoral_election" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Know Your Candidates: Meet Eddie Lorton, candidate for Reno Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-eddie-lorton-candidate-for-reno-mayor-election-politics-midterms", "channel": "News 4-Fox 11 (mynews4)" },
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "budget": {
+          "stance": "Would sell city-owned properties to pay down debt and avoid continual utility/fee tax increases.",
+          "quote": "I'd be selling off these city-owned properties so that we could pay down the debt.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Supports the moratorium, especially keeping data centers out of the downtown core.",
+          "quote": "That's a no-brainer to me...I don't think they should be in the downtown core.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Would require that 20% of approved developments be affordable housing.",
+          "quote": "I have solutions for affordable housing...we won't approve them unless 20 percent are affordable housing.",
+          "citationUrl": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "transparency": {
+          "stance": "Promises independence from developer and casino interests as a self-funded candidate; emphasizes transparency at City Hall.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "tim-ross",
+      "name": "Tim Ross",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Reno High and UNR alumnus, former small business owner and substitute teacher, retired Washoe County Sheriff's Office sergeant, and former Nevada PERS board member; runs as unaffiliated.",
+      "website": "https://rossforreno.com/",
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KUNR — Reno mayoral candidates outline challenges and solutions", "url": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions" },
+        { "label": "Wikipedia — 2026 Reno mayoral election", "url": "https://en.wikipedia.org/wiki/2026_Reno_mayoral_election" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Know Your Candidates: Meet Tim Ross, candidate for Reno Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-tim-ross-candidate-for-reno-mayor-election-politics-midterms", "channel": "News 4-Fox 11 (mynews4)" },
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "budget": {
+          "stance": "Calls out structural and cultural dysfunction in city finances and inconsistent messaging about whether the budget is balanced; wants audits.",
+          "quote": "The city feels like it's just floating right now. It needs some leadership...structural...cultural...dysfunction.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Skeptical of data centers as big users of water and power whose costs fall on residents.",
+          "quote": "They take up nice property...big users of resources, water and power...costs come down to us.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Frames his core mission as keeping Reno safe, clean and financially sound, drawing on his law enforcement background.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "corinthia-yancey",
+      "name": "Corinthia Yancey",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Wisconsin native who moved to Reno in 2018; small business owner running a security company with private and government contracts and a member of the Washoe County Board of Equalization.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KUNR — Reno mayoral candidates outline challenges and solutions", "url": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions" },
+        { "label": "KOLO Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Know Your Candidates: Meet Corinthia Yancey, candidate for Reno Mayor", "url": "https://mynews4.com/news/know-your-candidates-2026/know-your-candidates-meet-corinthia-yancey-candidate-for-reno-mayor-election-politics-midterms", "channel": "News 4-Fox 11 (mynews4)" },
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "growth": {
+          "stance": "Wants Reno to grow but not at the expense of water resources or rising utility bills; favors reasonable developer standards over a 'tech rush.'",
+          "quote": "I want Reno to grow, but not at the expense of...our water...and bills rising.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Conditional support for a moratorium 'to a certain extent,' emphasizing a strategic, accountable approach.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Centers her campaign on strengthening public safety, supporting small businesses, and increasing accountability in leadership.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Says the city budget needs a redefined structure to better distribute resources.",
+          "quote": "The budget, it needs more of a redefining structure that can help facilitate proper distribution.",
+          "citationUrl": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "jesse-razo",
+      "name": "Jesse Razo",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Longtime Reno resident who says he has been 'building Reno for the past 25 years'; previously ran for Reno mayor in 2018 and 2022.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KOLO Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "growth": {
+          "stance": "Raises concerns about population growth; pitches himself as having no outside funding, personal agenda, or conflicting investments.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "john-wayne-zink",
+      "name": "John Wayne Zink",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Musician and entrepreneur who founded the IT Avalon consulting firm and is known as 'The Mayor' on the YouTube channel 'Casino Carisa and The Mayor'; moved to Reno about four years ago.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KOLO Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "budget": {
+          "stance": "Identifies city overspending as the primary challenge; focus on business and community.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "greg-nuttle",
+      "name": "Greg \"Nutt\" Nuttle",
+      "raceId": "reno-mayor",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Downtown Reno resident and bartender whose name remains on the June 9 ballot, though he announced in late May 2026 that he was wrapping up his campaign, saying he would not make it past the primary.",
+      "website": "https://nutt4reno.com/",
+      "sources": [
+        { "label": "mynews4 Know Your Candidates — Reno Mayor roundup", "url": "https://mynews4.com/news/know-your-candidates-2026/reno-mayor-race-incumbent-schieve-termed-out-9-candidates-running-in-primary-lorton-reese-marshall-taylor-election-politics" },
+        { "label": "KOLO Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/" },
+        { "label": "Wikipedia — 2026 Reno mayoral election", "url": "https://en.wikipedia.org/wiki/2026_Reno_mayoral_election" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Reno Mayor Race: Meet the Candidates", "url": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/", "channel": "KOLO 8" }
+      ],
+      "positions": {
+        "growth": {
+          "stance": "Priorities were developing downtown and addressing congestion and growth (campaign since suspended).",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "matt-johnson",
+      "name": "Matt Johnson",
+      "raceId": "reno-ward-2",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Ward 2 council candidate with government/service experience through AmeriCorps and a Conservation Corps; runs a grassroots, door-knocking campaign.",
+      "website": "https://mattforreno.com/",
+      "sources": [
+        { "label": "Mike's Reno Report — Reno Ward 2: Three Campaigns, Three Strategies", "url": "https://mikesrenoreport.substack.com/p/reno-ward-2-three-campaigns-three" },
+        { "label": "AOL/RGJ — Johnson, Luetkehans, Pellett, Vaupel running in Reno Ward 2", "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "growth": {
+          "stance": "Authored an opinion piece titled 'A failure to plan,' emphasizing planning and neighborhood engagement over consultant-driven campaigning.",
+          "quote": null,
+          "citationUrl": "https://mikesrenoreport.substack.com/p/reno-ward-2-three-campaigns-three",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "summer-pellett",
+      "name": "Summer Pellett",
+      "raceId": "reno-ward-2",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "COO of Pellett Construction LLC and the Ward 2 fundraising leader, backed heavily by construction, development, and trade interests (AGC PAC, Sierra Nevada Construction, Laborers Local 169).",
+      "website": "https://electsummer.com/",
+      "sources": [
+        { "label": "Mike's Reno Report — Reno Ward 2: Three Campaigns, Three Strategies", "url": "https://mikesrenoreport.substack.com/p/reno-ward-2-three-campaigns-three" },
+        { "label": "AOL/RGJ — Johnson, Luetkehans, Pellett, Vaupel running in Reno Ward 2", "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "vanessa-vaupel",
+      "name": "Vanessa Vaupel",
+      "raceId": "reno-ward-2",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Former Chief of Pharmacy for the Veterans Affairs health system, running a professionalized Ward 2 campaign without PAC or major-donor backing.",
+      "website": "https://votewithvanessa.com/",
+      "sources": [
+        { "label": "Mike's Reno Report — Reno Ward 2: Three Campaigns, Three Strategies", "url": "https://mikesrenoreport.substack.com/p/reno-ward-2-three-campaigns-three" },
+        { "label": "This Is Reno — Vaupel: Reno deserves a pause on data centers (opinion)", "url": "https://thisisreno.com/2026/05/vaupel-reno-council-data-center/" },
+        { "label": "AOL/RGJ — Johnson, Luetkehans, Pellett, Vaupel running in Reno Ward 2", "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "dataCenters": {
+          "stance": "Argues Reno deserves a deliberate 'pause' on data centers with real guardrails rather than a free-for-all (authored an op-ed making this case).",
+          "quote": null,
+          "citationUrl": "https://thisisreno.com/2026/05/vaupel-reno-council-data-center/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "ian-luetkehans",
+      "name": "Ian Luetkehans",
+      "raceId": "reno-ward-2",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Ward 2 City Council candidate; as of the late-stage campaign reporting he had not raised money or launched a website, running a minimal campaign.",
+      "website": null,
+      "sources": [
+        { "label": "Mike's Reno Report — Reno Ward 2: Three Campaigns, Three Strategies", "url": "https://mikesrenoreport.substack.com/p/reno-ward-2-three-campaigns-three" },
+        { "label": "AOL/RGJ — Johnson, Luetkehans, Pellett, Vaupel running in Reno Ward 2", "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "meghan-ebert",
+      "name": "Meghan Ebert",
+      "raceId": "reno-ward-4",
+      "party": "Nonpartisan",
+      "incumbent": true,
+      "bio": "Incumbent Reno City Council member for Ward 4, which covers the North Valleys and the city's largest industrial-zoned area; seeking re-election in 2026.",
+      "website": null,
+      "sources": [
+        { "label": "City of Reno — Ward 4 Meghan Ebert", "url": "https://www.reno.gov/government/city-council/city-council-members/ward-4-meghan-ebert" },
+        { "label": "Nevada Current — Reno City Council extends data center moratorium", "url": "https://nevadacurrent.com/2026/06/03/reno-city-council-extends-data-center-moratorium-promises-effort-is-not-political/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "dataCenters": {
+          "stance": "Supports the data center pause but insists any moratorium deadline be tied to adopting comprehensive regulations so protections are codified, not a political stunt.",
+          "quote": "I need to have something in code, and I need to show my community that they will be protected, and that this isn't a political stunt.",
+          "citationUrl": "https://nevadacurrent.com/2026/06/03/reno-city-council-extends-data-center-moratorium-promises-effort-is-not-political/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "eddie-gomez",
+      "name": "Eddie Gomez",
+      "raceId": "reno-ward-4",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "North Valleys resident of more than 20 years and restaurateur who opened a restaurant with his father at age 17; challenging the Ward 4 incumbent on infrastructure, parks, and small business. (Also listed as Eduardo Gomez.)",
+      "website": "https://www.eddiegomezward4.com/",
+      "sources": [
+        { "label": "KOLO — Gomez announces bid for Reno City Council", "url": "https://www.kolotv.com/2026/03/06/gomez-announces-bid-reno-city-council/" },
+        { "label": "Vote Eddie Gomez campaign site", "url": "https://www.eddiegomezward4.com/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "growth": {
+          "stance": "Says North Valleys growth has outpaced infrastructure and services; wants more attention to infrastructure and well-maintained neighborhoods.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/03/06/gomez-announces-bid-reno-city-council/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Believes Ward 4 needs greater focus on affordable housing alongside support for small businesses.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/03/06/gomez-announces-bid-reno-city-council/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    }
+  ]
+}

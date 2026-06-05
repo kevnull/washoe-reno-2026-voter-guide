@@ -1,0 +1,663 @@
+{
+  "races": [
+    {
+      "id": "nv-governor",
+      "title": "Nevada Governor",
+      "jurisdiction": "Nevada (statewide)",
+      "type": "partisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "CLOSED primary (June 9, 2026): only registered party members vote in their party's contest. Top vote-getter in each party advances to Nov. 3, 2026 general. Republican primary: incumbent Gov. Joe Lombardo vs. several longshot challengers. Democratic primary: term-limited AG Aaron Ford (frontrunner) vs. Washoe County Commission Chair Alexis Hill, plus minor candidates. Rated a competitive/leans-Republican race nationally."
+    },
+    {
+      "id": "nv-lieutenant-governor",
+      "title": "Nevada Lieutenant Governor",
+      "jurisdiction": "Nevada (statewide)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "CLOSED primary. Incumbent Republican Lt. Gov. Stavros Anthony is unopposed in the GOP primary. Contested Democratic primary: Assembly Majority Floor Leader Sandra Jauregui (frontrunner), pediatric ICU nurse Courtney Burke, and performer Bridget 'BridgieNix' Scheiner. Office is the first-in-line to the governorship."
+    },
+    {
+      "id": "nv-attorney-general",
+      "title": "Nevada Attorney General",
+      "jurisdiction": "Nevada (statewide)",
+      "type": "partisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "OPEN seat (incumbent Aaron Ford term-limited, running for governor). CLOSED primaries, both contested. Democratic: Senate Majority Leader Nicole Cannizzaro vs. State Treasurer Zach Conine. Republican: Adriana Guzman Fralick (endorsed by Trump and Gov. Lombardo) vs. Douglas County Commissioner Danny Tarkanian."
+    },
+    {
+      "id": "nv-secretary-of-state",
+      "title": "Nevada Secretary of State",
+      "jurisdiction": "Nevada (statewide)",
+      "type": "partisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Nevada's chief elections officer. CLOSED primaries. Incumbent Democrat Cisco Aguilar advanced to the general without a primary opponent (no other Democrat filed). Contested four-way Republican primary: former Assemblyman/2020 'fake elector' Jim Marchant, former Assemblywoman Sharron Angle, attorney/developer Shirley Folkins-Roberts (Lombardo-endorsed), and Socorro Keenan. Election-integrity claims are central to the GOP race."
+    },
+    {
+      "id": "nv-treasurer",
+      "title": "Nevada State Treasurer",
+      "jurisdiction": "Nevada (statewide)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "OPEN seat (incumbent Zach Conine running for AG). CLOSED primaries, both contested. Democratic: Assemblymember Joe Dalia, deputy state treasurer Tya Mathis-Coleman, educator Jay Maharjan. Republican: budget watchdog Drew Johnson and former Chicago Mercantile Exchange trader Jeff Carter."
+    },
+    {
+      "id": "nv-controller",
+      "title": "Nevada State Controller",
+      "jurisdiction": "Nevada (statewide)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "State's chief fiscal officer. CLOSED primaries. Incumbent Republican Andy Matthews is unopposed in the GOP primary. Contested Democratic primary: Robert Blackstock, Henderson high-school teacher Michael MacDougall, and Robert Tolle."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "joe-lombardo",
+      "name": "Joe Lombardo",
+      "raceId": "nv-governor",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Governor of Nevada, first elected in 2022; former Clark County Sheriff with 26 years in law enforcement. Seeking a second term.",
+      "website": null,
+      "sources": [
+        { "label": "The Nevada Independent — Lombardo launches re-election bid", "url": "https://thenevadaindependent.com/article/joe-lombardo-launches-re-election-bid-for-nevada-governor" },
+        { "label": "Nevada Current — Lombardo announces reelection campaign", "url": "https://nevadacurrent.com/2025/09/16/lombardo-announces-reelection-campaign-warns-against-a-democrat-in-power/" },
+        { "label": "The Nevada Independent — Lombardo Promise Tracker", "url": "https://thenevadaindependent.com/article/lombardo-promise-tracker-what-pledges-has-the-governor-kept-in-his-first-two-sessions" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "education": {
+          "stance": "Touts a 2023 K-12 funding increase, charter-school expansion and 'school choice'; says low-performing schools improved 11%.",
+          "quote": null,
+          "citationUrl": "https://nevadacurrent.com/2025/09/16/lombardo-announces-reelection-campaign-warns-against-a-democrat-in-power/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Highlights the $200M 'Campus for Hope' for homeless services and work with the Trump administration to release federal land for attainable housing; vetoed Democratic tenant-protection bills.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/joe-lombardo-launches-re-election-bid-for-nevada-governor",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Frames his record around blocking tax increases, having vetoed 87 bills in 2025 that he says 'grew government, raised taxes or misused' tax dollars.",
+          "quote": "grew government, raised taxes or misused your hard-earned tax dollars",
+          "citationUrl": "https://nevadacurrent.com/2025/09/16/lombardo-announces-reelection-campaign-warns-against-a-democrat-in-power/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "abortion": {
+          "stance": "Personally opposed to abortion but signed SB 131 (2023) codifying protections for abortion providers and out-of-state patients.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/lombardo-promise-tracker-what-pledges-has-the-governor-kept-in-his-first-two-sessions",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Signed a DOJ memo removing Nevada from the sanctuary-designated list, authorized National Guard support for ICE, and vetoed a bill limiting ICE cooperation near schools.",
+          "quote": null,
+          "citationUrl": "https://nevadacurrent.com/2025/09/16/lombardo-announces-reelection-campaign-warns-against-a-democrat-in-power/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "electionIntegrity": {
+          "stance": "Backed the 2024 voter-ID ballot measure (which must pass again in 2026 to take effect); vetoed Democratic election-administration legislation.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/lombardo-promise-tracker-what-pledges-has-the-governor-kept-in-his-first-two-sessions",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "irina-hansen",
+      "name": "Irina Hansen",
+      "raceId": "nv-governor",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Salon owner challenging Gov. Lombardo in the Republican gubernatorial primary; considered a longshot candidate.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — GOP governor primary: 6 longshot candidates", "url": "https://mynews4.com/news/know-your-candidates-2026/nevada-governor-gop-primary-6-longshot-candidates-taking-on-incumbent-joe-lombardo-republican-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "matthew-winterhawk",
+      "name": "Matthew R. Winterhawk",
+      "raceId": "nv-governor",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Hip-hop artist running as a longshot challenger to Gov. Lombardo in the Republican gubernatorial primary.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — GOP governor primary: 6 longshot candidates", "url": "https://mynews4.com/news/know-your-candidates-2026/nevada-governor-gop-primary-6-longshot-candidates-taking-on-incumbent-joe-lombardo-republican-election-politics-midterms" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "aaron-ford",
+      "name": "Aaron Ford",
+      "raceId": "nv-governor",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "34th Attorney General of Nevada (term-limited) and former state Senate Majority Leader; the Democratic frontrunner for governor and presumed November opponent for Gov. Lombardo.",
+      "website": "https://www.fordfornevada.com/",
+      "sources": [
+        { "label": "Aaron Ford campaign — Issues", "url": "https://www.fordfornevada.com/issues" },
+        { "label": "Wikipedia — Aaron Ford (Nevada politician)", "url": "https://en.wikipedia.org/wiki/Aaron_Ford_(Nevada_politician)" },
+        { "label": "Nevada Appeal — 2026 Primary: Nevada Governor Democrats", "url": "https://www.nevadaappeal.com/news/2026/may/21/2026-primary-election-nevada-governor-democrats/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "economy": {
+          "stance": "Centers his campaign on lowering costs; says Lombardo failed to make life more affordable, citing high housing costs and weak job growth.",
+          "quote": "Joe Lombardo has failed to lower costs and make life more affordable for hardworking Nevada families",
+          "citationUrl": "https://nevadacurrent.com/2025/09/16/lombardo-announces-reelection-campaign-warns-against-a-democrat-in-power/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Pledges to tackle the affordable-housing crisis, crack down on Wall Street firms pricing families out, and ease permitting.",
+          "quote": "tackle the affordable housing crisis and help make housing more accessible for all renters and homebuyers",
+          "citationUrl": "https://www.fordfornevada.com/issues",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Would require data centers to pay their fair share for energy demand and conserve water.",
+          "quote": "requiring them to pay their fair share for their increased energy demand and commit to conserving water",
+          "citationUrl": "https://www.fordfornevada.com/issues",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "education": {
+          "stance": "A former public-school math teacher; frames education as widening opportunity so every student has a fair chance.",
+          "quote": "good policy should widen the circle of opportunity, and that leadership means ensuring every student has a fair chance to succeed",
+          "citationUrl": "https://www.fordfornevada.com/issues",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "alexis-hill",
+      "name": "Alexis Hill",
+      "raceId": "nv-governor",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Chair of the Washoe County Commission (Reno area), with a background in public policy, city planning and nonprofits; the underdog Democratic challenger to Aaron Ford in the gubernatorial primary.",
+      "website": null,
+      "sources": [
+        { "label": "Know Your Candidates — Alexis Hill (nvgov2026.org)", "url": "https://www.nvgov2026.org/candidates/hill.html" },
+        { "label": "The Nevada Independent — On the trail with underdog Alexis Hill", "url": "https://thenevadaindependent.com/article/can-alexis-hill-do-the-impossible-on-the-trail-with-the-underdog-democrat-for-nevada-governor" },
+        { "label": "Fox5 Vegas — Hill focuses on corporate accountability", "url": "https://www.fox5vegas.com/2026/05/29/got-minute-washoe-county-commissioner-alexis-hill-focuses-corporate-accountability-governor-race/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "taxes": {
+          "stance": "Wants to end corporate tax incentives/subsidies and make large corporations and billionaires pay more; argues such giveaways do not work.",
+          "quote": "Tax giveaways like what the State Legislature gave to Elon Musk to bring Tesla to Washoe County do not work.",
+          "citationUrl": "https://www.nvgov2026.org/candidates/hill.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "education": {
+          "stance": "Proposes $2.5 billion in additional annual K-12 spending over 10 years and permanent funding for universal pre-K.",
+          "quote": "We must ensure permanent funding of universal pre-K for all Nevada children.",
+          "citationUrl": "https://www.nvgov2026.org/candidates/hill.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Supports temporary rent caps and criticizes institutional investors for the affordability crisis.",
+          "quote": null,
+          "citationUrl": "https://www.nvgov2026.org/candidates/hill.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "water": {
+          "stance": "Emphasizes climate vulnerability and conservation; serves on the TRPA Governing Board and authored Washoe County's first Climate Action Plan.",
+          "quote": "Our region is particularly vulnerable to a changing climate. The Reno area is the fastest-warming metro in the country.",
+          "citationUrl": "https://www.nvgov2026.org/candidates/hill.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "stavros-anthony",
+      "name": "Stavros Anthony",
+      "raceId": "nv-lieutenant-governor",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Lieutenant Governor of Nevada, elected in 2022; former Las Vegas City Council member and retired LVMPD captain. Unopposed in the GOP primary.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Current — Lt. governor race is all about 2028", "url": "https://nevadacurrent.com/2026/04/03/the-2026-race-for-lieutenant-governor-is-all-about-2028-if-its-about-anything-at-all/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "sandra-jauregui",
+      "name": "Sandra Jauregui",
+      "raceId": "nv-lieutenant-governor",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Nevada Assembly Majority Floor Leader, in office since 2017; the fundraising and endorsement frontrunner in the Democratic lieutenant governor primary (backed by Sens. Cortez Masto and Rosen).",
+      "website": null,
+      "sources": [
+        { "label": "The Nevada Independent — Jauregui to run for lieutenant governor", "url": "https://thenevadaindependent.com/article/sandra-jauregui-the-no-3-democrat-in-assembly-to-run-for-nevada-lieutenant-governor" },
+        { "label": "Nevada Current — Democratic LG primary", "url": "https://nevadacurrent.com/2026/05/11/democratic-lieutenant-governor-primary-attracts-assembly-leader-fire-dancer-and-icu-nurse/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "courtney-burke",
+      "name": "Courtney Burke",
+      "raceId": "nv-lieutenant-governor",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Pediatric ICU nurse and small-business owner running in the Democratic lieutenant governor primary; reported no campaign contributions as of the latest filing.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Current — Democratic LG primary", "url": "https://nevadacurrent.com/2026/05/11/democratic-lieutenant-governor-primary-attracts-assembly-leader-fire-dancer-and-icu-nurse/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "bridget-scheiner",
+      "name": "Bridget \"BridgieNix\" Scheiner",
+      "raceId": "nv-lieutenant-governor",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Veteran performer (fire dancer) running in the Democratic lieutenant governor primary; says she accepts no corporate PAC or lobbyist money.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Current — Democratic LG primary", "url": "https://nevadacurrent.com/2026/05/11/democratic-lieutenant-governor-primary-attracts-assembly-leader-fire-dancer-and-icu-nurse/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "nicole-cannizzaro",
+      "name": "Nicole Cannizzaro",
+      "raceId": "nv-attorney-general",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Nevada Senate Majority Leader and a Clark County deputy district attorney; first elected to the state Senate in 2016. Running in the Democratic primary for attorney general.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — Conine, Cannizzaro clash in AG primary", "url": "https://mynews4.com/news/know-your-candidates-2026/zach-conine-nicole-cannizzaro-clash-in-nevada-attorney-general-democratic-primary-election-politics-midterms-2026" },
+        { "label": "The Nevada Independent — Democratic AG primary", "url": "https://thenevadaindependent.com/article/democratic-attorney-general-primary-is-a-battle-over-rich-donors-and-resumes" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Zach Conine, Nicole Cannizzaro clash in Nevada Attorney General Democratic primary", "url": "https://www.youtube.com/watch?v=q821TMGa7nA", "channel": "News 4-Fox 11 (mynews4)" }
+      ],
+      "positions": {
+        "publicSafety": {
+          "stance": "Emphasizes her courtroom experience as a prosecutor as key qualification for running the state's largest law firm.",
+          "quote": "I am the only candidate in this race who has any sort of courtroom experience.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/zach-conine-nicole-cannizzaro-clash-in-nevada-attorney-general-democratic-primary-election-politics-midterms-2026",
+          "videoUrl": "https://www.youtube.com/watch?v=q821TMGa7nA",
+          "timestamp": null
+        },
+        "electionIntegrity": {
+          "stance": "Vows to reject Trump-administration efforts to wrest control of elections and to push back against federal overreach.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/zach-conine-nicole-cannizzaro-clash-in-nevada-attorney-general-democratic-primary-election-politics-midterms-2026",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "zach-conine",
+      "name": "Zach Conine",
+      "raceId": "nv-attorney-general",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Two-term Nevada State Treasurer (elected 2018), business attorney by background; running in the Democratic primary for attorney general.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — Conine, Cannizzaro clash in AG primary", "url": "https://mynews4.com/news/know-your-candidates-2026/zach-conine-nicole-cannizzaro-clash-in-nevada-attorney-general-democratic-primary-election-politics-midterms-2026" },
+        { "label": "The Nevada Independent — Democratic AG primary", "url": "https://thenevadaindependent.com/article/democratic-attorney-general-primary-is-a-battle-over-rich-donors-and-resumes" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Zach Conine, Nicole Cannizzaro clash in Nevada Attorney General Democratic primary", "url": "https://www.youtube.com/watch?v=q821TMGa7nA", "channel": "News 4-Fox 11 (mynews4)" }
+      ],
+      "positions": {
+        "publicSafety": {
+          "stance": "Would keep pursuing violent criminals but says reducing desperation and the root causes of crime is among the best ways to lower it.",
+          "quote": "One of the best ways that we can lower crime in the state of Nevada is looking at the underlying roots of crime, right? We know that crime increases when there is more desperation.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/zach-conine-nicole-cannizzaro-clash-in-nevada-attorney-general-democratic-primary-election-politics-midterms-2026",
+          "videoUrl": "https://www.youtube.com/watch?v=q821TMGa7nA",
+          "timestamp": null
+        },
+        "electionIntegrity": {
+          "stance": "Calls Trump an 'existential threat' to Nevada and vows to reject federal efforts to take control of elections.",
+          "quote": "They are coming after voting and democracy",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/zach-conine-nicole-cannizzaro-clash-in-nevada-attorney-general-democratic-primary-election-politics-midterms-2026",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "adriana-guzman-fralick",
+      "name": "Adriana Guzman Fralick",
+      "raceId": "nv-attorney-general",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Northern Nevada attorney (UNR/UNLV Law) with her own firm; former counsel to Gov. Jim Gibbons and the Nevada Commission on Ethics and a Carson City chief deputy DA. Endorsed by President Trump and Gov. Lombardo in the GOP attorney general primary.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — Guzman Fralick, Tarkanian square off", "url": "https://mynews4.com/news/know-your-candidates-2026/adriana-guzman-fralick-danny-tarkanian-square-off-in-nevada-attorney-general-gop-primary-republican-election-midterms-politics" },
+        { "label": "The Nevada Independent — Trump endorses in GOP AG primary", "url": "https://thenevadaindependent.com/article/trump-endorses-in-gop-primary-for-nevada-attorney-general" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "publicSafety": {
+          "stance": "Campaigns on building better relationships with law enforcement as a core priority for the attorney general's office.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/06/03/republican-candidates-nevada-ag-want-better-relationships-with-law-enforcement/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "danny-tarkanian",
+      "name": "Danny Tarkanian",
+      "raceId": "nv-attorney-general",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Douglas County Commissioner and 38-year member of the State Bar of Nevada; son of late UNLV coach Jerry Tarkanian and a frequent past candidate for federal office. Running in the GOP attorney general primary.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — Guzman Fralick, Tarkanian square off", "url": "https://mynews4.com/news/know-your-candidates-2026/adriana-guzman-fralick-danny-tarkanian-square-off-in-nevada-attorney-general-gop-primary-republican-election-midterms-politics" },
+        { "label": "Nevada Current — Republican AG primary", "url": "https://nevadacurrent.com/2026/04/28/republican-ag-primary-pits-lombardos-choice-against-perennial-candidate-with-a-famous-name/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "publicSafety": {
+          "stance": "Campaigns on improving the attorney general office's relationships with law enforcement.",
+          "quote": null,
+          "citationUrl": "https://www.kolotv.com/2026/06/03/republican-candidates-nevada-ag-want-better-relationships-with-law-enforcement/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "cisco-aguilar",
+      "name": "Cisco Aguilar",
+      "raceId": "nv-secretary-of-state",
+      "party": "Democratic",
+      "incumbent": true,
+      "bio": "Incumbent Nevada Secretary of State (elected 2022), the state's chief elections officer; attorney and former adviser to Andre Agassi's foundation. Advanced to the general election without a Democratic primary opponent.",
+      "website": null,
+      "sources": [
+        { "label": "Ballotpedia — Nevada Secretary of State election, 2026", "url": "https://ballotpedia.org/Nevada_Secretary_of_State_election,_2026" },
+        { "label": "Nevada Current — 2026 Primary Voter Guide", "url": "https://nevadacurrent.com/voter-guides/2026-primary-election/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "jim-marchant",
+      "name": "Jim Marchant",
+      "raceId": "nv-secretary-of-state",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Former one-term state Assemblyman who lost the 2022 Secretary of State race and a 2024 U.S. Senate bid; known for election denialism and involvement in the 2020 'fake elector' effort. Running again in the GOP Secretary of State primary.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — SoS GOP primary: 4 candidates", "url": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar" },
+        { "label": "Ballotpedia — Jim Marchant", "url": "https://ballotpedia.org/Jim_Marchant" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "electionIntegrity": {
+          "stance": "Argues Nevada elections are not yet fair or transparent and wants to eliminate voting machines.",
+          "quote": "We don't have a fair and transparent election yet...the machines were introduced in 2006, and I believe we have to get rid of the machines.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "sharron-angle",
+      "name": "Sharron Angle",
+      "raceId": "nv-secretary-of-state",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Former Nevada Assemblywoman (2000s) and the 2010 GOP U.S. Senate nominee; a longtime conservative figure. Running in the GOP Secretary of State primary.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — SoS GOP primary: 4 candidates", "url": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "electionIntegrity": {
+          "stance": "Says she lacks confidence Nevada elections are secure and that there is 'a long way to go' to assure voters; backs voter-ID enforcement.",
+          "quote": "The evidence that I have seen makes me feel like we have a long way to go before we can give that confidence to the people that they are safe.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "shirley-folkins-roberts",
+      "name": "Shirley Folkins-Roberts",
+      "raceId": "nv-secretary-of-state",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Attorney, longtime childhood-cancer nonprofit leader and real-estate developer; endorsed by Gov. Joe Lombardo in the GOP Secretary of State primary.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — SoS GOP primary: 4 candidates", "url": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "electionIntegrity": {
+          "stance": "Declines to allege fraud in Nevada elections but says any proven case is one too many; platform includes voter ID, limiting mail-in ballots, and reversing DMV automatic registration.",
+          "quote": "I am not one to say there's fraud in Nevada's elections...Any case of fraud that's proven is one too many.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "socorro-keenan",
+      "name": "Socorro Keenan",
+      "raceId": "nv-secretary-of-state",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Businesswoman with experience in mortgage lending and tax preparation; previously ran for Secretary of State in 2022. Running again in the GOP primary.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4 — SoS GOP primary: 4 candidates", "url": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "electionIntegrity": {
+          "stance": "Says Nevada elections are not safe and secure and that voter rolls need to be cleaned up, including removing deceased voters.",
+          "quote": "I know they are not [safe and secure]...we need to unearth all the voters that are dead...the voter rolls need to be cleaned up.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "joe-dalia",
+      "name": "Joe Dalia",
+      "raceId": "nv-treasurer",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "First-term Nevada Assemblymember for District 29 (Henderson), an attorney with an economics degree who has worked at Meta. Running in the Democratic primary for treasurer.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Current — Democratic treasurer primary", "url": "https://nevadacurrent.com/2026/04/07/democratic-primary-for-state-treasurer-features-assemblymember-deputy-treasurer-obama-appointee/" },
+        { "label": "Sierra Nevada Ally — NV treasurer race 2026", "url": "https://sierranevadaally.org/2026/05/23/nevada-state-treasurer-race-2026-whos-running-and-whats-at-stake/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "tya-mathis-coleman",
+      "name": "Tya Mathis-Coleman",
+      "raceId": "nv-treasurer",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Nevada deputy state treasurer; the only candidate in the race who has worked in the treasurer's office. Running in the Democratic primary for treasurer.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Current — Democratic treasurer primary", "url": "https://nevadacurrent.com/2026/04/07/democratic-primary-for-state-treasurer-features-assemblymember-deputy-treasurer-obama-appointee/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Argues her in-office treasury experience means she can manage the state's finances from day one.",
+          "quote": "elect someone with experience so they can hit the ground running on day one",
+          "citationUrl": "https://nevadacurrent.com/2026/04/07/democratic-primary-for-state-treasurer-features-assemblymember-deputy-treasurer-obama-appointee/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "jay-maharjan",
+      "name": "Jay Maharjan",
+      "raceId": "nv-treasurer",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Public-school teacher and entrepreneur who led the Obama-era Startup America Partnership. Running in the Democratic primary for treasurer.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Current — Democratic treasurer primary", "url": "https://nevadacurrent.com/2026/04/07/democratic-primary-for-state-treasurer-features-assemblymember-deputy-treasurer-obama-appointee/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "drew-johnson",
+      "name": "Drew Johnson",
+      "raceId": "nv-treasurer",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Conservative think-tank founder and policy analyst who ran for Clark County Commission (2022) and Congress (2024); describes himself as a government-waste expert and budget watchdog. Running in the GOP treasurer primary.",
+      "website": null,
+      "sources": [
+        { "label": "Elko Daily — Carter, Johnson run for treasurer", "url": "https://elkodaily.com/news/state-regional/nevada/article_dc407a3d-d0a2-5a0d-981a-c4b245f069ef.html" },
+        { "label": "The Nevada Independent — GOP treasurer primary", "url": "https://thenevadaindependent.com/article/republican-treasurers-primary-marked-by-personal-attacks-allegations-of-fraud" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Runs as a self-described government-waste expert and budget watchdog focused on cutting wasteful state spending.",
+          "quote": null,
+          "citationUrl": "https://elkodaily.com/news/state-regional/nevada/article_dc407a3d-d0a2-5a0d-981a-c4b245f069ef.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "jeff-carter",
+      "name": "Jeff Carter",
+      "raceId": "nv-treasurer",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Financial investor and former Chicago Mercantile Exchange trader who moved to Nevada in 2020; a first-time candidate running in the GOP treasurer primary.",
+      "website": null,
+      "sources": [
+        { "label": "Elko Daily — Carter, Johnson run for treasurer", "url": "https://elkodaily.com/news/state-regional/nevada/article_dc407a3d-d0a2-5a0d-981a-c4b245f069ef.html" },
+        { "label": "The Nevada Independent — GOP treasurer primary", "url": "https://thenevadaindependent.com/article/republican-treasurers-primary-marked-by-personal-attacks-allegations-of-fraud" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "andy-matthews",
+      "name": "Andy Matthews",
+      "raceId": "nv-controller",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Nevada State Controller (elected 2022); a transparency advocate who launched the state's online spending checkbook. Unopposed in the GOP primary.",
+      "website": "https://andyfornevada.com/",
+      "sources": [
+        { "label": "mynews4 — Matthews announces re-election bid", "url": "https://mynews4.com/news/local/nevada-controller-andy-matthews-announces-2026-re-election-bid" },
+        { "label": "Andy Matthews campaign — About", "url": "https://andyfornevada.com/about-andy/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "transparency": {
+          "stance": "Built the checkbook.nv.gov spending portal and proposed a state Office of Inspector General to audit recipients of state funds.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/local/nevada-controller-andy-matthews-announces-2026-re-election-bid",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "robert-blackstock",
+      "name": "Robert K B Blackstock",
+      "raceId": "nv-controller",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Democratic candidate for Nevada State Controller running in the June 9, 2026 primary.",
+      "website": null,
+      "sources": [
+        { "label": "Sierra Nevada Ally — NV controller race 2026", "url": "https://sierranevadaally.org/2026/05/29/nevada-state-controller-race-2026-whos-running-and-what-to-know-2/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "michael-macdougall",
+      "name": "Michael MacDougall",
+      "raceId": "nv-controller",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Henderson high-school teacher running in the Democratic primary for Nevada State Controller.",
+      "website": null,
+      "sources": [
+        { "label": "Sierra Nevada Ally — NV controller race 2026", "url": "https://sierranevadaally.org/2026/05/29/nevada-state-controller-race-2026-whos-running-and-what-to-know-2/" },
+        { "label": "Nevada News and Views — Democrat teacher launches controller bid", "url": "https://nevadanewsandviews.com/nevada-controller-race-takes-shape-as-democrat-teacher-launches-bid/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "robert-tolle",
+      "name": "Robert Tolle",
+      "raceId": "nv-controller",
+      "party": "Democratic",
+      "incumbent": false,
+      "bio": "Democratic candidate for Nevada State Controller running in the June 9, 2026 primary.",
+      "website": null,
+      "sources": [
+        { "label": "Sierra Nevada Ally — NV controller race 2026", "url": "https://sierranevadaally.org/2026/05/29/nevada-state-controller-race-2026-whos-running-and-what-to-know-2/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    }
+  ]
+}

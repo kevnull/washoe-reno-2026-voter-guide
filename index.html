@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Washoe County &amp; Reno — June 9, 2026 Primary Voter Guide</title>
+<meta name="description" content="Independent, fully-cited candidate guide for the June 9, 2026 Washoe County and Reno (Nevada) primary. Filter by your registered party; see every candidate's positions with sources, quotes, and video clips." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <p class="eyebrow">Independent voter guide · non-endorsing · every claim sourced</p>
+    <h1>Washoe County &amp; Reno<br /><span>June 9, 2026 Primary</span></h1>
+    <p class="lede" id="lede"></p>
+    <p class="countdown" id="countdown"></p>
+  </div>
+</header>
+
+<div class="rules-banner" id="rulesBanner">
+  <div class="wrap">
+    <strong>How Nevada's closed primary works:</strong>
+    <span id="rulesText"></span>
+    <button class="link-btn" id="methodBtn" type="button">Methodology &amp; sources ↗</button>
+  </div>
+</div>
+
+<nav class="controls" id="controls">
+  <div class="wrap controls-grid">
+    <div class="control control--party">
+      <label>I'm registered as…</label>
+      <div class="seg" id="partySeg" role="radiogroup" aria-label="Your registered party">
+        <button data-party="all" class="is-active" role="radio" aria-checked="true">Show everything</button>
+        <button data-party="Democratic" role="radio" aria-checked="false">Democrat</button>
+        <button data-party="Republican" role="radio" aria-checked="false">Republican</button>
+        <button data-party="Nonpartisan" role="radio" aria-checked="false">Nonpartisan / other</button>
+      </div>
+      <p class="eligibility-note" id="eligNote"></p>
+    </div>
+    <div class="control">
+      <label for="levelSel">Government level</label>
+      <select id="levelSel">
+        <option value="all">All levels</option>
+      </select>
+    </div>
+    <div class="control">
+      <label for="issueSel">Focus on an issue</label>
+      <select id="issueSel">
+        <option value="all">All issues</option>
+      </select>
+    </div>
+    <div class="control control--search">
+      <label for="searchBox">Search candidate or office</label>
+      <input id="searchBox" type="search" placeholder="e.g. Marshall, Sheriff, data centers…" autocomplete="off" />
+    </div>
+  </div>
+  <div class="wrap stat-row" id="statRow"></div>
+</nav>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p id="footerNote"></p>
+    <p class="fine">Built as an open, auditable dataset — see <code>data/candidates.json</code>. Positions reflect sources available before the election; candidates' views evolve. Confirm your personal ballot and registration at <a href="https://www.washoecounty.gov/voters" target="_blank" rel="noopener">washoecounty.gov/voters</a>.</p>
+  </div>
+</footer>
+
+<!-- Detail drawer -->
+<div class="drawer-backdrop" id="backdrop" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-modal="true" role="dialog" aria-labelledby="drawerName">
+  <button class="drawer-close" id="drawerClose" aria-label="Close">✕</button>
+  <div id="drawerBody"></div>
+</aside>
+
+<!-- Methodology modal -->
+<div class="modal" id="methodModal" hidden role="dialog" aria-modal="true" aria-labelledby="methodTitle">
+  <div class="modal-card">
+    <button class="drawer-close" id="methodClose" aria-label="Close">✕</button>
+    <h2 id="methodTitle">Methodology &amp; sources</h2>
+    <div id="methodBody"></div>
+  </div>
+</div>
+
+<div class="tooltip" id="tooltip" hidden></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,576 @@
+{
+  "races": [
+    {
+      "id": "washoe-commission-d2",
+      "title": "Washoe County Commission, District 2",
+      "jurisdiction": "Washoe County",
+      "type": "partisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Covers south Reno and Washoe Valley. Contested Republican primary (Clark vs. Killoran); CLOSED to registered Republicans only. Democrat Marie Rodriguez awaits the winner in November."
+    },
+    {
+      "id": "washoe-commission-d5",
+      "title": "Washoe County Commission, District 5",
+      "jurisdiction": "Washoe County",
+      "type": "partisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Open seat (Jeanne Herman term-limited). Sprawling ~5,000 sq mi rural district. Three-way Republican primary (Holt-Still, Pierce, Yriarte); CLOSED to Republicans only. Democrat Brian Wadsworth and Libertarian Lisa Lee await in November."
+    },
+    {
+      "id": "washoe-sheriff",
+      "title": "Washoe County Sheriff",
+      "jurisdiction": "Washoe County",
+      "type": "nonpartisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Sheriff is now a nonpartisan office in Nevada. Incumbent Darin Balaam is unopposed in 2026. Open to ALL voters."
+    },
+    {
+      "id": "washoe-da",
+      "title": "Washoe County District Attorney",
+      "jurisdiction": "Washoe County",
+      "type": "partisan",
+      "tier": "marquee",
+      "seats": 1,
+      "notes": "Winner-take-all CLOSED Republican primary (Hicks vs. Duncan) under a 2015 Nevada law: with no Democrat filed, the GOP primary winner effectively wins the office outright on June 9."
+    },
+    {
+      "id": "washoe-assessor",
+      "title": "Washoe County Assessor",
+      "jurisdiction": "Washoe County",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Incumbent Chris Sarman (R) is unopposed."
+    },
+    {
+      "id": "washoe-treasurer",
+      "title": "Washoe County Treasurer",
+      "jurisdiction": "Washoe County",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Incumbent Justin Taylor (R) is unopposed."
+    },
+    {
+      "id": "washoe-public-administrator",
+      "title": "Washoe County Public Administrator",
+      "jurisdiction": "Washoe County",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Incumbent Nicole Klitzke (R) endorsed by Washoe GOP; no challenger identified in available sources."
+    },
+    {
+      "id": "washoe-clerk",
+      "title": "Washoe County Clerk",
+      "jurisdiction": "Washoe County",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Up for election in 2026. Incumbent Jan Galassini (R). No challenger identified in available sources; appears uncontested."
+    },
+    {
+      "id": "washoe-recorder",
+      "title": "Washoe County Recorder",
+      "jurisdiction": "Washoe County",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Up for election in 2026. Incumbent Kalie Work (D). No challenger identified in available sources; appears uncontested."
+    },
+    {
+      "id": "wcsd-board-f",
+      "title": "WCSD Board of Trustees, District F (At-Large)",
+      "jurisdiction": "Washoe County School District",
+      "type": "nonpartisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Open at-large seat; only contested WCSD board race in 2026. Three candidates (Benton, Harvey, Westlake); top two advance to November. Nonpartisan, open to ALL voters."
+    },
+    {
+      "id": "wcsd-board-b",
+      "title": "WCSD Board of Trustees, District B",
+      "jurisdiction": "Washoe County School District",
+      "type": "nonpartisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Incumbent Colleen Westlake is unopposed."
+    },
+    {
+      "id": "wcsd-board-c",
+      "title": "WCSD Board of Trustees, District C",
+      "jurisdiction": "Washoe County School District",
+      "type": "nonpartisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "Incumbent James 'JJ' Phoenix is unopposed."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "mike-clark",
+      "name": "Mike Clark",
+      "raceId": "washoe-commission-d2",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Washoe County Commissioner for District 2 (elected 2022, took office 2023), and former Washoe County Assessor for eight years. A conservative Republican; age 74.",
+      "website": "https://commissionermikeclark.com/",
+      "sources": [
+        { "label": "Mike Clark campaign website", "url": "https://commissionermikeclark.com/" },
+        { "label": "AOL/Gannett: Clark, Killoran face off in Washoe District 2 Republican primary", "url": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html" },
+        { "label": "Ballotpedia: Michael Clark", "url": "https://ballotpedia.org/Michael_Clark_(Nevada)" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "growth": {
+          "stance": "Infrastructure must come before development; align roads, access and planning before expansion while protecting open space.",
+          "quote": "Infrastructure leads. Development follows.",
+          "citationUrl": "https://commissionermikeclark.com/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Fiscal discipline: cut waste, fund essentials first, demand measurable results.",
+          "quote": "Eliminate waste. Prioritize essentials. Demand measurable outcomes.",
+          "citationUrl": "https://commissionermikeclark.com/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Prioritizes fast, reliable emergency response and supports law enforcement, fire and emergency readiness; opposes dispatch consolidation experiments.",
+          "quote": "Support law enforcement, fire, and emergency readiness.",
+          "citationUrl": "https://commissionermikeclark.com/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "homelessness": {
+          "stance": "Frames homelessness response around accountability paired with compassion.",
+          "quote": "Compassion without accountability is cruelty to both taxpayers and the homeless.",
+          "citationUrl": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "electionIntegrity": {
+          "stance": "Advocates mandatory voter ID, cleaning of voter rolls, increased transparency and safeguards against fraud.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "transparency": {
+          "stance": "Campaigns on government transparency and accountability as a core leadership principle.",
+          "quote": "Transparency that means something",
+          "citationUrl": "https://commissionermikeclark.com/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "jon-killoran",
+      "name": "Jon Killoran",
+      "raceId": "washoe-commission-d2",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican challenger; CEO of the Reno Tahoe Winter Games Coalition / Sports Nevada USA for 18 years and former KRNV News 4 news director (Nevada Broadcasters Hall of Fame, 2004). A 46-year Reno resident; age 63.",
+      "website": "https://www.jonkilloran.com/",
+      "sources": [
+        { "label": "Jon Killoran campaign website", "url": "https://www.jonkilloran.com/" },
+        { "label": "AOL/Gannett: Clark, Killoran face off in Washoe District 2 Republican primary", "url": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html" },
+        { "label": "mynews4: Killoran announces run for District 2", "url": "https://mynews4.com/news/local/jon-killoran-announces-run-for-washoe-county-commission-district-2-against-mike-clark" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "homelessness": {
+          "stance": "Supports enforcement of existing laws and public-private partnerships such as the Cares Campus.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Advocates streamlined dispatch services and ensuring the closest available unit responds to emergencies.",
+          "quote": "the closest available help responds",
+          "citationUrl": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "electionIntegrity": {
+          "stance": "Supports voter ID law, stricter mail-in ballot deadlines and ending universal mail-in ballots.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "tammy-holt-still",
+      "name": "Tammy Holt-Still",
+      "raceId": "washoe-commission-d5",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican candidate; retired State of Nevada employee and longtime flood/infrastructure advocate whose activism began after the 2017 Lemmon Valley flooding. Age 63.",
+      "website": "https://www.tammyholtstill.com/",
+      "sources": [
+        { "label": "Tammy Holt-Still campaign website", "url": "https://www.tammyholtstill.com/" },
+        { "label": "AOL/Gannett: Holt-Still, Pierce, Yriarte vie for Washoe District 5 Republican primary", "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html" },
+        { "label": "Our Town Reno: Three Republicans compete in District 5", "url": "http://www.ourtownreno.com/our-stories-1/2026/5/16/three-republicans-compete-to-take-on-libertarian-and-democrat-in-massive-district-5-of-washoe-county-for-commissioner-seat" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "growth": {
+          "stance": "Wants responsible development with up-to-date infrastructure in place before building, without depleting natural resources.",
+          "quote": null,
+          "citationUrl": "https://www.tammyholtstill.com/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "water": {
+          "stance": "Centers her platform on flooding mitigation, infrastructure reform and Swan Lake water testing; opposes growth that depletes natural resources.",
+          "quote": null,
+          "citationUrl": "http://www.ourtownreno.com/our-stories-1/2026/5/16/three-republicans-compete-to-take-on-libertarian-and-democrat-in-massive-district-5-of-washoe-county-for-commissioner-seat",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "transparency": {
+          "stance": "Emphasizes government transparency, fair taxation with representation, and ensuring residents' voices are heard.",
+          "quote": null,
+          "citationUrl": "https://www.tammyholtstill.com/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "homelessness": {
+          "stance": "Frames help around personal responsibility and self-improvement.",
+          "quote": "God helps those who help themselves — accepting support means taking responsibility and working to improve your situation.",
+          "citationUrl": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "rob-pierce",
+      "name": "Rob Pierce",
+      "raceId": "washoe-commission-d5",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican candidate; U.S. Navy veteran, retired automotive specialist and founder of Autospeck Charities. A 38-year county resident who has served on the Washoe County Planning Commission and the Truckee Meadows Regional Planning Commission. Age 60.",
+      "website": null,
+      "sources": [
+        { "label": "AOL/Gannett: Holt-Still, Pierce, Yriarte vie for Washoe District 5 Republican primary", "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html" },
+        { "label": "Our Town Reno: Three Republicans compete in District 5", "url": "http://www.ourtownreno.com/our-stories-1/2026/5/16/three-republicans-compete-to-take-on-libertarian-and-democrat-in-massive-district-5-of-washoe-county-for-commissioner-seat" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "growth": {
+          "stance": "Prioritizes responsible growth and a pro-business environment; endorsed by the Nevada Builders Alliance.",
+          "quote": "strong communities with a pro-business environment",
+          "citationUrl": "http://www.ourtownreno.com/our-stories-1/2026/5/16/three-republicans-compete-to-take-on-libertarian-and-democrat-in-massive-district-5-of-washoe-county-for-commissioner-seat",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Emphasizes fiscal responsibility as a top priority.",
+          "quote": null,
+          "citationUrl": "http://www.ourtownreno.com/our-stories-1/2026/5/16/three-republicans-compete-to-take-on-libertarian-and-democrat-in-massive-district-5-of-washoe-county-for-commissioner-seat",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "homelessness": {
+          "stance": "Pairs compassion with accountability; goal of making homelessness rare, brief and nonrecurring.",
+          "quote": "Compassion and accountability must go hand in hand. The goal should be simple: Make homelessness rare, brief and nonrecurring.",
+          "citationUrl": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "katherine-yriarte",
+      "name": "Katherine Yriarte",
+      "raceId": "washoe-commission-d5",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican candidate; small business owner/horse trainer and founder-president of the Nevada Equine Council. Endorsed by the Washoe County Republican Central Committee. Age 44.",
+      "website": "https://katherineyfornv.com/",
+      "sources": [
+        { "label": "Washoe GOP 2026 endorsed candidates", "url": "https://www.washoegop.org/wp-content/uploads/2026/04/WCRP-Elections-2026-Endorsed-Candidates-v2.pdf" },
+        { "label": "mynews4: Yriarte launches campaign for District 5", "url": "https://mynews4.com/news/local/katherine-yriarte-launches-campaign-for-washoe-county-commission-district-5" },
+        { "label": "AOL/Gannett: Holt-Still, Pierce, Yriarte vie for Washoe District 5 Republican primary", "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "growth": {
+          "stance": "Seeks to balance protection of open space and agricultural/rural lands with responsible development; modernize commercial codes for small business.",
+          "quote": "Every resident — from the foothills to the farmlands — deserves a voice in shaping Washoe County's future.",
+          "citationUrl": "https://mynews4.com/news/local/katherine-yriarte-launches-campaign-for-washoe-county-commission-district-5",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "homelessness": {
+          "stance": "Favors a data-driven, accountability-focused approach with real pathways to self-sufficiency.",
+          "quote": "A data-driven, results-focused approach that holds service providers accountable and creates real pathways to self-sufficiency.",
+          "citationUrl": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Lists public safety as a top priority; endorsed by the County School Police Officers' Association.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/local/katherine-yriarte-launches-campaign-for-washoe-county-commission-district-5",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "transparency": {
+          "stance": "Says transparency, fairness and common sense should guide county government.",
+          "quote": "transparency, fairness, and common sense",
+          "citationUrl": "https://mynews4.com/news/local/katherine-yriarte-launches-campaign-for-washoe-county-commission-district-5",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "darin-balaam",
+      "name": "Darin Balaam",
+      "raceId": "washoe-sheriff",
+      "party": "Nonpartisan",
+      "incumbent": true,
+      "bio": "Incumbent Washoe County Sheriff, first elected 2018 and re-elected unopposed in 2022. A career WCSO officer and son of former Sheriff Dennis Balaam. Unopposed in 2026.",
+      "website": "https://balaamforsheriff.com/",
+      "sources": [
+        { "label": "Washoe GOP 2026 endorsed candidates", "url": "https://www.washoegop.org/wp-content/uploads/2026/04/WCRP-Elections-2026-Endorsed-Candidates-v2.pdf" },
+        { "label": "Ballotpedia: Darin Balaam", "url": "https://ballotpedia.org/Darin_Balaam" },
+        { "label": "mynews4: Balaam sworn in for second term", "url": "https://mynews4.com/news/local/washoe-county-sheriff-darin-balaam-sworn-in-for-second-term" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "chris-hicks",
+      "name": "Chris Hicks",
+      "raceId": "washoe-da",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Washoe County District Attorney since 2014 (previously won three unopposed elections); son of former DA Larry Hicks. Joined the DA's office in 2005 after three years prosecuting in Carson City.",
+      "website": "https://reelectchrishicks.com/",
+      "sources": [
+        { "label": "mynews4: DA race GOP primary between Hicks, Duncan", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-district-attorney-race-gop-republican-primary-between-chris-hicks-wes-duncan-will-decide-next-top-prosecutor-election-midterms-politics" },
+        { "label": "mynews4: Washoe DA GOP primary is winner-take-all", "url": "https://mynews4.com/news/local/washoe-county-district-attorney-republican-primary-winner-take-all-2015-nevada-law-signed-governor-brian-sandoval-chris-hicks-wes-duncan" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "publicSafety": {
+          "stance": "Points to high incarceration rates and a 24% drop in 2024-2025 case submissions as evidence his approach keeps the county safe; disputes FBI crime statistics.",
+          "quote": "we send more convicted criminals to prison per capita in Washoe County than in any other county in the state.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-district-attorney-race-gop-republican-primary-between-chris-hicks-wes-duncan-will-decide-next-top-prosecutor-election-midterms-politics",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "transparency": {
+          "stance": "Says he removed himself from supervising his wife, a prosecutor in the office, to address conflict-of-interest concerns.",
+          "quote": "My first act as the DA...was to abdicate all my supervisory rights over my wife, Nicole, and to assign that appointing authority to my assistant district attorney.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-district-attorney-race-gop-republican-primary-between-chris-hicks-wes-duncan-will-decide-next-top-prosecutor-election-midterms-politics",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "wes-duncan",
+      "name": "Wes Duncan",
+      "raceId": "washoe-da",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican challenger; Sparks City Attorney (appointed 2022), former Air Force military prosecutor, former Nevada assemblyman and former chief deputy in the Nevada Attorney General's office. Endorsed by Reno, Sparks and Washoe County police unions and the Washoe GOP.",
+      "website": "https://wesduncan.com/",
+      "sources": [
+        { "label": "Wes Duncan campaign website", "url": "https://wesduncan.com/" },
+        { "label": "mynews4: DA race GOP primary between Hicks, Duncan", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-district-attorney-race-gop-republican-primary-between-chris-hicks-wes-duncan-will-decide-next-top-prosecutor-election-midterms-politics" },
+        { "label": "Washoe GOP 2026 endorsed candidates", "url": "https://www.washoegop.org/wp-content/uploads/2026/04/WCRP-Elections-2026-Endorsed-Candidates-v2.pdf" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "publicSafety": {
+          "stance": "Criticizes the incumbent's charging policy as prioritizing conviction rates over public safety; cites FBI data showing rising crime and emphasizes victims.",
+          "quote": "the charging policy...has prioritizing a win rate or a conviction rate over public safety.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-district-attorney-race-gop-republican-primary-between-chris-hicks-wes-duncan-will-decide-next-top-prosecutor-election-midterms-politics",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "chris-sarman",
+      "name": "Chris Sarman",
+      "raceId": "washoe-assessor",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Washoe County Assessor (Republican); running unopposed in 2026.",
+      "website": null,
+      "sources": [
+        { "label": "Washoe GOP 2026 endorsed candidates", "url": "https://www.washoegop.org/wp-content/uploads/2026/04/WCRP-Elections-2026-Endorsed-Candidates-v2.pdf" },
+        { "label": "Washoe County Assessor administration page", "url": "https://www.washoecounty.gov/assessor/Administration.php" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "justin-taylor",
+      "name": "Justin Taylor",
+      "raceId": "washoe-treasurer",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Washoe County Treasurer (Republican); running unopposed in 2026.",
+      "website": null,
+      "sources": [
+        { "label": "Washoe GOP 2026 endorsed candidates", "url": "https://www.washoegop.org/wp-content/uploads/2026/04/WCRP-Elections-2026-Endorsed-Candidates-v2.pdf" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "nicole-klitzke",
+      "name": "Nicole Klitzke",
+      "raceId": "washoe-public-administrator",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Washoe County Public Administrator (Republican); endorsed by the Washoe County Republican Party for 2026.",
+      "website": null,
+      "sources": [
+        { "label": "Washoe GOP 2026 endorsed candidates", "url": "https://www.washoegop.org/wp-content/uploads/2026/04/WCRP-Elections-2026-Endorsed-Candidates-v2.pdf" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "jan-galassini",
+      "name": "Jan Galassini",
+      "raceId": "washoe-clerk",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent Washoe County Clerk (Republican). Term ends January 2027; office is up for election in 2026.",
+      "website": "https://www.galassiniforclerk.com/",
+      "sources": [
+        { "label": "Jan Galassini campaign website", "url": "https://www.galassiniforclerk.com/" },
+        { "label": "Ballotpedia: Janis Galassini", "url": "https://ballotpedia.org/Janis_Galassini" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "kalie-work",
+      "name": "Kalie Work",
+      "raceId": "washoe-recorder",
+      "party": "Democratic",
+      "incumbent": true,
+      "bio": "Incumbent Washoe County Recorder (Democrat), in office since 2019. Term ends January 2027; office is up for election in 2026.",
+      "website": null,
+      "sources": [
+        { "label": "Ballotpedia: Kalie Work", "url": "https://ballotpedia.org/Kalie_Work" },
+        { "label": "Office of the County Recorder", "url": "https://www.washoecounty.gov/recorder/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "sheena-harvey",
+      "name": "Sheena Harvey",
+      "raceId": "wcsd-board-f",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Community volunteer who moved to Reno to attend UNR; holds a master's degree and a doctorate in education and serves on multiple government boards.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4: District F - 3 candidates for open at-large seat", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "education": {
+          "stance": "Names chronic absenteeism as the top issue; would support attendance via after-school programs, intramurals and community engagement.",
+          "quote": "I think if we can maintain this system of bringing more programs that help support our students...I think that can benefit us as a whole.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "brooke-westlake",
+      "name": "Brooke Westlake",
+      "raceId": "wcsd-board-f",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Parent advocate and 37-year Reno resident, herself a WCSD graduate, with two sons (one in public school, one in charter school). Endorsed by the Washoe County Republican Party.",
+      "website": "https://westlakeforwcsd.com/",
+      "sources": [
+        { "label": "Brooke Westlake campaign website", "url": "https://westlakeforwcsd.com/" },
+        { "label": "mynews4: District F - 3 candidates for open at-large seat", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake" },
+        { "label": "Washoe GOP 2026 endorsed candidates", "url": "https://www.washoegop.org/wp-content/uploads/2026/04/WCRP-Elections-2026-Endorsed-Candidates-v2.pdf" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "education": {
+          "stance": "Prioritizes budget deficits, low enrollment and chronic absenteeism via policy review; says parents are not being heard.",
+          "quote": "Our voices collectively as parents are not being heard for our students.",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Names addressing WCSD budget deficits as a top priority, with willingness to make difficult changes.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "scott-benton",
+      "name": "Scott Benton",
+      "raceId": "wcsd-board-f",
+      "party": "Nonpartisan",
+      "incumbent": false,
+      "bio": "Candidate for WCSD Board District F (at-large). Was unavailable for the mynews4 candidate interview; no biographical detail confirmed in available sources.",
+      "website": null,
+      "sources": [
+        { "label": "mynews4: District F - 3 candidates for open at-large seat", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "colleen-westlake",
+      "name": "Colleen Westlake",
+      "raceId": "wcsd-board-b",
+      "party": "Nonpartisan",
+      "incumbent": true,
+      "bio": "Incumbent WCSD Board of Trustees member for District B; running unopposed in 2026.",
+      "website": null,
+      "sources": [
+        { "label": "Ballotpedia: Washoe County School District elections", "url": "https://ballotpedia.org/Washoe_County_School_District,_Nevada,_elections" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "james-phoenix",
+      "name": "James 'JJ' Phoenix",
+      "raceId": "wcsd-board-c",
+      "party": "Nonpartisan",
+      "incumbent": true,
+      "bio": "Incumbent WCSD Board of Trustees member for District C; running unopposed in 2026.",
+      "website": null,
+      "sources": [
+        { "label": "Washoe GOP 2026 endorsed candidates", "url": "https://www.washoegop.org/wp-content/uploads/2026/04/WCRP-Elections-2026-Endorsed-Candidates-v2.pdf" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    }
+  ]
+}

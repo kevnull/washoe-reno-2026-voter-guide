@@ -1,0 +1,424 @@
+{
+  "races": [
+    {
+      "id": "nv-senate-16",
+      "title": "Nevada State Senate — District 16",
+      "jurisdiction": "Nevada Legislature (Washoe/Carson)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "CLOSED Republican primary on June 9, 2026: only registered Republicans vote. Incumbent Lisa Krasner (R) faces challenger Monica Jaye Stabbert. District 16 spans south Reno/Washoe and the Carson City area. Winner faces Democrat Chrystal Roll (unopposed in the Democratic primary) in November. Only Washoe-area state Senate seat with a contested primary in 2026. Key issues: wildfire, education, election integrity, cost of living/housing, public safety, water/growth from Northern Nevada's data-center and manufacturing boom."
+    },
+    {
+      "id": "nv-assembly-25",
+      "title": "Nevada State Assembly — District 25",
+      "jurisdiction": "Nevada Legislature (Reno/Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "CLOSED Republican primary on June 9, 2026. AD25 covers big sections of Reno around Meadowood Mall, Caughlin Ranch, and northwest Reno (Mae Anne Ave / Robb Dr). Michael Ginsburg vs. Noah Bachman Dodge; no incumbent in the GOP race. Winner challenges Democratic incumbent Selena La Rue Hatch in November. District leans Democratic by roughly 2 points. Key issues: housing affordability, education funding, public safety, EV/highway funding, tax abatements."
+    },
+    {
+      "id": "nv-assembly-40",
+      "title": "Nevada State Assembly — District 40",
+      "jurisdiction": "Nevada Legislature (Carson/Storey/south Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "CLOSED Republican primary on June 9, 2026 with four candidates: Julie Butler, Rich Harvey, Drew Ribar, and Stacy Woodbury. AD40 is centered on Carson City and Storey County but includes a piece of south Washoe County, so it appears for some Washoe voters. Open GOP race (incumbent P.K. O'Neill is running for state Senate). Winner faces Democrat Oscar Fuentes (unopposed in the Democratic primary) in November. Key issues: affordability/cost of living, water, wildfire, energy/utility costs, regulatory and government-spending reform, public safety, immigration."
+    },
+    {
+      "id": "nv-senate-13",
+      "title": "Nevada State Senate — District 13 (no contested primary)",
+      "jurisdiction": "Nevada Legislature (Sparks/Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "NOT on the June 2026 primary ballot as a contested race. Democratic incumbent Richard 'Skip' Daly, Republican Matthew R. Buehler, and Independent American Charlene Young each advanced unopposed within their parties; the general-election matchup is set for November. Listed for completeness only."
+    },
+    {
+      "id": "nv-senate-14",
+      "title": "Nevada State Senate — District 14 (no contested primary)",
+      "jurisdiction": "Nevada Legislature (Sparks/rural Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "NOT contested. Republican incumbent Ira Hansen drew no primary challenger; the Democratic primary was canceled. Listed for completeness only."
+    },
+    {
+      "id": "nv-assembly-24",
+      "title": "Nevada State Assembly — District 24 (no contested primary)",
+      "jurisdiction": "Nevada Legislature (Reno/Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "NOT contested. Democratic incumbent Erica Roth advanced unopposed; her November opponent is Andrew Schaefer (No Political Party). Listed for completeness only."
+    },
+    {
+      "id": "nv-assembly-26",
+      "title": "Nevada State Assembly — District 26 (no contested primary)",
+      "jurisdiction": "Nevada Legislature (Reno/Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "NOT contested. Both primaries were canceled: Democrat Sam Baugh and Republican incumbent Rich DeLong each advanced unopposed to the November general. Listed for completeness only."
+    },
+    {
+      "id": "nv-assembly-27",
+      "title": "Nevada State Assembly — District 27 (no contested primary)",
+      "jurisdiction": "Nevada Legislature (Reno/Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "NOT contested. Democratic incumbent Heather Goulding and Republican Veronica Cortes each advanced unopposed; primaries canceled. Listed for completeness only."
+    },
+    {
+      "id": "nv-assembly-30",
+      "title": "Nevada State Assembly — District 30 (no contested primary)",
+      "jurisdiction": "Nevada Legislature (Sparks/Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "NOT contested. Democratic incumbent Natha Anderson and Republican Trista Gomez each advanced unopposed; primaries canceled. Listed for completeness only."
+    },
+    {
+      "id": "nv-assembly-31",
+      "title": "Nevada State Assembly — District 31 (no contested primary)",
+      "jurisdiction": "Nevada Legislature (Sparks/Washoe)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "NOT contested. Democrat Neal Schwartz and Republican incumbent Jill Dickman each advanced unopposed; primaries canceled. Listed for completeness only."
+    },
+    {
+      "id": "nv-assembly-32",
+      "title": "Nevada State Assembly — District 32 (no contested primary)",
+      "jurisdiction": "Nevada Legislature (rural Washoe/northern NV)",
+      "type": "partisan",
+      "tier": "standard",
+      "seats": 1,
+      "notes": "NOT contested. Republican incumbent Alexis Hansen advanced unopposed; the Democratic primary was canceled. Listed for completeness only."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "lisa-krasner",
+      "name": "Lisa Krasner",
+      "raceId": "nv-senate-16",
+      "party": "Republican",
+      "incumbent": true,
+      "bio": "Incumbent state senator for District 16, first elected to the Senate in 2022 after three terms in the Assembly (District 26, elected 2016). Attorney (Juris Doctor) and adjunct college instructor teaching the U.S. and Nevada Constitutions.",
+      "website": "https://www.lisakrasner.com",
+      "sources": [
+        { "label": "Nevada Appeal — GOP candidates AD40/SD16 discuss the issues (May 16, 2026)", "url": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/" },
+        { "label": "Ballotpedia — Nevada State Senate District 16", "url": "https://ballotpedia.org/Nevada_State_Senate_District_16" },
+        { "label": "Sierra Nevada Ally — Who's Running in the Senate (2026)", "url": "https://sierranevadaally.org/2026/06/02/nevada-state-legislature-races-whos-running-in-the-senate/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "education": {
+          "stance": "Names education one of Nevada's three greatest challenges and a priority for the next legislative session.",
+          "quote": "Wildfire. Election integrity. Education.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "electionIntegrity": {
+          "stance": "Lists election integrity among the top challenges she wants to address in the next session.",
+          "quote": "Wildfire. Election integrity. Education.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Frames wildfire prevention/response as a top-tier statewide challenge for the next session.",
+          "quote": "Wildfire. Election integrity. Education.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Says national/Republican policies should be embraced only where tailored to Nevada's specific needs, not one-size-fits-all.",
+          "quote": "The political policies that are appropriate for Nevadans must be tailored for the people of Nevada and the needs of Nevadans.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "monica-jaye-stabbert",
+      "name": "Monica Jaye Stabbert",
+      "raceId": "nv-senate-16",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Conservative talk-radio host (The Monica Jaye Show) with 30+ years in broadcasting; small-business owner from a family automotive background. Vice President of the Nevada Humane Society and First VP of Mt. Rose Republican Women. Challenging incumbent Lisa Krasner in the SD16 GOP primary.",
+      "website": "https://www.monicajaye.com",
+      "sources": [
+        { "label": "Nevada Appeal — GOP candidates AD40/SD16 discuss the issues (May 16, 2026)", "url": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/" },
+        { "label": "Sierra Nevada Ally — Who's Running in the Senate (2026)", "url": "https://sierranevadaally.org/2026/06/02/nevada-state-legislature-races-whos-running-in-the-senate/" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "housing": {
+          "stance": "Names cost of living and housing affordability her top challenge; wants to build on AB540, invest in middle-income attainable housing, and cut permitting red tape.",
+          "quote": "Cost of living and housing affordability. Families are being squeezed from every direction. I'd like to see the Legislature build on AB540, continue investing in attainable housing for middle-income families, cut permitting red tape and keep pushing back on new taxes and fees.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Wants to keep pushing back on new taxes and fees as part of easing cost of living.",
+          "quote": "keep pushing back on new taxes and fees",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "education": {
+          "stance": "Ties workforce development to schools: wants stronger career/technical education, more apprenticeships, and fewer licensing barriers so Nevadans fill local jobs.",
+          "quote": "I want to see legislation that strengthens career and technical education in our high schools, expands apprenticeships and partnerships between employers and our community colleges and removes licensing barriers that keep qualified people out of good-paying trades.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Points to Northern Nevada's data-center, Tesla, Switch and manufacturing boom and wants Nevadans, not imported labor, filling those jobs.",
+          "quote": "Northern Nevada is exploding — Tesla, Switch, data centers, advanced manufacturing, logistics. The jobs are coming, but we have to make sure Nevadans are the ones filling them.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Backs stronger penalties for violent and repeat offenders plus recruitment/retention support for law enforcement and first responders.",
+          "quote": "I want to see stronger penalties for violent and repeat offenders, support for recruitment and retention and accountability for those who break our laws.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Supports President Trump's focus on securing the border and enforcing immigration laws where it aligns with Nevada's interests.",
+          "quote": "I support the President's focus on securing the border and enforcing our immigration laws, his push for energy independence and tax policies that let families and small businesses keep more of what they earn.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "michael-ginsburg",
+      "name": "Michael Ginsburg",
+      "raceId": "nv-assembly-25",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Third-generation Reno resident, age 63; manager of distribution design services at NV Energy/Sierra Pacific Power Co. Founding president of the Sierra Nevada Community Aquatics nonprofit (Moana pool project). Previously ran for state Senate District 15.",
+      "website": "https://ginsburg4nv.com/",
+      "sources": [
+        { "label": "Reno Gazette Journal candidate guide (via AOL) — Republicans Ginsburg, Bachman Dodge seek NV Assembly District 25", "url": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html" },
+        { "label": "Ginsburg for Nevada campaign site", "url": "https://ginsburg4nv.com/" },
+        { "label": "Ballotpedia — Michael Ginsburg", "url": "https://ballotpedia.org/Michael_Ginsburg" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {
+        "budget": {
+          "stance": "Would avoid cutting until studying the impacts; would protect public safety, health, and education as core state responsibilities.",
+          "quote": "My priorities, however, are public safety, health, and education. Those are the core responsibilities for the State. If cuts need to be made, I will protect the funding for those key areas.",
+          "citationUrl": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Skeptical of transferable tax credits for big projects; says abatements should stay with the intended project, citing past general-fund losses.",
+          "quote": "I don't like that the credits are transferable — they should stay with the project for which they were intended.",
+          "citationUrl": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Wants to address the affordable-housing crisis through zoning reform, streamlined permitting, and land acquisition.",
+          "quote": null,
+          "citationUrl": "https://ginsburg4nv.com/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Proposes a fee/method to capture lost highway-fund revenue from electric vehicles, which he says are heavier and strain infrastructure while paying little.",
+          "quote": "We need to make sure EVs are contributing to the highway fund, just like those of us who drive gas vehicles.",
+          "citationUrl": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "noah-bachman-dodge",
+      "name": "Noah Bachman Dodge",
+      "raceId": "nv-assembly-25",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican candidate for Assembly District 25; holds a two-year degree from Truckee Meadows Community College and a bachelor's degree from the University of Nevada, Reno. Did not respond to the Reno Gazette Journal's 2026 candidate guide.",
+      "website": null,
+      "sources": [
+        { "label": "Reno Gazette Journal candidate guide (via AOL) — Republicans Ginsburg, Bachman Dodge seek NV Assembly District 25", "url": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html" },
+        { "label": "Ballotpedia — Nevada State Assembly District 25", "url": "https://ballotpedia.org/Nevada_State_Assembly_District_25" }
+      ],
+      "youtubeInterviews": [],
+      "positions": {}
+    },
+    {
+      "id": "julie-butler",
+      "name": "Julie Butler",
+      "raceId": "nv-assembly-40",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican candidate for AD40 who spent 30 years with the State of Nevada, mostly in executive leadership, with deep experience in the state budget process and drafting/implementing legislation.",
+      "website": "https://www.julieforav40.com",
+      "sources": [
+        { "label": "Nevada Appeal — GOP candidates AD40/SD16 discuss the issues (May 16, 2026)", "url": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/" },
+        { "label": "Ballotpedia — Nevada State Assembly District 40", "url": "https://ballotpedia.org/Nevada_State_Assembly_District_40" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Capital Chatter — AD40 candidates podcast", "url": "https://tinyurl.com/AD40Podcast", "channel": "Capital Chatter" }
+      ],
+      "positions": {
+        "budget": {
+          "stance": "Touts hands-on knowledge of the state budget process and the roles of the Budget Division and Legislative Fiscal staff in finalizing the state budget.",
+          "quote": "I understand the state budget process and the roles of the State Budget Division and the Legislative Fiscal Staff in finalizing and approving the state budget.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "growth": {
+          "stance": "Names aging/insufficient infrastructure (roads, power, water) a top challenge; wants stronger NDOT/GOED/local cooperation and public-private partnerships.",
+          "quote": "Aging and availability of infrastructure — demands for new/improved roads, power and water supplies have outpaced supply.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "economy": {
+          "stance": "Calls fuel supply/prices a top challenge, noting Nevada gets ~88% of fuel from California; backs bulk storage and new pipeline capacity.",
+          "quote": "Fuel supply/prices – Nevada gets approximately 88% of its fuels from California, which has left Nevada increasingly vulnerable to supply shocks.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "rich-harvey",
+      "name": "Rich Harvey",
+      "raceId": "nv-assembly-40",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican candidate for AD40; career fire chief and national-team incident commander who represented the Nevada Fire Chiefs Association at the Legislature for three sessions and worked on federal wildfire/land policy with the Western Fire Chiefs Association.",
+      "website": "https://www.richharveynv.com",
+      "sources": [
+        { "label": "Nevada Appeal — GOP candidates AD40/SD16 discuss the issues (May 16, 2026)", "url": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/" },
+        { "label": "Ballotpedia — Nevada State Assembly District 40", "url": "https://ballotpedia.org/Nevada_State_Assembly_District_40" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Capital Chatter — AD40 candidates podcast", "url": "https://tinyurl.com/AD40Podcast", "channel": "Capital Chatter" }
+      ],
+      "positions": {
+        "water": {
+          "stance": "Names water scarcity/long-term supply a top challenge; backs conservation, reuse and storage infrastructure, and protecting existing water rights.",
+          "quote": "Water scarcity and long-term supply. I would support legislation that strengthens water conservation, invests in infrastructure such as reuse and storage and protects existing water rights while encouraging more efficient use.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Prioritizes wildfire prevention: more fuels-reduction projects, streamlined vegetation-management permitting, and better state/local/federal coordination.",
+          "quote": "Wildfire prevention and community protection. I would support legislation to expand fuels reduction projects, streamline permitting for vegetation management and improve coordination between state, local and federal partners.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "housing": {
+          "stance": "Wants to lower cost of living by increasing housing supply and cutting regulations that drive up costs.",
+          "quote": "Cost of living and economic opportunity. I would support policies that increase housing supply, reduce unnecessary regulations that drive up costs and promote responsible energy development to keep prices stable.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "drew-ribar",
+      "name": "Drew Ribar",
+      "raceId": "nv-assembly-40",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican candidate for AD40; private-sector business owner and founder/first president of a Nevada towing association who worked from outside government to change state law. Frequent attendee of government meetings and the legislative process.",
+      "website": null,
+      "sources": [
+        { "label": "Nevada Appeal — GOP candidates AD40/SD16 discuss the issues (May 16, 2026)", "url": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/" },
+        { "label": "Ballotpedia — Nevada State Assembly District 40", "url": "https://ballotpedia.org/Nevada_State_Assembly_District_40" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Capital Chatter — AD40 candidates podcast", "url": "https://tinyurl.com/AD40Podcast", "channel": "Capital Chatter" }
+      ],
+      "positions": {
+        "transparency": {
+          "stance": "Top challenges are unaccountable government and lack of constitutional literacy; would require constitutional education for public employees and curb agency 'ad hoc' rulemaking.",
+          "quote": "The three greatest challenges facing Nevada are unaccountable government, poor public services and a lack of constitutional literacy among those sworn to uphold it.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "budget": {
+          "stance": "Wants to streamline agencies like the DMV so Nevadans aren't waiting over a month for an appointment to pay fees.",
+          "quote": "Second, I want to streamline agencies like the DMV so Nevadans are not waiting over a month just to make an appointment to pay their fees.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    },
+    {
+      "id": "stacy-woodbury",
+      "name": "Stacy Woodbury",
+      "raceId": "nv-assembly-40",
+      "party": "Republican",
+      "incumbent": false,
+      "bio": "Republican candidate for AD40 and self-described lifelong conservative; former Senior Research Analyst at the Legislative Counsel Bureau, Deputy Chief of Staff to Gov. Jim Gibbons, Deputy Secretary of State, Gaming Control Board chief of administration, and executive director of the Nevada Commission on Ethics.",
+      "website": "https://www.stacywoodbury.com",
+      "sources": [
+        { "label": "Nevada Appeal — GOP candidates AD40/SD16 discuss the issues (May 16, 2026)", "url": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/" },
+        { "label": "Ballotpedia — Nevada State Assembly District 40", "url": "https://ballotpedia.org/Nevada_State_Assembly_District_40" }
+      ],
+      "youtubeInterviews": [
+        { "title": "Capital Chatter — AD40 candidates podcast", "url": "https://tinyurl.com/AD40Podcast", "channel": "Capital Chatter" }
+      ],
+      "positions": {
+        "budget": {
+          "stance": "Frames affordability as the through-line issue and wants a DOGE-style top-to-bottom audit of state agencies and sunset reviews of underperforming programs.",
+          "quote": "Affordability, affordability and affordability. That is the issue that ties all the others together.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "taxes": {
+          "stance": "Targets energy/utility costs: wants the PUC to publish a ratepayer cost-impact statement for every new mandate and a legislative vote before new rate-driving programs lock in.",
+          "quote": "I would support legislation requiring the Public Utilities Commission to publish an annual cost-to-ratepayer impact statement for every new mandate, and giving the Legislature a direct vote before any new rate-driving program is locked in.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Wants to build on Gov. Lombardo's special-session work, restore consequences for repeat property crime and fentanyl trafficking, and back sheriffs and law enforcement.",
+          "quote": "I would build on Governor Lombardo's work in the 36th Special Session, restore real consequences for repeat property crime and fentanyl trafficking, support our sheriffs and law enforcement officers, and end the soft-on-crime experiments.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        },
+        "immigration": {
+          "stance": "Calls for full cooperation with immigration authorities, no sanctuary policies, and consequences for human smuggling and fentanyl trafficking.",
+          "quote": "Carson City should reinforce the federal effort: full cooperation with immigration authorities, no sanctuary policies and real consequences for human smuggling and fentanyl trafficking inside our state.",
+          "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
+          "videoUrl": null,
+          "timestamp": null
+        }
+      }
+    }
+  ]
+}
