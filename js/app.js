@@ -299,11 +299,12 @@ function shortBio(c) {
 
 function issueCell(c, k) {
   const p = (c.positions || {})[k];
-  if (!p) { const td = el('td', 'cell empty'); td.innerHTML = '<span class="dash">·</span>'; return td; }
+  if (!p) { const td = el('td', 'cell empty'); td.innerHTML = '<span class="dash">—</span>'; return td; }
   const hasVid = !!p.videoUrl;
   const td = el('td', 'cell' + (hasVid ? ' has-video' : ''));
   td.dataset.cand = c.id; td.dataset.issue = k;
-  td.innerHTML = `<span class="dot"></span>${hasVid ? '<span class="vid-flag">▶ clip</span>' : ''}`;
+  td.innerHTML = `<div class="cell-stance">${esc(p.stance)}</div>` +
+    `<div class="cell-flag">${hasVid ? '▶ video clip' : 'source ↗'}</div>`;
   return td;
 }
 

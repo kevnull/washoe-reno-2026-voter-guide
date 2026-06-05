@@ -194,19 +194,25 @@ table.matrix { border-collapse: collapse; width: 100%; min-width: 640px; font-si
 .cand-sub { font-size: 12px; color: var(--ink-faint); margin-top: 3px; }
 
 .cell {
-  text-align: center; vertical-align: middle; padding: 8px 6px; cursor: pointer;
-  min-width: 64px; position: relative; transition: background .1s;
+  text-align: left; vertical-align: top; padding: 9px 11px; cursor: pointer;
+  min-width: 200px; max-width: 240px; position: relative; transition: background .1s;
+  border-left: 3px solid var(--accent-2);
 }
+.cell.has-video { border-left-color: var(--accent); }
 .cell:hover { background: #faf6ec; }
-.cell.empty { cursor: default; }
+.cell.empty { cursor: default; border-left: 1px solid var(--line); min-width: 54px; max-width: 54px; text-align: center; }
 .cell.empty:hover { background: transparent; }
-.dot {
-  display: inline-block; width: 11px; height: 11px; border-radius: 50%;
-  background: var(--accent-2); box-shadow: 0 0 0 3px rgba(31,86,115,.14);
+.cell-stance {
+  font-size: 12.5px; line-height: 1.36; color: var(--ink);
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
 }
-.cell.has-video .dot { background: var(--accent); box-shadow: 0 0 0 3px rgba(154,42,42,.16); }
-.cell .vid-flag { font-size: 9px; color: var(--accent); display: block; margin-top: 3px; font-weight: 700; letter-spacing: .03em; }
-.cell.empty .dash { color: var(--line-strong); font-size: 16px; }
+.cell-flag {
+  font-size: 10px; font-weight: 700; letter-spacing: .03em; margin-top: 6px;
+  color: var(--accent-2); text-transform: uppercase; opacity: .85;
+}
+.cell.has-video .cell-flag { color: var(--accent); }
+.cell:hover .cell-flag { opacity: 1; }
+.cell.empty .dash { color: var(--line-strong); font-size: 15px; }
 
 .no-positions-row td { padding: 14px 12px; color: var(--ink-faint); font-size: 13px; font-style: italic; }
 .no-primary-note { padding: 0 18px 16px; color: var(--ink-faint); font-size: 13px; font-style: italic; }
