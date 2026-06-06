@@ -312,7 +312,8 @@ function issueCell(c, k) {
   const td = el('td', 'cell' + (hasVid ? ' has-video' : ''));
   td.dataset.cand = c.id; td.dataset.issue = k;
   td.dataset.label = `${iss.icon} ${iss.label}`;
-  td.innerHTML = `<div class="cell-stance">${esc(p.stance)}</div>` +
+  td.innerHTML = `<span class="cell-dot" aria-hidden="true"></span>` +
+    `<div class="cell-stance">${esc(p.stance)}</div>` +
     `<div class="cell-flag">${hasVid ? '▶ video clip' : 'source ↗'}</div>`;
   return td;
 }
