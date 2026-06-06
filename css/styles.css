@@ -153,9 +153,9 @@ main { padding: 28px 20px 60px; }
   background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius);
   margin-bottom: 18px; box-shadow: var(--shadow); overflow: hidden;
 }
-.race-head { padding: 16px 18px 12px; }
+.race-head { padding: 15px 18px 14px; background: #23262e; color: #e7e5df; }
 .race-title-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
-.race-head h3 { font-size: 20px; margin: 0; }
+.race-head h3 { font-size: 20px; margin: 0; color: #fff; }
 .badge {
   font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
   padding: 3px 8px; border-radius: 999px; white-space: nowrap;
@@ -163,8 +163,9 @@ main { padding: 28px 20px 60px; }
 .badge--partisan { background: #f3e0dd; color: #9a2a2a; }
 .badge--nonpartisan { background: #dceaf0; color: #1f5673; }
 .badge--marquee { background: #f6ecd2; color: #8a6308; }
-.race-notes { font-size: 13px; color: var(--ink-soft); margin: 8px 0 0; }
-.race-meta { font-size: 12.5px; color: var(--ink-faint); margin: 4px 0 0; }
+.race-notes { font-size: 13px; color: #c5c3bd; margin: 8px 0 0; }
+.race-meta { font-size: 12.5px; color: #fff; margin: 4px 0 0; }
+.race-head .ineligible-tag { background: #5a2d28; color: #f3c9c1; }
 
 /* Race signals (fundraising / endorsements / polls) */
 .signals { border-top: 1px solid var(--line); background: #faf8f2; }
@@ -197,7 +198,18 @@ main { padding: 28px 20px 60px; }
 .sig-caveat { font-size: 12px; color: #8a5a2a; background: #fbf1e0; padding: 7px 10px; border-radius: 7px; margin: 0 0 11px; }
 
 /* Matrix */
+.matrix-wrap { position: relative; }
 .matrix-scroll { overflow-x: auto; border-top: 1px solid var(--line); }
+/* Right-edge fade hint that there's more to scroll (desktop) */
+.matrix-fade { position: absolute; top: 0; bottom: 0; width: 60px; pointer-events: none; z-index: 4; opacity: 0; transition: opacity .18s; }
+.matrix-fade-r { right: 0; background: linear-gradient(to left, var(--paper-2) 12%, rgba(255,255,255,0)); }
+.matrix-fade-r::after {
+  content: '⟩'; position: absolute; right: 10px; top: 64px; color: var(--accent-2);
+  font-size: 20px; font-weight: 700; opacity: .75;
+}
+.matrix-wrap.can-r .matrix-fade-r { opacity: 1; }
+/* Per-candidate expand control: desktop shows the full matrix, so it's hidden there */
+.cand-expand { display: none; }
 table.matrix { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 14px; }
 .matrix th, .matrix td { border-bottom: 1px solid var(--line); padding: 0; }
 .matrix thead th {
@@ -375,9 +387,21 @@ table.matrix { border-collapse: collapse; width: 100%; min-width: 640px; font-si
 
   /* Race: flat and full-bleed; separated from the next race by a divider (no box, no inner padding) */
   .race-card { border: none; border-radius: 0; box-shadow: none; margin-bottom: 0; overflow: visible; background: none; }
-  .level-body > .race-card { border-bottom: 1px solid var(--line-strong); padding-bottom: 6px; }
-  .race-head { padding: 15px 0 9px; }
-  .race-head h3 { font-size: 19px; }
+  .level-body > .race-card { border-bottom: 1px solid var(--line-strong); padding-bottom: 8px; }
+  .race-head { padding: 12px 13px; border-radius: 9px; margin-top: 8px; }
+  .race-head h3 { font-size: 18px; }
+
+  /* Each candidate collapses to its header; tap the pill (top-right) to reveal positions */
+  .matrix tbody tr { position: relative; }
+  .cand-expand {
+    display: inline-flex; align-items: center; gap: 4px; position: absolute; top: 12px; right: 0;
+    background: var(--paper-2); border: 1px solid var(--line-strong); border-radius: 14px;
+    padding: 3px 9px; font: inherit; font-size: 12px; font-weight: 700; color: var(--ink-soft); cursor: pointer;
+  }
+  .cand-expand .cx-arrow { font-size: 9px; transition: transform .18s; }
+  tr.expanded .cand-expand { color: var(--accent-2); border-color: var(--accent-2); }
+  tr.expanded .cand-expand .cx-arrow { transform: rotate(180deg); }
+  .matrix tbody tr:not(.expanded) td.cell { display: none; }
 
   /* Matrix -> flat candidate list. Fixes desktop `table.matrix{min-width:640}` (higher specificity). */
   .matrix-scroll { overflow: visible; border-top: none; }
@@ -386,7 +410,7 @@ table.matrix { border-collapse: collapse; width: 100%; min-width: 640px; font-si
   .matrix thead { display: none; }
   .matrix tbody tr { padding: 11px 0 4px; border-top: 1px solid var(--line); }
   .matrix tbody tr:first-child { border-top: none; padding-top: 2px; }
-  .matrix td.cand-cell { position: static; box-shadow: none; min-width: 0; padding: 0 0 3px !important; }
+  .matrix td.cand-cell { position: static; box-shadow: none; min-width: 0; padding: 0 46px 3px 0 !important; }
   .matrix td.cell {
     border-left: 3px solid var(--accent-2); border-bottom: none;
     min-width: 0; max-width: none; padding: 6px 0 6px 11px; margin-top: 8px;

@@ -58,6 +58,9 @@ async function init() {
   wireEvents();
   render();
   updateBallotBar();
+  // Re-measure scroll fades once fonts settle (column widths change after web fonts load).
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(setupFades);
+  window.addEventListener('load', setupFades);
 }
 
 function hydrateChrome() {
@@ -89,6 +92,8 @@ function wireEvents() {
 
   const app = $('#app');
   app.addEventListener('click', e => {
+    const exp = e.target.closest('.cand-expand');
+    if (exp) { const tr = exp.closest('tr'); const open = tr.classList.toggle('expanded'); exp.setAttribute('aria-expanded', String(open)); return; }
     const details = e.target.closest('[data-open-cand]');
     if (details) { e.preventDefault(); openDrawer(details.dataset.openCand); return; }
     const cell = e.target.closest('.cell:not(.empty)');
@@ -102,6 +107,7 @@ function wireEvents() {
     if (pick) { e.preventDefault(); toggleSelect(pick.closest('tr')); }
   });
 
+  window.addEventListener('resize', () => setupFades());
   $('#viewBallot').addEventListener('click', openBallot);
   $('#clearBallot').addEventListener('click', clearBallot);
   $('#ballotClose').addEventListener('click', () => $('#ballotModal').hidden = true);
@@ -204,6 +210,7 @@ function render() {
     g.appendChild(head); g.appendChild(body);
     app.appendChild(g);
   }
+  requestAnimationFrame(() => requestAnimationFrame(setupFades));
 }
 
 function buildJumpNav(levels, groups) {
@@ -318,8 +325,25 @@ function raceCard({ race, cands, elig }) {
   });
   table.appendChild(tb);
   scroll.appendChild(table);
-  card.appendChild(scroll);
+  const wrap = el('div', 'matrix-wrap');
+  wrap.appendChild(scroll);
+  wrap.appendChild(el('div', 'matrix-fade matrix-fade-r'));
+  card.appendChild(wrap);
   return card;
+}
+
+// Show a right-edge fade while there's more table to scroll to (desktop horizontal scroll cue).
+function setupFades() {
+  document.querySelectorAll('.matrix-wrap').forEach(wrap => {
+    const sc = wrap.querySelector('.matrix-scroll');
+    if (!sc || sc.dataset.fadeBound) { if (sc) updateFade(wrap, sc); return; }
+    sc.dataset.fadeBound = '1';
+    sc.addEventListener('scroll', () => updateFade(wrap, sc), { passive: true });
+    updateFade(wrap, sc);
+  });
+}
+function updateFade(wrap, sc) {
+  wrap.classList.toggle('can-r', sc.scrollLeft + sc.clientWidth < sc.scrollWidth - 2);
 }
 
 /* ---------- My Ballot ---------- */
@@ -527,13 +551,15 @@ function candCell(c, race) {
   const pills = [];
   if (race.type === 'partisan' && c.party) pills.push(`<span class="pill pill--${esc(c.party)}">${esc(c.party === 'Nonpartisan' ? 'NP' : c.party.slice(0, 3))}</span>`);
   if (c.incumbent) pills.push('<span class="pill pill--inc">Incumbent</span>');
+  const nPos = c.positions ? Object.keys(c.positions).length : 0;
   td.innerHTML = `<div class="cand-flex">` +
     `<span class="pick-radio" aria-hidden="true"></span>` +
     `${avatarHtml(c)}<div class="cand-info">` +
     `<div class="cand-name">${esc(c.name)} ${pills.join(' ')}</div>` +
     `<div class="cand-sub">${esc(c.summary || shortBio(c))}</div>` +
     `<button class="cand-details" type="button" data-open-cand="${esc(c.id)}">Details ↗</button>` +
-    `</div></div>`;
+    `</div></div>` +
+    (nPos ? `<button class="cand-expand" type="button" aria-label="Show ${nPos} position${nPos === 1 ? '' : 's'}" aria-expanded="false"><span class="cx-label">${nPos}</span><span class="cx-arrow" aria-hidden="true">▾</span></button>` : '');
   return td;
 }
 function shortBio(c) {
