@@ -1,0 +1,268 @@
+[
+  {
+    "candidateId": "jesse-razo",
+    "issueKey": "budget",
+    "stance": "Calls for a 'true budget investigation' through an AI audit of city finances.",
+    "quote": "true budget investigation through AI audit",
+    "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+  },
+  {
+    "candidateId": "jesse-razo",
+    "issueKey": "transparency",
+    "stance": "Top priority is changing Reno's 'weak mayor' system, arguing the city has outgrown its current government structure.",
+    "quote": "Changing weak mayor system",
+    "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+  },
+  {
+    "candidateId": "john-wayne-zink",
+    "issueKey": "homelessness",
+    "stance": "Identifies mental health and addiction as primary causes of homelessness requiring support-based responses.",
+    "quote": "mental health issues, as well as addiction",
+    "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+  },
+  {
+    "candidateId": "greg-nuttle",
+    "issueKey": "dataCenters",
+    "stance": "Pledges to continue opposing data centers and Flock surveillance cameras.",
+    "quote": "continue to oppose flock cameras and data centers",
+    "citationUrl": "https://nutt4reno.com/"
+  },
+  {
+    "candidateId": "greg-nuttle",
+    "issueKey": "housing",
+    "stance": "Says Reno needs more genuinely affordable housing via smart development and long-term planning, not short-term fixes.",
+    "quote": "Reno needs more housing that people can actually afford. I'll support smart development, reduce bottlenecks, and ensure long-term planning, not short-term fixes.",
+    "citationUrl": "https://nutt4reno.com/"
+  },
+  {
+    "candidateId": "greg-nuttle",
+    "issueKey": "transparency",
+    "stance": "Says city government must be accountable; would hold himself and council members responsible for listening to constituents.",
+    "quote": "Reno's government must be accountable to the community that it represents",
+    "citationUrl": "https://nutt4reno.com/"
+  },
+  {
+    "candidateId": "tim-ross",
+    "issueKey": "growth",
+    "stance": "Backs smart, balanced growth funded by restricted utility funds rather than the General Fund, with regionalization to cut redundancy.",
+    "quote": "Utilize restricted funds for utilities and stop abusing the General Fund",
+    "citationUrl": "https://rossforreno.com/"
+  },
+  {
+    "candidateId": "tim-ross",
+    "issueKey": "transparency",
+    "stance": "Promises transparency, ending hidden liabilities, and bringing stakeholders into the conversation.",
+    "quote": "Be transparent, stop the hidden liabilities and answer 'Why?'",
+    "citationUrl": "https://rossforreno.com/"
+  },
+  {
+    "candidateId": "corinthia-yancey",
+    "issueKey": "homelessness",
+    "stance": "Calls the homelessness system a record of exhausted failures, with thousands stuck in a fragmented, uncoordinated system.",
+    "quote": "exhausted failures. Thousands are stuck in the fragmented system",
+    "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+  },
+  {
+    "candidateId": "corinthia-yancey",
+    "issueKey": "housing",
+    "stance": "Highlights that over half of Reno renters are cost-burdened and backs fair housing, eviction transparency and affordable-housing funding.",
+    "quote": "Over 50% of renters are cost-burdened",
+    "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+  },
+  {
+    "candidateId": "devon-reese",
+    "issueKey": "budget",
+    "stance": "Frames the budget as a statement of priorities and says he is not interested in cutting city staff.",
+    "quote": "Our budget is a reflection of our priorities",
+    "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+  },
+  {
+    "candidateId": "devon-reese",
+    "issueKey": "homelessness",
+    "stance": "Says the city must keep people from falling into homelessness and help them out of it, treating it as a public-health and public-safety issue.",
+    "quote": "We also must do what we can to make sure people don't fall through the cracks and into homelessness, and try to help them out of it when we do.",
+    "citationUrl": "https://www.votereese.com/vision/"
+  },
+  {
+    "candidateId": "devon-reese",
+    "issueKey": "housing",
+    "stance": "Pledges to keep working to make housing and childcare affordable, citing affordable units built and preserved during his tenure.",
+    "quote": "We need to continue to do everything in our power to help make it so that housing, childcare, and everything else is actually affordable.",
+    "citationUrl": "https://www.votereese.com/vision/"
+  },
+  {
+    "candidateId": "devon-reese",
+    "issueKey": "publicSafety",
+    "stance": "Supports a community policing model with neighborhood police stations across the city.",
+    "quote": "I want to see community police stations spread across the city, to provide better service and to continue our move toward a community public safety model of neighborhood policing.",
+    "citationUrl": "https://www.votereese.com/vision/"
+  },
+  {
+    "candidateId": "matt-johnson",
+    "issueKey": "dataCenters",
+    "stance": "Supports a moratorium to slow data-center approvals while sustainable, forward-thinking regulations are created.",
+    "quote": "We need to slow down approval of data centers and I support adopting a moratorium that allows time to create sustainable, forward-thinking regulations.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "matt-johnson",
+    "issueKey": "housing",
+    "stance": "Would prioritize development in blighted areas, vacant buildings and infill while protecting historic character and open space.",
+    "quote": "We should prioritize development in blighted areas, vacant buildings and appropriate infill sites while protecting historic character and open spaces.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "matt-johnson",
+    "issueKey": "budget",
+    "stance": "Says raising taxes on small businesses and nonprofits will not solve the city's fiscal crisis.",
+    "quote": "Simply raising taxes on small businesses and non-profits will not get us out of this crisis.",
+    "citationUrl": "https://mattforreno.com/issues"
+  },
+  {
+    "candidateId": "matt-johnson",
+    "issueKey": "transparency",
+    "stance": "Calls for leaders who disclose who is influencing their decision-making.",
+    "quote": "We need leaders who are transparent and disclose who is influencing their decision making.",
+    "citationUrl": "https://mattforreno.com/issues"
+  },
+  {
+    "candidateId": "summer-pellett",
+    "issueKey": "budget",
+    "stance": "Would eliminate wasteful and duplicate regional spending and sell or lease underutilized city assets to cut municipal debt.",
+    "quote": "Eliminate wasteful spending and duplicate funding of regional services",
+    "citationUrl": "https://electsummer.com/"
+  },
+  {
+    "candidateId": "summer-pellett",
+    "issueKey": "publicSafety",
+    "stance": "Would never cut public-safety funding, calling police, fire and emergency services core local-government responsibilities.",
+    "quote": "I would never cut funding for public safety. Police, fire and emergency services are the core responsibilities of local government and essential to protecting lives.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "summer-pellett",
+    "issueKey": "housing",
+    "stance": "Wants a balanced housing mix that keeps Reno affordable while respecting current residents' quality of life.",
+    "quote": "Balancing the need for housing with community concerns begins with respecting our current residents by ensuring that new development does not negatively impact their quality of life.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "summer-pellett",
+    "issueKey": "dataCenters",
+    "stance": "Says data centers should fully mitigate water and power impacts and be compatible with surrounding land uses.",
+    "quote": "These projects should be required to fully mitigate their impact on critical infrastructure, including water and power, and be designed in a way that is compatible with surrounding land uses.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "vanessa-vaupel",
+    "issueKey": "housing",
+    "stance": "Says Reno needs more housing, citing unambiguous data on affordability, workforce retention and regional growth.",
+    "quote": "We need more housing. The data on affordability, workforce retention and regional growth is unambiguous.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "vanessa-vaupel",
+    "issueKey": "growth",
+    "stance": "Wants growth that works for current residents, with infrastructure planned before projects are approved.",
+    "quote": "growth that works for the people who already live here, instead of approving projects first",
+    "citationUrl": "https://votewithvanessa.com/issues/"
+  },
+  {
+    "candidateId": "vanessa-vaupel",
+    "issueKey": "budget",
+    "stance": "Frames parks and preventive maintenance as health and cost-saving infrastructure; says prevention is far cheaper than deferred fixes.",
+    "quote": "Prevention costs pennies. Treatment costs millions.",
+    "citationUrl": "https://votewithvanessa.com/issues/"
+  },
+  {
+    "candidateId": "ian-luetkehans",
+    "issueKey": "dataCenters",
+    "stance": "Would require data centers to use air-based, non-water cooling systems except for immediate fire hazards.",
+    "quote": "We should make sure that they have non-water cooling/heating systems instead using air for cooling and heating except for immediate fire hazards.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "ian-luetkehans",
+    "issueKey": "housing",
+    "stance": "Would tax landlords on empty units and limit out-of-state in-migration until reaching a 3:1 housing-availability ratio.",
+    "quote": "By taxing landlords about empty housing that they have and try to stop people from coming in out of state until we have a higher, preferably 3:1 housing availability.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "ian-luetkehans",
+    "issueKey": "budget",
+    "stance": "Would cut the city council's pension (net of basic living costs) but says he would never cut park funding.",
+    "quote": "I'd like to cut the city council's pension minus their bills for rent/mortgage and groceries. Something I would never cut is funding for city parks.",
+    "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+  },
+  {
+    "candidateId": "meghan-ebert",
+    "issueKey": "growth",
+    "stance": "Names a lack of infrastructure to support residents, including first responders and roads, as the city's biggest problem; backs responsible development.",
+    "quote": null,
+    "citationUrl": "https://mynews4.com/news/local/meet-the-candidates-running-to-represent-the-north-valleys-cold-springs-damonte-ranch-south-reno-on-the-city-council"
+  },
+  {
+    "candidateId": "rob-pierce",
+    "issueKey": "dataCenters",
+    "stance": "Says high-demand projects like data centers must prove they won't burden residents and meet clear water, traffic and safety standards.",
+    "quote": "if a project can't meet clear standards for traffic, water availability, and public safety, it shouldn't move forward",
+    "citationUrl": "https://thisisreno.com/2026/05/reno-responsible-growth-rob-pierce/"
+  },
+  {
+    "candidateId": "rob-pierce",
+    "issueKey": "water",
+    "stance": "Calls water the most limited resource in Northern Nevada and says decisions made as if it's unlimited are reckless.",
+    "quote": null,
+    "citationUrl": "https://thisisreno.com/2026/05/reno-responsible-growth-rob-pierce/"
+  },
+  {
+    "candidateId": "rob-pierce",
+    "issueKey": "transparency",
+    "stance": "Pledges transparent budgeting, cutting government waste and decisions that are explained rather than buried in reports.",
+    "quote": "I promise to be guided by common sense. I'll be transparent, and I'll listen to you",
+    "citationUrl": "https://robforwashoe.com/"
+  },
+  {
+    "candidateId": "wes-duncan",
+    "issueKey": "homelessness",
+    "stance": "Would offer services first but use criminal law against those violating public health and safety.",
+    "quote": "We're going to compassionately try to connect you to services. But if you are violating public health and public safety, you're going to use the criminal law.",
+    "citationUrl": "https://www.2news.com/news/campaign/the-race-for-washoe-county-district-attorney-is-decided-in-june-primary-election/article_f6223128-9ace-4900-aa7a-e477d9039833.html"
+  },
+  {
+    "candidateId": "wes-duncan",
+    "issueKey": "transparency",
+    "stance": "Says he wants to make Washoe safer and restore the integrity of the DA's office, citing uncharged cases under the incumbent.",
+    "quote": "make Washoe County a safer place and restore the integrity of the DA's office",
+    "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-district-attorney-race-gop-republican-primary-between-chris-hicks-wes-duncan-will-decide-next-top-prosecutor-election-midterms-politics"
+  },
+  {
+    "candidateId": "scott-benton",
+    "issueKey": "education",
+    "stance": "Prioritizes student mental health and wellness via expanded counseling, early intervention and whole-child support.",
+    "quote": "Expanding school-based counseling, early intervention, and whole-child support.",
+    "citationUrl": "https://voteforbenton.com/"
+  },
+  {
+    "candidateId": "scott-benton",
+    "issueKey": "budget",
+    "stance": "Backs a classroom-first approach with budget transparency so more dollars reach teachers and students.",
+    "quote": null,
+    "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake"
+  },
+  {
+    "candidateId": "sheena-harvey",
+    "issueKey": "transparency",
+    "stance": "Says being upfront and straightforward about decisions builds trust on the board.",
+    "quote": "Being upfront and straightforward about decisions helps build trust",
+    "citationUrl": "https://votedrharvey.com/1571-2/"
+  },
+  {
+    "candidateId": "brooke-westlake",
+    "issueKey": "transparency",
+    "stance": "Says transparency on any deficit is critical, emphasizing open communication and community feedback.",
+    "quote": "Transparency on any deficit is also critical.",
+    "citationUrl": "https://westlakeforwcsd.com/"
+  }
+]

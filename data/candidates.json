@@ -610,6 +610,16 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
           "videoUrl": null,
           "timestamp": null
+        },
+        "immigration": {
+          "stance": "Says ICE got most of the right people but the federal government must communicate and listen better to local communities.",
+          "quote": "Communication. The federal government needed to be better listeners to local communities.",
+          "citationUrl": "https://www.aol.com/news/q-republicans-running-nevadas-cd2-110203523.html"
+        },
+        "growth": {
+          "stance": "On public lands, would meet with each stakeholder and assess what use is reasonable.",
+          "quote": "You've got to sit down and communicate...have meetings with each stakeholder...look at lands and see what's reasonable.",
+          "citationUrl": "https://www.aol.com/news/q-republicans-running-nevadas-cd2-110203523.html"
         }
       },
       "summary": "Gardnerville trauma surgeon and perennial candidate stressing a balanced budget and energy/immigration policy.",
@@ -702,6 +712,11 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
           "videoUrl": null,
           "timestamp": null
+        },
+        "growth": {
+          "stance": "Wants public land kept accessible to the public and would press managers on access guarantees.",
+          "quote": "I want the public land to be accessible to the public...I'm going to ask questions like: What are you going to do to allow people to have access?",
+          "citationUrl": "https://www.aol.com/news/q-republicans-running-nevadas-cd2-110203523.html"
         }
       },
       "summary": "Retired police officer pitching 50-year mortgages, merit-based immigration, and curbs on drug-industry price gouging.",
@@ -741,6 +756,21 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "economy": {
+          "stance": "Names affordability the top issue but says government has limited power over prices, blaming corporate leaders more than Trump policy.",
+          "quote": "Help Nevadans with affordability crisis.",
+          "citationUrl": "https://olsen4congress.com/"
+        },
+        "immigration": {
+          "stance": "Calls for enacting comprehensive immigration laws.",
+          "quote": "Enact comprehensive immigration laws.",
+          "citationUrl": "https://olsen4congress.com/"
+        },
+        "budget": {
+          "stance": "Would bar congressional pay raises until the federal budget is balanced.",
+          "quote": "No congressional pay raises without a balanced budget.",
+          "citationUrl": "https://olsen4congress.com/"
         }
       },
       "summary": "Retired Army medic and ex-deputy taking no donations; pledges to vote his constituents' will, not Trump's line."
@@ -778,6 +808,21 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "housing": {
+          "stance": "Says rural healthcare and housing differ from urban areas; cites finding land to build on and interest rates as the common barrier to homeownership.",
+          "quote": "The health care issues and the housing issues are a little different out in the rural counties...it's finding the land to build on. So those are very different challenges, but there's always one common denominator. And that is our interest rates for people to get into the homes.",
+          "citationUrl": "https://www.kunr.org/local-stories/2026-04-03/meet-mike-smith-republican-candidate-for-nevadas-cd2"
+        },
+        "transparency": {
+          "stance": "Pledges to uphold the Constitution and demand real transparency, holding government to the honesty and accountability standards expected of those in uniform.",
+          "quote": "Uphold the Constitution as the governing doctrine of our office. Restore liberties and demand real transparency from government.",
+          "citationUrl": "https://www.mikesmithfornevada.com/"
+        },
+        "publicSafety": {
+          "stance": "Prioritizes national defense, vowing to protect Nevada's military bases and warfighters and keep the state central to national security.",
+          "quote": "Protect our military bases, support our warfighters, and ensure Nevada remains essential to our national security infrastructure.",
+          "citationUrl": "https://www.mikesmithfornevada.com/"
         }
       },
       "summary": "Retired Navy fighter pilot whose top priority is the national debt; would repeal the ACA.",
@@ -824,6 +869,11 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
           "videoUrl": null,
           "timestamp": null
+        },
+        "growth": {
+          "stance": "On public lands, favors forming coalitions and prioritizing civility so people feel heard.",
+          "quote": "Form coalitions...recognize that this problem is not unique...prioritize civility so people feel heard.",
+          "citationUrl": "https://www.aol.com/news/q-republicans-running-nevadas-cd2-110203523.html"
         }
       },
       "summary": "28-year-old Ph.D. candidate and think-tank founder favoring consumption taxes and fewer regulations.",
@@ -895,6 +945,26 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-gop-primary-13-running-to-represent-northern-nevada-congress-mark-amodei-flippo-settelmeyer-simon-watts",
           "videoUrl": null,
           "timestamp": null
+        },
+        "immigration": {
+          "stance": "Says laws must be enforced; criminal illegal immigrants, not just violent offenders, should be prioritized for deportation, and those found illegally during enforcement should be removed.",
+          "quote": "Criminal illegal immigrants not just those convicted of violent crimes should be prioritized for deportation.",
+          "citationUrl": "https://jennbillatforcongress.com/"
+        },
+        "education": {
+          "stance": "Opposes federal control of education, arguing local teachers, administrators, parents and community leaders know best.",
+          "quote": "I do not believe that unelected federal bureaucrats are a better judge of educational practices than our local teachers, school administrators, parents and community leaders",
+          "citationUrl": "https://jennbillatforcongress.com/"
+        },
+        "growth": {
+          "stance": "Makes public land her signature issue; wants to return strategic land control to the state and use it to address the housing shortage.",
+          "quote": "Jenn Billat will fight in Congress to: protect Nevada land and hunting heritage, return strategic land control to the state, solve the housing shortage",
+          "citationUrl": "https://jennbillatforcongress.com/"
+        },
+        "budget": {
+          "stance": "Backs using DOGE and AI systems to identify fraud and waste in government spending.",
+          "quote": "Policies to identify potential fraud and waste in government spending via DOGE and AI systems should be implemented.",
+          "citationUrl": "https://jennbillatforcongress.com/"
         }
       },
       "summary": "Land-development owner running primarily on public-lands issues and fuel independence from California."
@@ -921,6 +991,16 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "immigration": {
+          "stance": "Credits ICE with securing the border and enforcing the law, but wants more transparent investigations.",
+          "quote": "I think ICE has done a lot right. They have helped secure our borders, enforced our laws.",
+          "citationUrl": "https://www.aol.com/news/q-republicans-running-nevadas-cd2-110203523.html"
+        },
+        "growth": {
+          "stance": "Says public land should be managed with local input and collaboration among all parties.",
+          "quote": "Public land should be managed by local input...Everybody needs to come together and figure out together.",
+          "citationUrl": "https://www.aol.com/news/q-republicans-running-nevadas-cd2-110203523.html"
         }
       },
       "summary": "32-year-old volunteer firefighter and school board member running on healthcare, jobs, and younger leadership.",
@@ -949,6 +1029,11 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "economy": {
+          "stance": "Flags high food prices as a concern but acknowledges he does not yet have a solution.",
+          "quote": "Why are the food prices so high? I don't know the answer yet",
+          "citationUrl": "https://www.kunr.org/local-stories/2026-04-02/meet-bruce-grego-republican-candidate-for-nevadas-cd2"
         }
       },
       "summary": "Attorney and ex-South Lake Tahoe councilman campaigning against the 'administrative state' and unelected officials."
@@ -993,6 +1078,16 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-13-republicans-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "immigration": {
+          "stance": "Says ICE has done nothing right and should be abolished, calling it wasteful and dangerous.",
+          "quote": "Literally nothing. It is wasteful, duplicitous, ineffective and dangerous.",
+          "citationUrl": "https://www.aol.com/news/q-republicans-running-nevadas-cd2-110203523.html"
+        },
+        "growth": {
+          "stance": "Criticizes public-lands policy for not improving Nevadans' lives and questions resource extraction for foreign nations.",
+          "quote": "The focus hasn't been on making Nevadans' lives better...Are you trying to help foreign nations extract resources?",
+          "citationUrl": "https://www.aol.com/news/q-republicans-running-nevadas-cd2-110203523.html"
         }
       },
       "summary": "Former Bernie delegate running in the GOP primary; backs universal healthcare, abortion rights, and election skepticism.",
@@ -1141,6 +1236,16 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "taxes": {
+          "stance": "Would repeal tax cuts for billionaires and corporations and shift relief toward ordinary people.",
+          "quote": "I would get rid of the tax cuts that were made for the billionaires and the corporations",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-democratic-primary-11-running-for-chance-to-flip-northern-nevada-us-house-congressional-seat-mark-amodei"
+        },
+        "housing": {
+          "stance": "Highlights housing affordability, noting many people cannot own a home into their 30s or 40s.",
+          "quote": "Most people can't own a whole clear into their 30s or 40s now",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-democratic-primary-11-running-for-chance-to-flip-northern-nevada-us-house-congressional-seat-mark-amodei"
         }
       },
       "summary": "Union rep and civics teacher backing Medicare for All and opposing corporate consolidation.",
@@ -1180,6 +1285,16 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "abortion": {
+          "stance": "Frames healthcare as a fight he has waged since 2017 defending the Affordable Care Act from cuts.",
+          "quote": "This is the fight that I've been in since 2017 when the Affordable Care Act was under threat of being cut",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-democratic-primary-11-running-for-chance-to-flip-northern-nevada-us-house-congressional-seat-mark-amodei"
+        },
+        "water": {
+          "stance": "Supports returning federal land to tribal nations.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district"
         }
       },
       "summary": "Ex-state Democratic Party director pushing term limits, a lobbying ban, and a congressional stock-trading ban.",
@@ -1272,6 +1387,16 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "taxes": {
+          "stance": "Would make large companies like Tesla, Amazon and the mining industry pay their fair share.",
+          "quote": "Tesla, Amazon, the mining industry finally pay their fair share",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-democratic-primary-11-running-for-chance-to-flip-northern-nevada-us-house-congressional-seat-mark-amodei"
+        },
+        "education": {
+          "stance": "Backs universal child care and parental leave alongside cradle-to-grave 'baby bonds.'",
+          "quote": "universal cradle to grave baby bonds, universal child care, universal parental leave and...universal basic income",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/2nd-congressional-district-democratic-primary-11-running-for-chance-to-flip-northern-nevada-us-house-congressional-seat-mark-amodei"
         }
       },
       "summary": "DoorDash driver who has faced homelessness; proposes a $1,300 UBI funded by Nevada minerals and a 'Green Marshall Plan.'",
@@ -1304,6 +1429,11 @@
           "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district",
           "videoUrl": null,
           "timestamp": null
+        },
+        "transparency": {
+          "stance": "Wants to reinvigorate congressional oversight and raised concerns about AI as a national-security threat.",
+          "quote": "Reinvigorating congressional oversight",
+          "citationUrl": "https://thenevadaindependent.com/article/meet-the-8-democrats-running-in-nevadas-2nd-congressional-district"
         }
       },
       "summary": "Retired homicide investigator and true-crime author focused on the economy and national debt.",
@@ -1465,6 +1595,26 @@
           "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "budget": {
+          "stance": "Says state government should live within its means, like Nevada households do.",
+          "quote": "live within their means",
+          "citationUrl": "https://lisakrasnerfornevada.com/issues/"
+        },
+        "taxes": {
+          "stance": "Opposes legislation that would raise taxes; backs fair and transparent taxation.",
+          "quote": "does not support legislation that will raise your taxes",
+          "citationUrl": "https://lisakrasnerfornevada.com/issues/"
+        },
+        "transparency": {
+          "stance": "Says citizens must keep striving for more government transparency and hold elected officials accountable.",
+          "quote": "continually strive for more transparency in government, and at all times hold our elected officials accountable",
+          "citationUrl": "https://lisakrasnerfornevada.com/issues/"
+        },
+        "abortion": {
+          "stance": "Personally pro-life with exceptions for rape, incest, and life of the mother, but says Nevada voters settled the issue in state law.",
+          "quote": null,
+          "citationUrl": "https://www.nevadaappeal.com/news/2022/oct/12/senate-16-hopefuls-agree-issues-differ-solutions/"
         }
       },
       "summary": "Incumbent SD16 senator and attorney naming wildfire, election integrity, and education as Nevada's top challenges."
@@ -1585,6 +1735,11 @@
           "citationUrl": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html",
           "videoUrl": null,
           "timestamp": null
+        },
+        "publicSafety": {
+          "stance": "Backs lowering the drug-possession threshold that triggers trafficking charges; lists public safety among his core priorities.",
+          "quote": "lowering the threshold for drug possession for trafficking",
+          "citationUrl": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html"
         }
       },
       "summary": "Reno NV Energy manager wary of transferable tax credits; pushes EV highway fees and housing zoning reform."
@@ -1657,6 +1812,16 @@
           "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Conditional on the economics: she will only support data centers if the deal clearly pays off financially.",
+          "quote": "In order for me to support them, it really has to pencil out.",
+          "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+        },
+        "taxes": {
+          "stance": "Not a fan of transferable tax credits, but would back incentives that generate strong ROI and revenue within 5 to 10 years.",
+          "quote": "not a fan of transferable tax credits",
+          "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
         }
       },
       "summary": "30-year state executive touting deep budget expertise; flags infrastructure and fuel-supply vulnerability."
@@ -1707,6 +1872,21 @@
           "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Skeptical of data centers, saying he struggles to view them as a net benefit.",
+          "quote": "Data centers are hard for me to see as a net positive.",
+          "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+        },
+        "taxes": {
+          "stance": "Would grant tax incentives only with clear, measurable public benefit and claw-back provisions if promises aren't met.",
+          "quote": "Tax incentives should only be considered when the public benefit is clear, measurable and enforceable",
+          "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+        },
+        "budget": {
+          "stance": "Would focus spending on core services (public safety, education, infrastructure) and cut nonessential administrative growth and duplicative programs.",
+          "quote": "focus on core services: public safety, education, critical infrastructure",
+          "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
         }
       },
       "summary": "Career fire chief making water scarcity and wildfire prevention his signature issues."
@@ -1750,6 +1930,21 @@
           "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "taxes": {
+          "stance": "Says Nevadans are taxed enough and opposes 'Hollywood handouts' and large corporate tax breaks; favors relief for the general public.",
+          "quote": "I don't see any need to raise taxes. I think that we're taxed enough.",
+          "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+        },
+        "dataCenters": {
+          "stance": "Opposes tax abatements for large companies, including data centers.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+        },
+        "housing": {
+          "stance": "Wants to block housing development on toxic sites, citing mercury-contaminated areas.",
+          "quote": "prevent housing developments on toxic sites, such as the mercury-contaminated areas",
+          "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
         }
       },
       "summary": "Towing-association founder and government-meeting regular campaigning on accountability and constitutional literacy."
@@ -1807,6 +2002,16 @@
           "citationUrl": "https://www.nevadaappeal.com/news/2026/may/16/republican-candidates-for-assembly-district-40-senate-district-16-discuss-the-issues-before-primary/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Backs incentives as tools to attract businesses but opposed the film tax credit as a revenue loss, not an investment.",
+          "quote": "good tools to try to get businesses to locate here",
+          "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+        },
+        "housing": {
+          "stance": "Opposes resetting a home's taxable value on sale, saying it would worsen affordability; would examine depreciation allowances instead.",
+          "quote": null,
+          "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
         }
       },
       "summary": "Veteran state administrator pitching affordability, a DOGE-style audit, and tougher crime and immigration enforcement."
@@ -1874,6 +2079,26 @@
           "citationUrl": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions",
           "videoUrl": null,
           "timestamp": null
+        },
+        "budget": {
+          "stance": "Frames the budget as a statement of priorities and says he is not interested in cutting city staff.",
+          "quote": "Our budget is a reflection of our priorities",
+          "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+        },
+        "homelessness": {
+          "stance": "Says the city must keep people from falling into homelessness and help them out of it, treating it as a public-health and public-safety issue.",
+          "quote": "We also must do what we can to make sure people don't fall through the cracks and into homelessness, and try to help them out of it when we do.",
+          "citationUrl": "https://www.votereese.com/vision/"
+        },
+        "housing": {
+          "stance": "Pledges to keep working to make housing and childcare affordable, citing affordable units built and preserved during his tenure.",
+          "quote": "We need to continue to do everything in our power to help make it so that housing, childcare, and everything else is actually affordable.",
+          "citationUrl": "https://www.votereese.com/vision/"
+        },
+        "publicSafety": {
+          "stance": "Supports a community policing model with neighborhood police stations across the city.",
+          "quote": "I want to see community police stations spread across the city, to provide better service and to continue our move toward a community public safety model of neighborhood policing.",
+          "citationUrl": "https://www.votereese.com/vision/"
         }
       },
       "summary": "Sitting Reno councilmember pitching a Truckee River park; reversed in 2026 to back a data center moratorium."
@@ -2135,6 +2360,16 @@
           "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "growth": {
+          "stance": "Backs smart, balanced growth funded by restricted utility funds rather than the General Fund, with regionalization to cut redundancy.",
+          "quote": "Utilize restricted funds for utilities and stop abusing the General Fund",
+          "citationUrl": "https://rossforreno.com/"
+        },
+        "transparency": {
+          "stance": "Promises transparency, ending hidden liabilities, and bringing stakeholders into the conversation.",
+          "quote": "Be transparent, stop the hidden liabilities and answer 'Why?'",
+          "citationUrl": "https://rossforreno.com/"
         }
       },
       "summary": "Retired sheriff's sergeant calling out city fiscal dysfunction; skeptical of data centers, focused on public safety.",
@@ -2203,6 +2438,16 @@
           "citationUrl": "https://www.kunr.org/local-stories/2026-05-21/reno-mayoral-candidates-outline-challenges-and-solutions",
           "videoUrl": null,
           "timestamp": null
+        },
+        "homelessness": {
+          "stance": "Calls the homelessness system a record of exhausted failures, with thousands stuck in a fragmented, uncoordinated system.",
+          "quote": "exhausted failures. Thousands are stuck in the fragmented system",
+          "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+        },
+        "housing": {
+          "stance": "Highlights that over half of Reno renters are cost-burdened and backs fair housing, eviction transparency and affordable-housing funding.",
+          "quote": "Over 50% of renters are cost-burdened",
+          "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
         }
       },
       "summary": "Security-company owner wanting growth without draining water; conditional moratorium support and budget reform.",
@@ -2241,6 +2486,16 @@
           "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "budget": {
+          "stance": "Calls for a 'true budget investigation' through an AI audit of city finances.",
+          "quote": "true budget investigation through AI audit",
+          "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
+        },
+        "transparency": {
+          "stance": "Top priority is changing Reno's 'weak mayor' system, arguing the city has outgrown its current government structure.",
+          "quote": "Changing weak mayor system",
+          "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
         }
       },
       "summary": "Longtime Reno builder and repeat mayoral candidate running unfunded, raising population-growth concerns.",
@@ -2279,6 +2534,11 @@
           "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "homelessness": {
+          "stance": "Identifies mental health and addiction as primary causes of homelessness requiring support-based responses.",
+          "quote": "mental health issues, as well as addiction",
+          "citationUrl": "https://www.aol.com/articles/9-candidates-running-reno-mayor-113057499.html"
         }
       },
       "summary": "Musician and IT consultant known as 'The Mayor' on YouTube; names city overspending as the key issue."
@@ -2319,6 +2579,21 @@
           "citationUrl": "https://www.kolotv.com/2026/05/29/reno-mayor-race-meet-candidates/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Pledges to continue opposing data centers and Flock surveillance cameras.",
+          "quote": "continue to oppose flock cameras and data centers",
+          "citationUrl": "https://nutt4reno.com/"
+        },
+        "housing": {
+          "stance": "Says Reno needs more genuinely affordable housing via smart development and long-term planning, not short-term fixes.",
+          "quote": "Reno needs more housing that people can actually afford. I'll support smart development, reduce bottlenecks, and ensure long-term planning, not short-term fixes.",
+          "citationUrl": "https://nutt4reno.com/"
+        },
+        "transparency": {
+          "stance": "Says city government must be accountable; would hold himself and council members responsible for listening to constituents.",
+          "quote": "Reno's government must be accountable to the community that it represents",
+          "citationUrl": "https://nutt4reno.com/"
         }
       },
       "summary": "Downtown bartender who wound down his campaign; had focused on downtown development and congestion.",
@@ -2351,6 +2626,26 @@
           "citationUrl": "https://mikesrenoreport.substack.com/p/reno-ward-2-three-campaigns-three",
           "videoUrl": null,
           "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Supports a moratorium to slow data-center approvals while sustainable, forward-thinking regulations are created.",
+          "quote": "We need to slow down approval of data centers and I support adopting a moratorium that allows time to create sustainable, forward-thinking regulations.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        },
+        "housing": {
+          "stance": "Would prioritize development in blighted areas, vacant buildings and infill while protecting historic character and open space.",
+          "quote": "We should prioritize development in blighted areas, vacant buildings and appropriate infill sites while protecting historic character and open spaces.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        },
+        "budget": {
+          "stance": "Says raising taxes on small businesses and nonprofits will not solve the city's fiscal crisis.",
+          "quote": "Simply raising taxes on small businesses and non-profits will not get us out of this crisis.",
+          "citationUrl": "https://mattforreno.com/issues"
+        },
+        "transparency": {
+          "stance": "Calls for leaders who disclose who is influencing their decision-making.",
+          "quote": "We need leaders who are transparent and disclose who is influencing their decision making.",
+          "citationUrl": "https://mattforreno.com/issues"
         }
       },
       "summary": "Grassroots Ward 2 candidate stressing planning and neighborhood engagement over consultant-driven campaigns."
@@ -2374,7 +2669,28 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "budget": {
+          "stance": "Would eliminate wasteful and duplicate regional spending and sell or lease underutilized city assets to cut municipal debt.",
+          "quote": "Eliminate wasteful spending and duplicate funding of regional services",
+          "citationUrl": "https://electsummer.com/"
+        },
+        "publicSafety": {
+          "stance": "Would never cut public-safety funding, calling police, fire and emergency services core local-government responsibilities.",
+          "quote": "I would never cut funding for public safety. Police, fire and emergency services are the core responsibilities of local government and essential to protecting lives.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        },
+        "housing": {
+          "stance": "Wants a balanced housing mix that keeps Reno affordable while respecting current residents' quality of life.",
+          "quote": "Balancing the need for housing with community concerns begins with respecting our current residents by ensuring that new development does not negatively impact their quality of life.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        },
+        "dataCenters": {
+          "stance": "Says data centers should fully mitigate water and power impacts and be compatible with surrounding land uses.",
+          "quote": "These projects should be required to fully mitigate their impact on critical infrastructure, including water and power, and be designed in a way that is compatible with surrounding land uses.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        }
+      },
       "summary": "Construction-firm COO and Ward 2 fundraising leader backed by development and trade interests."
     },
     {
@@ -2407,6 +2723,21 @@
           "citationUrl": "https://thisisreno.com/2026/05/vaupel-reno-council-data-center/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "housing": {
+          "stance": "Says Reno needs more housing, citing unambiguous data on affordability, workforce retention and regional growth.",
+          "quote": "We need more housing. The data on affordability, workforce retention and regional growth is unambiguous.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        },
+        "growth": {
+          "stance": "Wants growth that works for current residents, with infrastructure planned before projects are approved.",
+          "quote": "growth that works for the people who already live here, instead of approving projects first",
+          "citationUrl": "https://votewithvanessa.com/issues/"
+        },
+        "budget": {
+          "stance": "Frames parks and preventive maintenance as health and cost-saving infrastructure; says prevention is far cheaper than deferred fixes.",
+          "quote": "Prevention costs pennies. Treatment costs millions.",
+          "citationUrl": "https://votewithvanessa.com/issues/"
         }
       },
       "summary": "Former VA chief of pharmacy running PAC-free; argues Reno deserves a deliberate data center pause with guardrails."
@@ -2430,7 +2761,23 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "dataCenters": {
+          "stance": "Would require data centers to use air-based, non-water cooling systems except for immediate fire hazards.",
+          "quote": "We should make sure that they have non-water cooling/heating systems instead using air for cooling and heating except for immediate fire hazards.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        },
+        "housing": {
+          "stance": "Would tax landlords on empty units and limit out-of-state in-migration until reaching a 3:1 housing-availability ratio.",
+          "quote": "By taxing landlords about empty housing that they have and try to stop people from coming in out of state until we have a higher, preferably 3:1 housing availability.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        },
+        "budget": {
+          "stance": "Would cut the city council's pension (net of basic living costs) but says he would never cut park funding.",
+          "quote": "I'd like to cut the city council's pension minus their bills for rent/mortgage and groceries. Something I would never cut is funding for city parks.",
+          "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        }
+      },
       "summary": "Ward 2 council candidate running a minimal campaign with no funds or website; limited position record."
     },
     {
@@ -2459,6 +2806,11 @@
           "citationUrl": "https://nevadacurrent.com/2026/06/03/reno-city-council-extends-data-center-moratorium-promises-effort-is-not-political/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "growth": {
+          "stance": "Names a lack of infrastructure to support residents, including first responders and roads, as the city's biggest problem; backs responsible development.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/local/meet-the-candidates-running-to-represent-the-north-valleys-cold-springs-damonte-ranch-south-reno-on-the-city-council"
         }
       },
       "summary": "Incumbent Ward 4 councilmember insisting any data center moratorium be tied to codified protections."
@@ -2783,6 +3135,16 @@
           "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
           "videoUrl": null,
           "timestamp": null
+        },
+        "housing": {
+          "stance": "Supports housing tied to infrastructure: build in smart locations near existing roads, with developers funding traffic fixes and phased projects.",
+          "quote": "We need housing, but not at the expense of quality of life. My idea is to tie growth to infrastructure.",
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+        },
+        "transparency": {
+          "stance": "Emphasizes open, clear communication and early community input in city processes.",
+          "quote": "open and clear communication and input from the community early on in these processes",
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
         }
       },
       "summary": "Billing analyst and Democrat opposing the first-responder fee; would protect first responders, cut redundant contracts."
@@ -2827,6 +3189,11 @@
           "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
           "videoUrl": null,
           "timestamp": null
+        },
+        "transparency": {
+          "stance": "Names greater transparency, accountability, and accessibility among his top priorities alongside cost of living and city finances.",
+          "quote": "greater transparency, accountability and accessibility",
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
         }
       },
       "summary": "Pirate Party broadcast engineer pushing infrastructure-first growth and scrutiny of surveillance-tech spending."
@@ -2867,6 +3234,11 @@
           "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html",
           "videoUrl": null,
           "timestamp": null
+        },
+        "taxes": {
+          "stance": "Wants to fix Nevada's property-tax system so cities aren't forced to chase any development just to fund basic services.",
+          "quote": "cities aren't forced to chase any development just to fund basic services",
+          "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
         }
       },
       "summary": "Appointed Ward 2 incumbent and realtor favoring smart infill growth; cautious first-responder-fee support."
@@ -3053,6 +3425,11 @@
           "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html",
           "videoUrl": null,
           "timestamp": null
+        },
+        "housing": {
+          "stance": "Proposes using Nevada Housing Access and Attainability Act grants to support housing.",
+          "quote": null,
+          "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"
         }
       },
       "summary": "Independent American first-timer prioritizing maintaining existing assets and higher-density town centers over sprawl."
@@ -3297,7 +3674,23 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "economy": {
+          "stance": "Touts Nevada job growth and a statewide tourism boom during his tenure as a core part of his record.",
+          "quote": "Employment increased 6 percent (close to 100,000 new jobs), the highest rate nationally over all other states, including Texas and Florida.",
+          "citationUrl": "https://www.stavrosfornv.com/services"
+        },
+        "publicSafety": {
+          "stance": "Former LVMPD captain who frames safe homes, businesses, and tourist destinations as a priority.",
+          "quote": "Lieutenant Governor Anthony knows that both Nevada residents and tourists deserve safe homes, businesses, neighborhoods, communities, and tourist destinations.",
+          "citationUrl": "https://www.stavrosfornv.com/services"
+        },
+        "growth": {
+          "stance": "Highlights Nevada's transportation and infrastructure rankings as a strength during his tenure.",
+          "quote": "Nevada's transportation and infrastructure has been consistently ranked among the best in the United States since the time Stavros was first elected as Lieutenant Governor.",
+          "citationUrl": "https://www.stavrosfornv.com/services"
+        }
+      },
       "summary": "Incumbent GOP lieutenant governor and ex-LVMPD captain, unopposed in his primary."
     },
     {
@@ -3319,7 +3712,23 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "housing": {
+          "stance": "Says she would tackle the housing crisis by cutting red tape and investing in attainable housing.",
+          "quote": "expanding affordable housing",
+          "citationUrl": "https://sandrafornevada.com/"
+        },
+        "economy": {
+          "stance": "Centers her campaign on creating good-paying jobs and reviving tourism statewide, especially outside Las Vegas and Reno.",
+          "quote": "creating good-paying jobs",
+          "citationUrl": "https://sandrafornevada.com/"
+        },
+        "publicSafety": {
+          "stance": "Touts her record leading on gun-safety legislation and pledges to keep communities safe.",
+          "quote": "leading the fight for commonsense gun safety laws to protect communities across our state",
+          "citationUrl": "https://sandrafornevada.com/"
+        }
+      },
       "summary": "Assembly majority floor leader and Democratic LG frontrunner backed by Nevada's U.S. senators."
     },
     {
@@ -3337,7 +3746,13 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "economy": {
+          "stance": "Pediatric ICU nurse running to support small businesses, strengthen tourism, and grow Nevada's economy.",
+          "quote": "running for Lieutenant Governor to support small businesses, strengthen tourism, grow Nevada's economy, and serve all communities with common-sense leadership.",
+          "citationUrl": "https://www.courtneyfornevada.com/"
+        }
+      },
       "summary": "Pediatric ICU nurse and small-business owner in the Democratic LG primary; no campaign funds reported."
     },
     {
@@ -3355,7 +3770,33 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "economy": {
+          "stance": "Says the Live Entertainment tax shuts out female and independent producers; runs on entertainment-industry economic expertise.",
+          "quote": "The Live Entertainment tax prevents female producers and independent companies from producing shows in Nevada.",
+          "citationUrl": "https://www.bridgienix4nevada.com/policies"
+        },
+        "water": {
+          "stance": "Warns parts of rural Nevada have poisoned drinking water and prioritizes clean water and green energy.",
+          "quote": "Parts of rural Nevada only have poisoned drinking water. Entire towns and cities may lose their power supply.",
+          "citationUrl": "https://www.bridgienix4nevada.com/policies"
+        },
+        "abortion": {
+          "stance": "A self-described reproductive-rights advocate who vows to fight restrictive abortion laws.",
+          "quote": "I have PCOS/PMOS. I am a huge repro rights advocate. I will fight to ensure draconian laws made by unaffected men are permanently erased.",
+          "citationUrl": "https://www.bridgienix4nevada.com/policies"
+        },
+        "immigration": {
+          "stance": "Backs abolishing ICE at the state level via safe zones, legal protections, and ending cooperation with federal authorities.",
+          "quote": "BridgieNix believes in abolishing ice entirely",
+          "citationUrl": "https://www.bridgienix4nevada.com/policies"
+        },
+        "growth": {
+          "stance": "Says tourism needs upgrades and budget reform to be renovated for all generations.",
+          "quote": "We pivot. We need new upgrades and budget reform to make renovating tourism to the needs of all generations possible.",
+          "citationUrl": "https://www.bridgienix4nevada.com/policies"
+        }
+      },
       "summary": "Veteran fire dancer in the Democratic LG primary, running on rejecting corporate PAC and lobbyist money."
     },
     {
@@ -3503,6 +3944,16 @@
           "citationUrl": "https://www.kolotv.com/2026/06/03/republican-candidates-nevada-ag-want-better-relationships-with-law-enforcement/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "electionIntegrity": {
+          "stance": "Pledges to investigate election fraud and says the AG's office has been reactive rather than proactive on it.",
+          "quote": "They have been reactive and not proactive",
+          "citationUrl": "https://thenevadaindependent.com/article/in-gop-primary-for-nevada-attorney-general-newcomer-challenges-familiar-face"
+        },
+        "transparency": {
+          "stance": "Says lawsuits against the federal government should turn on Nevada's interest, not the president's party.",
+          "quote": "It doesn't matter who the president is. It comes back to looking at whether or not it's going to benefit Nevada",
+          "citationUrl": "https://thenevadaindependent.com/article/in-gop-primary-for-nevada-attorney-general-newcomer-challenges-familiar-face"
         }
       },
       "summary": "Trump- and Lombardo-endorsed attorney in the GOP AG primary, campaigning on closer law-enforcement ties.",
@@ -3535,6 +3986,21 @@
           "citationUrl": "https://www.kolotv.com/2026/06/03/republican-candidates-nevada-ag-want-better-relationships-with-law-enforcement/",
           "videoUrl": null,
           "timestamp": null
+        },
+        "immigration": {
+          "stance": "Pledges to cooperate with federal enforcement, end obstruction, and prevent Nevada from sheltering criminal activity.",
+          "quote": "Immigration laws exist to protect public safety, national security, and the rule of law.",
+          "citationUrl": "https://www.tarkfornevada.com/"
+        },
+        "electionIntegrity": {
+          "stance": "Says COVID-era election law changes created vulnerabilities; vows to investigate fraud and enforce election laws.",
+          "quote": "Nevada's election laws were significantly altered during COVID, creating vulnerabilities that undermine public confidence in our elections.",
+          "citationUrl": "https://www.tarkfornevada.com/"
+        },
+        "transparency": {
+          "stance": "Frames the AG office as answering to the Constitution and citizens rather than special interests or political elites.",
+          "quote": "Nevadans deserve an Attorney General who doesn't answer to special interests or the political elite, but fights for the Constitution, law enforcement, and every law-abiding citizen.",
+          "citationUrl": "https://www.tarkfornevada.com/"
         }
       },
       "summary": "Douglas County commissioner and perennial candidate with a famous name in the GOP AG primary.",
@@ -3589,6 +4055,11 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar",
           "videoUrl": null,
           "timestamp": null
+        },
+        "transparency": {
+          "stance": "Frames secure elections as nonpartisan and pledges to restore transparency, accountability, and security to every step.",
+          "quote": "Public confidence in our elections is essential. As Secretary of State, I will focus on restoring transparency, accountability, and security to every step of the process.",
+          "citationUrl": "https://jimmarchant.com/"
         }
       },
       "summary": "Election-denying ex-assemblyman and 2020 'fake elector' who would eliminate voting machines."
@@ -3615,6 +4086,11 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar",
           "videoUrl": null,
           "timestamp": null
+        },
+        "transparency": {
+          "stance": "Says the secretary of state, as chief election officer, must be someone voters trust; vows to enforce Trump's election-integrity order.",
+          "quote": "Enforce President Trump's Election Integrity Executive Order",
+          "citationUrl": "https://votesharronangle.com/"
         }
       },
       "summary": "Former assemblywoman and 2010 GOP Senate nominee running on election-security doubts and voter ID."
@@ -3690,7 +4166,28 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "housing": {
+          "stance": "Would seek historic State Infrastructure Bank funding for affordable housing, with a focus on seniors.",
+          "quote": "work with the legislature to secure historic funding for the State Infrastructure Bank for affordable housing",
+          "citationUrl": "https://www.joedalia.com/"
+        },
+        "economy": {
+          "stance": "Pitches a $300 million infrastructure-bank investment to create jobs and support small businesses.",
+          "quote": "As Treasurer, I will fight for a historic $300 million in funding to create jobs in our community and provide infrastructure support for small businesses.",
+          "citationUrl": "https://www.joedalia.com/"
+        },
+        "education": {
+          "stance": "Warns the Millennium Scholarship is near insolvency and pledges a long-term funding fix.",
+          "quote": "As Treasurer, I will institute a long-term funding solution to ensure we keep our college promise to the children of Nevada.",
+          "citationUrl": "https://www.joedalia.com/"
+        },
+        "transparency": {
+          "stance": "Would modernize unclaimed property with reasonable claim periods and automatic returns to get residents their money back.",
+          "quote": "reasonable claims periods to create a new revenue source and automatic returns so you get your money back as quickly and easily as possible.",
+          "citationUrl": "https://www.joedalia.com/"
+        }
+      },
       "summary": "First-term Henderson assemblymember and attorney (ex-Meta) in the Democratic treasurer primary."
     },
     {
@@ -3734,7 +4231,23 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "budget": {
+          "stance": "Defines the treasurer's job as protecting taxpayer dollars, managing debt carefully, and keeping Nevada financially stable.",
+          "quote": "The Treasurer's job is to protect taxpayer dollars, manage debt carefully, and make long-term financial decisions that keep Nevada stable",
+          "citationUrl": "https://www.drjay4nevada.com/issues"
+        },
+        "transparency": {
+          "stance": "Emphasizes transparency, strong oversight, and ethical decision-making in managing public money.",
+          "quote": "Nevadans deserve to know how their money is managed. Transparency, strong oversight, and ethical decision-making are essential",
+          "citationUrl": "https://www.drjay4nevada.com/issues"
+        },
+        "housing": {
+          "stance": "Says state financial tools should support housing affordability without creating bigger problems later.",
+          "quote": "State financial decisions shape housing costs, school construction, and infrastructure. Responsible stewardship means using Nevada's financial tools to support affordability today",
+          "citationUrl": "https://www.drjay4nevada.com/issues"
+        }
+      },
       "summary": "Teacher and entrepreneur who led the Obama-era Startup America Partnership, in the Democratic treasurer primary."
     },
     {
@@ -3763,6 +4276,16 @@
           "citationUrl": "https://elkodaily.com/news/state-regional/nevada/article_dc407a3d-d0a2-5a0d-981a-c4b245f069ef.html",
           "videoUrl": null,
           "timestamp": null
+        },
+        "transparency": {
+          "stance": "Self-styled budget watchdog who says he has exposed large-scale government waste, fraud, and abuse.",
+          "quote": "Drew has exposed hundreds of billions of dollars in waste, fraud and abuse of taxpayers' money at all levels of government",
+          "citationUrl": "https://drewfornevada.com/"
+        },
+        "taxes": {
+          "stance": "Cites ending regressive taxes that harmed lower-income individuals and loosening regulation on entrepreneurs as part of his record.",
+          "quote": "Ended regressive taxes that harmed lower-income individuals",
+          "citationUrl": "https://drewfornevada.com/"
         }
       },
       "summary": "Conservative think-tank founder running as a government-waste expert and budget watchdog for treasurer."
@@ -3786,7 +4309,23 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "budget": {
+          "stance": "Ex-CME trader running to keep Nevada fiscally sound by eliminating waste, fraud, and abuse.",
+          "quote": "Keep Nevada strong, transparent, and fiscally sound - eliminating waste, fraud, and abuse.",
+          "citationUrl": "https://www.jeffcarternv.com/why-i-am-running"
+        },
+        "transparency": {
+          "stance": "Says taxpayers deserve to know exactly where their money goes and how it is managed.",
+          "quote": "Taxpayers deserve to know exactly where their money goes, how it's managed, and why decisions are made.",
+          "citationUrl": "https://www.jeffcarternv.com/why-i-am-running"
+        },
+        "economy": {
+          "stance": "Pledges responsible investment returns and prudent stewardship, and takes protecting public pensions seriously.",
+          "quote": "I'll pursue strong, responsible return on investment through prudent stewardship.",
+          "citationUrl": "https://www.jeffcarternv.com/why-i-am-running"
+        }
+      },
       "summary": "Ex-Chicago Mercantile Exchange trader and first-time candidate in the GOP treasurer primary."
     },
     {
@@ -3834,7 +4373,13 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "transparency": {
+          "stance": "Reno engineer whose priorities are on-time financial reports, transparency, and accountability in the office.",
+          "quote": "I am about creating pathways to success that underscore transparency and collaborative effort",
+          "citationUrl": "http://www.ourtownreno.com/our-stories-1/2026/5/20/engineer-teacher-and-navy-veteran-compete-in-democratic-primary-to-challenge-republican-incumbent-in-state-controller-race"
+        }
+      },
       "summary": "Democratic candidate for Nevada State Controller with limited public position record."
     },
     {
@@ -3856,7 +4401,18 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "transparency": {
+          "stance": "Sees the controller as a check that protects every dollar and holds the treasurer, legislature, and governor accountable.",
+          "quote": "the Controller's office protects every dollar in Nevada. It holds the Treasurer, Legislature, and Governor accountable",
+          "citationUrl": "http://www.ourtownreno.com/our-stories-1/2026/5/20/engineer-teacher-and-navy-veteran-compete-in-democratic-primary-to-challenge-republican-incumbent-in-state-controller-race"
+        },
+        "budget": {
+          "stance": "Criticizes delayed release of Nevada's annual financial report, arguing timely audits build trust in government.",
+          "quote": null,
+          "citationUrl": "https://nevadacurrent.com/2026/04/23/yes-state-controller-is-a-job-and-democrats-are-vying-to-challenge-the-republican-who-holds-it/"
+        }
+      },
       "summary": "Henderson high-school teacher running in the Democratic controller primary."
     },
     {
@@ -3874,7 +4430,13 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "transparency": {
+          "stance": "Navy veteran who pledges financial reporting that is on time, accurate, and transparent.",
+          "quote": null,
+          "citationUrl": "http://www.ourtownreno.com/our-stories-1/2026/5/20/engineer-teacher-and-navy-veteran-compete-in-democratic-primary-to-challenge-republican-incumbent-in-state-controller-race"
+        }
+      },
       "summary": "Democratic candidate for Nevada State Controller with limited public position record."
     },
     {
@@ -4095,6 +4657,21 @@
           "citationUrl": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html",
           "videoUrl": null,
           "timestamp": null
+        },
+        "dataCenters": {
+          "stance": "Says high-demand projects like data centers must prove they won't burden residents and meet clear water, traffic and safety standards.",
+          "quote": "if a project can't meet clear standards for traffic, water availability, and public safety, it shouldn't move forward",
+          "citationUrl": "https://thisisreno.com/2026/05/reno-responsible-growth-rob-pierce/"
+        },
+        "water": {
+          "stance": "Calls water the most limited resource in Northern Nevada and says decisions made as if it's unlimited are reckless.",
+          "quote": null,
+          "citationUrl": "https://thisisreno.com/2026/05/reno-responsible-growth-rob-pierce/"
+        },
+        "transparency": {
+          "stance": "Pledges transparent budgeting, cutting government waste and decisions that are explained rather than buried in reports.",
+          "quote": "I promise to be guided by common sense. I'll be transparent, and I'll listen to you",
+          "citationUrl": "https://robforwashoe.com/"
         }
       },
       "summary": "Navy veteran and ex-planning commissioner running on responsible, pro-business growth; Builders Alliance endorsed.",
@@ -4255,6 +4832,16 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-district-attorney-race-gop-republican-primary-between-chris-hicks-wes-duncan-will-decide-next-top-prosecutor-election-midterms-politics",
           "videoUrl": null,
           "timestamp": null
+        },
+        "homelessness": {
+          "stance": "Would offer services first but use criminal law against those violating public health and safety.",
+          "quote": "We're going to compassionately try to connect you to services. But if you are violating public health and public safety, you're going to use the criminal law.",
+          "citationUrl": "https://www.2news.com/news/campaign/the-race-for-washoe-county-district-attorney-is-decided-in-june-primary-election/article_f6223128-9ace-4900-aa7a-e477d9039833.html"
+        },
+        "transparency": {
+          "stance": "Says he wants to make Washoe safer and restore the integrity of the DA's office, citing uncharged cases under the incumbent.",
+          "quote": "make Washoe County a safer place and restore the integrity of the DA's office",
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-district-attorney-race-gop-republican-primary-between-chris-hicks-wes-duncan-will-decide-next-top-prosecutor-election-midterms-politics"
         }
       },
       "summary": "Sparks city attorney and ex-prosecutor, police-union and GOP backed, attacking Hicks's charging policy as win-rate-driven.",
@@ -4385,6 +4972,11 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake",
           "videoUrl": null,
           "timestamp": null
+        },
+        "transparency": {
+          "stance": "Says being upfront and straightforward about decisions builds trust on the board.",
+          "quote": "Being upfront and straightforward about decisions helps build trust",
+          "citationUrl": "https://votedrharvey.com/1571-2/"
         }
       },
       "summary": "Education-doctorate community volunteer naming chronic absenteeism the top issue in the WCSD District F race."
@@ -4426,6 +5018,11 @@
           "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake",
           "videoUrl": null,
           "timestamp": null
+        },
+        "transparency": {
+          "stance": "Says transparency on any deficit is critical, emphasizing open communication and community feedback.",
+          "quote": "Transparency on any deficit is also critical.",
+          "citationUrl": "https://westlakeforwcsd.com/"
         }
       },
       "summary": "Parent advocate and Washoe GOP-endorsed candidate prioritizing WCSD budget deficits, enrollment, and parent voice."
@@ -4445,7 +5042,18 @@
         }
       ],
       "youtubeInterviews": [],
-      "positions": {},
+      "positions": {
+        "education": {
+          "stance": "Prioritizes student mental health and wellness via expanded counseling, early intervention and whole-child support.",
+          "quote": "Expanding school-based counseling, early intervention, and whole-child support.",
+          "citationUrl": "https://voteforbenton.com/"
+        },
+        "budget": {
+          "stance": "Backs a classroom-first approach with budget transparency so more dollars reach teachers and students.",
+          "quote": null,
+          "citationUrl": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake"
+        }
+      },
       "summary": "Candidate for WCSD Board District F with no confirmed biography or stated positions."
     },
     {

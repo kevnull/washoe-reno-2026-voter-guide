@@ -1,0 +1,149 @@
+[
+  {
+    "candidateId": "lisa-krasner",
+    "issueKey": "budget",
+    "stance": "Says state government should live within its means, like Nevada households do.",
+    "quote": "live within their means",
+    "citationUrl": "https://lisakrasnerfornevada.com/issues/"
+  },
+  {
+    "candidateId": "lisa-krasner",
+    "issueKey": "taxes",
+    "stance": "Opposes legislation that would raise taxes; backs fair and transparent taxation.",
+    "quote": "does not support legislation that will raise your taxes",
+    "citationUrl": "https://lisakrasnerfornevada.com/issues/"
+  },
+  {
+    "candidateId": "lisa-krasner",
+    "issueKey": "education",
+    "stance": "Supports school choice via charter schools, Education Savings Account vouchers, and Opportunity Scholarships, and rewarding effective teachers.",
+    "quote": null,
+    "citationUrl": "https://lisakrasnerfornevada.com/issues/"
+  },
+  {
+    "candidateId": "lisa-krasner",
+    "issueKey": "transparency",
+    "stance": "Says citizens must keep striving for more government transparency and hold elected officials accountable.",
+    "quote": "continually strive for more transparency in government, and at all times hold our elected officials accountable",
+    "citationUrl": "https://lisakrasnerfornevada.com/issues/"
+  },
+  {
+    "candidateId": "lisa-krasner",
+    "issueKey": "abortion",
+    "stance": "Personally pro-life with exceptions for rape, incest, and life of the mother, but says Nevada voters settled the issue in state law.",
+    "quote": null,
+    "citationUrl": "https://www.nevadaappeal.com/news/2022/oct/12/senate-16-hopefuls-agree-issues-differ-solutions/"
+  },
+  {
+    "candidateId": "michael-ginsburg",
+    "issueKey": "publicSafety",
+    "stance": "Backs lowering the drug-possession threshold that triggers trafficking charges; lists public safety among his core priorities.",
+    "quote": "lowering the threshold for drug possession for trafficking",
+    "citationUrl": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html"
+  },
+  {
+    "candidateId": "julie-butler",
+    "issueKey": "dataCenters",
+    "stance": "Conditional on the economics: she will only support data centers if the deal clearly pays off financially.",
+    "quote": "In order for me to support them, it really has to pencil out.",
+    "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+  },
+  {
+    "candidateId": "julie-butler",
+    "issueKey": "taxes",
+    "stance": "Not a fan of transferable tax credits, but would back incentives that generate strong ROI and revenue within 5 to 10 years.",
+    "quote": "not a fan of transferable tax credits",
+    "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+  },
+  {
+    "candidateId": "rich-harvey",
+    "issueKey": "dataCenters",
+    "stance": "Skeptical of data centers, saying he struggles to view them as a net benefit.",
+    "quote": "Data centers are hard for me to see as a net positive.",
+    "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+  },
+  {
+    "candidateId": "rich-harvey",
+    "issueKey": "taxes",
+    "stance": "Would grant tax incentives only with clear, measurable public benefit and claw-back provisions if promises aren't met.",
+    "quote": "Tax incentives should only be considered when the public benefit is clear, measurable and enforceable",
+    "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+  },
+  {
+    "candidateId": "rich-harvey",
+    "issueKey": "budget",
+    "stance": "Would focus spending on core services (public safety, education, infrastructure) and cut nonessential administrative growth and duplicative programs.",
+    "quote": "focus on core services: public safety, education, critical infrastructure",
+    "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+  },
+  {
+    "candidateId": "drew-ribar",
+    "issueKey": "taxes",
+    "stance": "Says Nevadans are taxed enough and opposes 'Hollywood handouts' and large corporate tax breaks; favors relief for the general public.",
+    "quote": "I don't see any need to raise taxes. I think that we're taxed enough.",
+    "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+  },
+  {
+    "candidateId": "drew-ribar",
+    "issueKey": "dataCenters",
+    "stance": "Opposes tax abatements for large companies, including data centers.",
+    "quote": null,
+    "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+  },
+  {
+    "candidateId": "drew-ribar",
+    "issueKey": "housing",
+    "stance": "Wants to block housing development on toxic sites, citing mercury-contaminated areas.",
+    "quote": "prevent housing developments on toxic sites, such as the mercury-contaminated areas",
+    "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+  },
+  {
+    "candidateId": "stacy-woodbury",
+    "issueKey": "dataCenters",
+    "stance": "Backs incentives as tools to attract businesses but opposed the film tax credit as a revenue loss, not an investment.",
+    "quote": "good tools to try to get businesses to locate here",
+    "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+  },
+  {
+    "candidateId": "stacy-woodbury",
+    "issueKey": "housing",
+    "stance": "Opposes resetting a home's taxable value on sale, saying it would worsen affordability; would examine depreciation allowances instead.",
+    "quote": null,
+    "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+  },
+  {
+    "candidateId": "jamie-oconnell",
+    "issueKey": "housing",
+    "stance": "Supports housing tied to infrastructure: build in smart locations near existing roads, with developers funding traffic fixes and phased projects.",
+    "quote": "We need housing, but not at the expense of quality of life. My idea is to tie growth to infrastructure.",
+    "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+  },
+  {
+    "candidateId": "jamie-oconnell",
+    "issueKey": "transparency",
+    "stance": "Emphasizes open, clear communication and early community input in city processes.",
+    "quote": "open and clear communication and input from the community early on in these processes",
+    "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+  },
+  {
+    "candidateId": "hunter-rand",
+    "issueKey": "transparency",
+    "stance": "Names greater transparency, accountability, and accessibility among his top priorities alongside cost of living and city finances.",
+    "quote": "greater transparency, accountability and accessibility",
+    "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+  },
+  {
+    "candidateId": "dian-vanderwell",
+    "issueKey": "taxes",
+    "stance": "Wants to fix Nevada's property-tax system so cities aren't forced to chase any development just to fund basic services.",
+    "quote": "cities aren't forced to chase any development just to fund basic services",
+    "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+  },
+  {
+    "candidateId": "tracey-thomas",
+    "issueKey": "housing",
+    "stance": "Proposes using Nevada Housing Access and Attainability Act grants to support housing.",
+    "quote": null,
+    "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"
+  }
+]
