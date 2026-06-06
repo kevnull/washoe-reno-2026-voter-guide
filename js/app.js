@@ -313,6 +313,7 @@ function raceCard({ race, cands, elig }) {
     const tr = el('tr');
     tr.dataset.race = race.id;
     tr.dataset.cand = c.id;
+    tr.classList.add('expanded'); // positions shown by default; tap the pill to collapse
     if (selections[race.id] === c.id) tr.classList.add('selected');
     tr.appendChild(candCell(c, race));
     if (cols.length === 0) {
@@ -559,7 +560,7 @@ function candCell(c, race) {
     `<div class="cand-sub">${esc(c.summary || shortBio(c))}</div>` +
     `<button class="cand-details" type="button" data-open-cand="${esc(c.id)}">Details ↗</button>` +
     `</div></div>` +
-    (nPos ? `<button class="cand-expand" type="button" aria-label="Show ${nPos} position${nPos === 1 ? '' : 's'}" aria-expanded="false"><span class="cx-label">${nPos}</span><span class="cx-arrow" aria-hidden="true">▾</span></button>` : '');
+    (nPos ? `<button class="cand-expand" type="button" aria-label="Toggle ${nPos} position${nPos === 1 ? '' : 's'}" aria-expanded="true"><span class="cx-label">${nPos}</span><span class="cx-arrow" aria-hidden="true">▾</span></button>` : '');
   return td;
 }
 function shortBio(c) {
