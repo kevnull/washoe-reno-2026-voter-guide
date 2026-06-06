@@ -68,8 +68,10 @@ function hydrateChrome() {
   $('#lede').textContent = m.disclaimer;
   $('#rulesText').textContent = m.primaryRules;
   $('#footerNote').textContent = `${DATA.candidates.length} candidates across ${DATA.races.length} races · early voting ${m.earlyVoting} · Election Day ${fmtDate(m.electionDate)}.`;
-  // countdown
-  const days = Math.ceil((new Date(m.electionDate + 'T00:00:00') - new Date('2026-06-05T12:00:00')) / 864e5);
+  // countdown — measured from the start of today (local) to election midnight, so it counts down live and lands on 0 on Election Day
+  const now = new Date();
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const days = Math.round((new Date(m.electionDate + 'T00:00:00') - startOfToday) / 864e5);
   $('#countdown').textContent = days > 0 ? `🗳️  ${days} day${days === 1 ? '' : 's'} until Election Day — ${fmtDate(m.electionDate)}` : `Election Day is ${fmtDate(m.electionDate)}`;
 }
 function fmtDate(iso) {
@@ -263,15 +265,20 @@ function updateEligNote() {
 function raceCard({ race, cands, elig }) {
   const card = el('article', 'race-card' + (elig.eligible ? '' : ' ineligible'));
   card.id = 'race-' + race.id;
+  // Unopposed = the full roster (across all parties) fits the open seats, so there's no contest to decide.
+  const roster = DATA.candidates.filter(c => c.raceId === race.id).length;
+  const unopposed = roster >= 1 && roster <= (race.seats || 1);
   // header
   const head = el('div', 'race-head');
   const badges = [
     `<span class="badge badge--${race.type}">${race.type === 'partisan' ? 'Partisan · closed' : 'Nonpartisan · open to all'}</span>`,
     race.tier === 'marquee' ? '<span class="badge badge--marquee">Key race</span>' : '',
+    unopposed ? '<span class="badge badge--unopposed">Unopposed</span>' : '',
     !elig.eligible ? `<span class="ineligible-tag">Not on your ballot</span>` : '',
   ].join(' ');
   head.innerHTML = `<div class="race-title-row"><h3>${esc(race.title)}</h3>${badges}</div>` +
     (race.notes ? `<p class="race-notes">${esc(race.notes)}</p>` : '') +
+    (unopposed ? `<p class="race-meta unopposed-note">➜ Only one candidate filed — unopposed in this primary. They advance to the November general election.</p>` : '') +
     (!elig.eligible && elig.reason ? `<p class="race-meta">${esc(elig.reason)}</p>` : '');
   card.appendChild(head);
 
@@ -318,7 +325,8 @@ function raceCard({ race, cands, elig }) {
     tr.appendChild(candCell(c, race));
     if (cols.length === 0) {
       const td = el('td'); td.colSpan = 1;
-      td.innerHTML = '<div class="no-positions-row" style="padding:11px 12px">No sourced positions found yet.</div>';
+      const msg = unopposed ? 'Running unopposed — no primary contest to decide.' : 'No sourced positions found yet.';
+      td.innerHTML = `<div class="no-positions-row" style="padding:11px 12px">${msg}</div>`;
       tr.appendChild(td);
     }
     cols.forEach(k => tr.appendChild(issueCell(c, k)));
