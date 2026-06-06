@@ -71,12 +71,7 @@ function buildControls() {
 }
 
 function wireEvents() {
-  $('#partySeg').addEventListener('click', e => {
-    const b = e.target.closest('button'); if (!b) return;
-    state.party = b.dataset.party;
-    [...$('#partySeg').children].forEach(c => { const on = c === b; c.classList.toggle('is-active', on); c.setAttribute('aria-checked', on); });
-    render();
-  });
+  $('#partySel').addEventListener('change', e => { state.party = e.target.value; render(); });
   $('#levelSel').addEventListener('change', e => { state.level = e.target.value; render(); });
   $('#issueSel').addEventListener('change', e => { state.issue = e.target.value; render(); });
   $('#searchBox').addEventListener('input', e => { state.q = e.target.value.trim().toLowerCase(); render(); });
@@ -172,7 +167,7 @@ function render() {
     const head = el('button', 'level-head');
     head.type = 'button';
     head.setAttribute('aria-expanded', 'true');
-    head.innerHTML = `<h2>${LEVEL_LABEL[lvl] || lvl}</h2><span class="lvl-count">${groups[lvl].length} race${groups[lvl].length === 1 ? '' : 's'}</span><span class="chev" aria-hidden="true">▼</span>`;
+    head.innerHTML = `<h2>${LEVEL_LABEL[lvl] || lvl}</h2><span class="lvl-count">${groups[lvl].length} race${groups[lvl].length === 1 ? '' : 's'}</span><span class="toggle-more" aria-hidden="true"></span>`;
     head.addEventListener('click', () => {
       const collapsed = g.classList.toggle('collapsed');
       head.setAttribute('aria-expanded', String(!collapsed));

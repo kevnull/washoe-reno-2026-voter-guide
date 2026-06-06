@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css?v=6" />
+<link rel="stylesheet" href="css/styles.css?v=7" />
 </head>
 <body>
 <header class="site-header">
@@ -20,9 +20,9 @@
       <p class="countdown" id="countdown"></p>
     </div>
     <svg class="nv-outline" viewBox="0 0 116 132" aria-hidden="true" focusable="false">
-      <path d="M12 10 H86 V86 L104 122 Z" />
-      <circle class="nv-dot" cx="45" cy="45" r="3.6" />
-      <text class="nv-label" x="52" y="43">RENO</text>
+      <path d="M10 8 H106 V91 L95 124 L10 58 Z" />
+      <circle class="nv-dot" cx="17" cy="48" r="3.6" />
+      <text class="nv-label" x="24" y="51">RENO</text>
     </svg>
   </div>
 </header>
@@ -30,7 +30,7 @@
 <details class="rules-banner" id="rulesBanner">
   <summary class="rules-summary">
     <span class="rb-title">ℹ️ How Nevada's closed primary works — who you can vote for</span>
-    <span class="rb-chev" aria-hidden="true">⌄</span>
+    <span class="rb-toggle" aria-hidden="true"></span>
   </summary>
   <div class="rules-body">
     <p id="rulesText"></p>
@@ -46,13 +46,13 @@
   </div>
   <div class="wrap controls-grid">
     <div class="control control--party">
-      <label>I'm registered as…</label>
-      <div class="seg" id="partySeg" role="radiogroup" aria-label="Your registered party">
-        <button data-party="all" class="is-active" role="radio" aria-checked="true">Show everything</button>
-        <button data-party="Democratic" role="radio" aria-checked="false">Democrat</button>
-        <button data-party="Republican" role="radio" aria-checked="false">Republican</button>
-        <button data-party="Nonpartisan" role="radio" aria-checked="false">Nonpartisan / other</button>
-      </div>
+      <label for="partySel">I'm registered as…</label>
+      <select id="partySel">
+        <option value="all">Show everything</option>
+        <option value="Democratic">Democrat</option>
+        <option value="Republican">Republican</option>
+        <option value="Nonpartisan">Nonpartisan / other</option>
+      </select>
       <p class="eligibility-note" id="eligNote"></p>
     </div>
     <div class="control">
@@ -103,6 +103,6 @@
 
 <div class="tooltip" id="tooltip" hidden></div>
 
-<script src="js/app.js?v=6"></script>
+<script src="js/app.js?v=7"></script>
 </body>
 </html>
