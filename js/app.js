@@ -372,6 +372,7 @@ function toggleSelect(tr) {
       r.querySelector('.cand-cell')?.setAttribute('aria-checked', String(on));
     });
   }
+  if (selections[race]) tr.closest('.race-card')?.classList.remove('needs-pick');
   saveSelections();
   updateBallotBar();
 }
@@ -407,6 +408,52 @@ function ballotGroups() {
     .map(level => ({ level, races: out[level] }));
 }
 
+// Races the current voter can still decide: eligible for their party filter, actually contested
+// (more votable candidates than seats — so unopposed races never count), and not yet picked.
+function missingRaces() {
+  return DATA.races.filter(r => {
+    if (selections[r.id]) return false;
+    const elig = eligibility(r);
+    if (!elig.eligible) return false;
+    let cs = DATA.candidates.filter(c => c.raceId === r.id);
+    if (r.type === 'partisan' && (state.party === 'Democratic' || state.party === 'Republican')) {
+      cs = cs.filter(c => c.party === state.party);
+    }
+    return cs.length > (r.seats || 1);
+  });
+}
+
+function groupByLevel(races) {
+  const out = {};
+  for (const r of races) (out[r.level] ||= []).push(r);
+  return Object.keys(out)
+    .sort((a, b) => LEVEL_ORDER.indexOf(a) - LEVEL_ORDER.indexOf(b))
+    .map(level => ({ level, races: out[level] }));
+}
+
+// Close the ballot, clear view filters that could hide a race, then pulse-highlight every
+// unpicked race and scroll to the first so the voter can finish their ballot.
+function highlightMissing() {
+  const missing = missingRaces();
+  $('#ballotModal').hidden = true;
+  if (!missing.length) return;
+  state.level = 'all'; state.issue = 'all'; state.q = '';
+  $('#levelSel').value = 'all'; $('#issueSel').value = 'all'; $('#searchBox').value = '';
+  render();
+  missing.forEach(r => {
+    const card = document.getElementById('race-' + r.id);
+    if (!card) return;
+    card.classList.add('needs-pick');
+    const grp = card.closest('.level-group');
+    if (grp && grp.classList.contains('collapsed')) {
+      grp.classList.remove('collapsed');
+      grp.querySelector('.level-head')?.setAttribute('aria-expanded', 'true');
+    }
+  });
+  const first = document.getElementById('race-' + missing[0].id);
+  if (first) requestAnimationFrame(() => first.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+}
+
 function openBallot() {
   const groups = ballotGroups();
   const sheet = $('#ballotSheet');
@@ -428,8 +475,19 @@ function openBallot() {
       html += `</div>`;
     }
   }
+  const missing = missingRaces();
+  if (missing.length) {
+    html += `<div class="bs-missing" data-print-skip><h3>⚠️ ${missing.length} race${missing.length === 1 ? '' : 's'} you haven’t picked yet</h3>`;
+    for (const g of groupByLevel(missing)) {
+      html += `<div class="bs-missing-level"><span class="bs-missing-lvl">${LEVEL_LABEL[g.level] || g.level}</span>` +
+        g.races.map(r => `<span class="bs-missing-race">${esc(r.title)}</span>`).join('') + `</div>`;
+    }
+    html += `<button type="button" class="bs-fix" id="ballotFix">← Go back &amp; highlight these</button>` +
+      `<p class="bs-missing-note">Uncontested races are skipped — there’s nothing to decide there.${state.party === 'all' ? ' Set “I’m registered as…” for a list matched to your party.' : ''}</p></div>`;
+  }
   html += `<p class="bs-foot">Built with the independent Washoe/Reno voter guide · kevnull.github.io/washoe-reno-2026-voter-guide · Verify your official ballot at washoecounty.gov/voters</p>`;
   sheet.innerHTML = html;
+  $('#ballotFix')?.addEventListener('click', highlightMissing);
   $('#ballotModal').hidden = false;
 }
 
@@ -474,7 +532,7 @@ async function imageBallot() {
         s.onload = res; s.onerror = rej; document.head.appendChild(s);
       });
     }
-    const canvas = await window.html2canvas($('#ballotSheet'), { backgroundColor: '#ffffff', scale: 2 });
+    const canvas = await window.html2canvas($('#ballotSheet'), { backgroundColor: '#ffffff', scale: 2, ignoreElements: el => el.classList?.contains('bs-missing') });
     const a = document.createElement('a');
     a.href = canvas.toDataURL('image/png');
     a.download = 'my-washoe-reno-ballot-2026.png';
