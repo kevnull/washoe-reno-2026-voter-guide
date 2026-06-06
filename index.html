@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="css/styles.css?v=9" />
+<link rel="stylesheet" href="css/styles.css?v=10" />
 </head>
 <body>
 <header class="site-header">
@@ -85,6 +85,31 @@
   </div>
 </footer>
 
+<!-- My Ballot bar -->
+<div class="ballot-bar" id="ballotBar" hidden>
+  <div class="wrap ballot-bar-inner">
+    <span class="bb-count" id="ballotCount"></span>
+    <span class="bb-actions">
+      <button class="bb-view" id="viewBallot" type="button">🗳️ View &amp; print my ballot</button>
+      <button class="bb-clear" id="clearBallot" type="button">Clear</button>
+    </span>
+  </div>
+</div>
+
+<!-- Ballot modal -->
+<div class="modal" id="ballotModal" hidden role="dialog" aria-modal="true" aria-labelledby="ballotTitle">
+  <div class="modal-card ballot-card">
+    <button class="drawer-close" id="ballotClose" aria-label="Close">✕</button>
+    <div class="ballot-actions" id="ballotActions">
+      <button id="ballotPrint" type="button">🖨️ Print / Save PDF</button>
+      <button id="ballotEmail" type="button">✉️ Email it</button>
+      <button id="ballotImage" type="button">📷 Save image</button>
+      <button id="ballotCopy" type="button">📋 Copy text</button>
+    </div>
+    <div class="ballot-sheet" id="ballotSheet"></div>
+  </div>
+</div>
+
 <!-- Detail drawer -->
 <div class="drawer-backdrop" id="backdrop" hidden></div>
 <aside class="drawer" id="drawer" hidden aria-modal="true" role="dialog" aria-labelledby="drawerName">
@@ -103,6 +128,6 @@
 
 <div class="tooltip" id="tooltip" hidden></div>
 
-<script src="js/app.js?v=9"></script>
+<script src="js/app.js?v=10"></script>
 </body>
 </html>

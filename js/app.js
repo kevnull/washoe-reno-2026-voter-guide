@@ -6,6 +6,12 @@ const ASSET_V = _vm ? _vm[1] : '';
 
 const state = { party: 'all', level: 'all', issue: 'all', q: '' };
 let DATA = null;
+
+// --- My Ballot: one pick per race, persisted ---
+const BALLOT_KEY = 'wrvg-ballot-v1';
+let selections = loadSelections();
+function loadSelections() { try { return JSON.parse(localStorage.getItem(BALLOT_KEY) || '{}') || {}; } catch (e) { return {}; } }
+function saveSelections() { try { localStorage.setItem(BALLOT_KEY, JSON.stringify(selections)); } catch (e) {} }
 const $ = sel => document.querySelector(sel);
 const el = (tag, cls, html) => { const n = document.createElement(tag); if (cls) n.className = cls; if (html != null) n.innerHTML = html; return n; };
 const esc = s => (s == null ? '' : String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])));
@@ -51,6 +57,7 @@ async function init() {
   buildControls();
   wireEvents();
   render();
+  updateBallotBar();
 }
 
 function hydrateChrome() {
@@ -82,11 +89,27 @@ function wireEvents() {
 
   const app = $('#app');
   app.addEventListener('click', e => {
+    const details = e.target.closest('[data-open-cand]');
+    if (details) { e.preventDefault(); openDrawer(details.dataset.openCand); return; }
     const cell = e.target.closest('.cell:not(.empty)');
     if (cell) { openDrawer(cell.dataset.cand, cell.dataset.issue); return; }
-    const name = e.target.closest('[data-open-cand]');
-    if (name) { openDrawer(name.dataset.openCand); }
+    const pick = e.target.closest('.cand-cell');
+    if (pick) { toggleSelect(pick.closest('tr')); }
   });
+  app.addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const pick = e.target.closest('.cand-cell');
+    if (pick) { e.preventDefault(); toggleSelect(pick.closest('tr')); }
+  });
+
+  $('#viewBallot').addEventListener('click', openBallot);
+  $('#clearBallot').addEventListener('click', clearBallot);
+  $('#ballotClose').addEventListener('click', () => $('#ballotModal').hidden = true);
+  $('#ballotModal').addEventListener('click', e => { if (e.target.id === 'ballotModal') $('#ballotModal').hidden = true; });
+  $('#ballotPrint').addEventListener('click', () => window.print());
+  $('#ballotEmail').addEventListener('click', emailBallot);
+  $('#ballotCopy').addEventListener('click', copyBallot);
+  $('#ballotImage').addEventListener('click', imageBallot);
   // tooltip
   app.addEventListener('mouseover', e => { const c = e.target.closest('.cell:not(.empty)'); if (c) showTip(c); });
   app.addEventListener('mousemove', moveTip);
@@ -101,7 +124,7 @@ function wireEvents() {
   $('#methodBtn').addEventListener('click', openMethod);
   $('#methodClose').addEventListener('click', () => $('#methodModal').hidden = true);
   $('#methodModal').addEventListener('click', e => { if (e.target.id === 'methodModal') $('#methodModal').hidden = true; });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeDrawer(); $('#methodModal').hidden = true; } });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeDrawer(); $('#methodModal').hidden = true; $('#ballotModal').hidden = true; } });
 }
 
 /* ---------- Eligibility ---------- */
@@ -277,8 +300,13 @@ function raceCard({ race, cands, elig }) {
   table.innerHTML = thead;
 
   const tb = el('tbody');
+  tb.setAttribute('role', 'radiogroup');
+  tb.setAttribute('aria-label', 'Pick one candidate for ' + race.title);
   cands.forEach(c => {
     const tr = el('tr');
+    tr.dataset.race = race.id;
+    tr.dataset.cand = c.id;
+    if (selections[race.id] === c.id) tr.classList.add('selected');
     tr.appendChild(candCell(c, race));
     if (cols.length === 0) {
       const td = el('td'); td.colSpan = 1;
@@ -292,6 +320,137 @@ function raceCard({ race, cands, elig }) {
   scroll.appendChild(table);
   card.appendChild(scroll);
   return card;
+}
+
+/* ---------- My Ballot ---------- */
+function toggleSelect(tr) {
+  if (!tr) return;
+  const race = tr.dataset.race, cand = tr.dataset.cand;
+  const tbody = tr.parentNode;
+  if (selections[race] === cand) {
+    delete selections[race];
+    tr.classList.remove('selected');
+    tr.querySelector('.cand-cell')?.setAttribute('aria-checked', 'false');
+  } else {
+    selections[race] = cand;
+    [...tbody.children].forEach(r => {
+      const on = r === tr;
+      r.classList.toggle('selected', on);
+      r.querySelector('.cand-cell')?.setAttribute('aria-checked', String(on));
+    });
+  }
+  saveSelections();
+  updateBallotBar();
+}
+
+function updateBallotBar() {
+  const n = Object.keys(selections).length;
+  const bar = $('#ballotBar');
+  bar.hidden = n === 0;
+  if (n) $('#ballotCount').innerHTML = `<b>${n}</b> of ${DATA.races.length} race${n === 1 ? '' : 's'} picked`;
+}
+
+function clearBallot() {
+  if (!confirm('Clear all your ballot picks?')) return;
+  selections = {};
+  saveSelections();
+  updateBallotBar();
+  $('#ballotModal').hidden = true;
+  render();
+}
+
+function ballotGroups() {
+  // returns ordered [{level, races:[{race, cand}]}] for selected races
+  const out = {};
+  for (const r of DATA.races) {
+    const cid = selections[r.id];
+    if (!cid) continue;
+    const cand = DATA.candidates.find(c => c.id === cid);
+    if (!cand) continue;
+    (out[r.level] ||= []).push({ race: r, cand });
+  }
+  return Object.keys(out)
+    .sort((a, b) => LEVEL_ORDER.indexOf(a) - LEVEL_ORDER.indexOf(b))
+    .map(level => ({ level, races: out[level] }));
+}
+
+function openBallot() {
+  const groups = ballotGroups();
+  const sheet = $('#ballotSheet');
+  const total = DATA.races.length;
+  const picked = Object.keys(selections).length;
+  let html = `<div class="bs-head"><h2 id="ballotTitle">My Sample Ballot</h2>` +
+    `<p class="bs-sub">Washoe County &amp; Reno · Primary Election · Tuesday, June 9, 2026</p>` +
+    `<p class="bs-meta">${picked} of ${total} races selected · Bring this as a reference; it is not an official ballot.</p></div>`;
+  if (!groups.length) {
+    html += '<p class="bs-empty">No picks yet. Tap a candidate in any race to add them.</p>';
+  } else {
+    for (const g of groups) {
+      html += `<div class="bs-level"><h3>${LEVEL_LABEL[g.level] || g.level}</h3>`;
+      for (const { race, cand } of g.races) {
+        const party = race.type === 'partisan' && cand.party ? ` <span class="bs-party">(${esc(cand.party)})</span>` : '';
+        html += `<div class="bs-row"><span class="bs-race">${esc(race.title)}</span>` +
+          `<span class="bs-pick">✓ ${esc(cand.name)}${party}${cand.incumbent ? ' <span class="bs-inc">· incumbent</span>' : ''}</span></div>`;
+      }
+      html += `</div>`;
+    }
+  }
+  html += `<p class="bs-foot">Built with the independent Washoe/Reno voter guide · kevnull.github.io/washoe-reno-2026-voter-guide · Verify your official ballot at washoecounty.gov/voters</p>`;
+  sheet.innerHTML = html;
+  $('#ballotModal').hidden = false;
+}
+
+function ballotText() {
+  const groups = ballotGroups();
+  let lines = ['MY SAMPLE BALLOT — Washoe County & Reno', 'Primary Election · Tuesday, June 9, 2026', ''];
+  for (const g of groups) {
+    lines.push((LEVEL_LABEL[g.level] || g.level).toUpperCase());
+    for (const { race, cand } of g.races) {
+      const party = race.type === 'partisan' && cand.party ? ` (${cand.party})` : '';
+      lines.push(`  • ${race.title}: ${cand.name}${party}`);
+    }
+    lines.push('');
+  }
+  lines.push('Reference only — not an official ballot. Verify at washoecounty.gov/voters');
+  lines.push('Guide: https://kevnull.github.io/washoe-reno-2026-voter-guide/');
+  return lines.join('\n');
+}
+
+function emailBallot() {
+  const subject = 'My June 9, 2026 sample ballot (Washoe/Reno)';
+  window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(ballotText())}`;
+}
+
+async function copyBallot() {
+  try { await navigator.clipboard.writeText(ballotText()); flashBtn('#ballotCopy', '✓ Copied'); }
+  catch (e) { alert('Copy failed — select the text manually.'); }
+}
+
+function flashBtn(sel, txt) {
+  const b = $(sel); const old = b.textContent; b.textContent = txt;
+  setTimeout(() => { b.textContent = old; }, 1500);
+}
+
+async function imageBallot() {
+  const btn = $('#ballotImage'); const old = btn.textContent; btn.textContent = '…rendering';
+  try {
+    if (!window.html2canvas) {
+      await new Promise((res, rej) => {
+        const s = document.createElement('script');
+        s.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+        s.onload = res; s.onerror = rej; document.head.appendChild(s);
+      });
+    }
+    const canvas = await window.html2canvas($('#ballotSheet'), { backgroundColor: '#ffffff', scale: 2 });
+    const a = document.createElement('a');
+    a.href = canvas.toDataURL('image/png');
+    a.download = 'my-washoe-reno-ballot-2026.png';
+    a.click();
+    btn.textContent = old;
+  } catch (e) {
+    btn.textContent = old;
+    alert('Image export unavailable (offline?). Use “Print / Save PDF” instead — it also makes a clean screenshot-ready page.');
+  }
 }
 
 function fmtMoney(n) {
@@ -361,12 +520,19 @@ function renderSignals(race, cands) {
 
 function candCell(c, race) {
   const td = el('td', 'cand-cell');
+  td.tabIndex = 0;
+  td.setAttribute('role', 'radio');
+  td.setAttribute('aria-checked', String(selections[race.id] === c.id));
+  td.title = 'Click to pick ' + c.name + ' for your ballot';
   const pills = [];
   if (race.type === 'partisan' && c.party) pills.push(`<span class="pill pill--${esc(c.party)}">${esc(c.party === 'Nonpartisan' ? 'NP' : c.party.slice(0, 3))}</span>`);
   if (c.incumbent) pills.push('<span class="pill pill--inc">Incumbent</span>');
-  td.innerHTML = `<div class="cand-flex">${avatarHtml(c)}<div class="cand-info">` +
-    `<div class="cand-name"><a href="#" data-open-cand="${esc(c.id)}">${esc(c.name)}</a> ${pills.join(' ')}</div>` +
+  td.innerHTML = `<div class="cand-flex">` +
+    `<span class="pick-radio" aria-hidden="true"></span>` +
+    `${avatarHtml(c)}<div class="cand-info">` +
+    `<div class="cand-name">${esc(c.name)} ${pills.join(' ')}</div>` +
     `<div class="cand-sub">${esc(c.summary || shortBio(c))}</div>` +
+    `<button class="cand-details" type="button" data-open-cand="${esc(c.id)}">Details ↗</button>` +
     `</div></div>`;
   return td;
 }
