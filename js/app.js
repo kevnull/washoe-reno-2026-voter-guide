@@ -211,7 +211,7 @@ function jumpTo(id) {
   if (!node) return;
   // On mobile, collapse the filter panel so the target is actually visible
   const ctrl = $('#controls');
-  if (ctrl.classList.contains('open') && window.matchMedia('(max-width: 760px)').matches) {
+  if (ctrl.classList.contains('open') && window.matchMedia('(max-width: 820px)').matches) {
     ctrl.classList.remove('open');
     $('#filtersToggle').setAttribute('aria-expanded', 'false');
   }
