@@ -1,0 +1,256 @@
+{
+  "candidates": [
+    {
+      "id": "kate-marshall",
+      "raised": 66000,
+      "cashOnHand": 220551,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026 (Jan 1-Mar 31), filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"},
+      "endorsements": [
+        {"by": "Sierra Club Toiyabe Chapter", "url": "https://thisisreno.com/2026/06/reno-mayor-data-center-debate/"}
+      ]
+    },
+    {
+      "id": "devon-reese",
+      "raised": 74000,
+      "cashOnHand": 89781,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026 (Jan 1-Mar 31), filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"},
+      "endorsements": [
+        {"by": "Reno Firefighters Association", "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"}
+      ]
+    },
+    {
+      "id": "kathleen-taylor",
+      "raised": 81000,
+      "cashOnHand": 110979,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026 (Jan 1-Mar 31), filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"},
+      "endorsements": []
+    },
+    {
+      "id": "eddie-lorton",
+      "cashOnHand": 167484,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026 (Jan 1-Mar 31), filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"},
+      "endorsements": []
+    },
+    {
+      "id": "matt-johnson",
+      "raised": 20000,
+      "cashOnHand": 13000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"},
+      "endorsements": []
+    },
+    {
+      "id": "summer-pellett",
+      "raised": 2000,
+      "cashOnHand": 75000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (cash on hand largely from prior self-funding)",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"},
+      "endorsements": []
+    },
+    {
+      "id": "vanessa-vaupel",
+      "raised": 30000,
+      "cashOnHand": 18000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"},
+      "endorsements": [
+        {"by": "Reno Firefighters Association", "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"}
+      ]
+    },
+    {
+      "id": "ian-luetkehans",
+      "raised": 0,
+      "cashOnHand": 0,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (no funds reported)",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"},
+      "endorsements": []
+    },
+    {
+      "id": "meghan-ebert",
+      "endorsements": [
+        {"by": "Reno Firefighters Association", "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"}
+      ]
+    },
+    {
+      "id": "mike-clark",
+      "raised": 6600,
+      "cashOnHand": 700,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html"},
+      "endorsements": []
+    },
+    {
+      "id": "jon-killoran",
+      "raised": 14000,
+      "cashOnHand": 33000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (includes self-loan)",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html"},
+      "endorsements": []
+    },
+    {
+      "id": "tammy-holt-still",
+      "raised": 6400,
+      "cashOnHand": 0,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (largely self-funded)",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html"},
+      "endorsements": []
+    },
+    {
+      "id": "rob-pierce",
+      "raised": 29000,
+      "cashOnHand": 14000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html"},
+      "endorsements": []
+    },
+    {
+      "id": "katherine-yriarte",
+      "raised": 8600,
+      "cashOnHand": 500,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html"},
+      "endorsements": []
+    },
+    {
+      "id": "chris-hicks",
+      "raised": 127000,
+      "cashOnHand": 449876,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Fox Reno / Sinclair", "url": "https://foxreno.com/news/election/fundraising-totals-are-in-heres-how-much-campaign-cash-top-nevada-local-candidates-have-governor-attorney-general-ford-lombardo-hill-reno-sparks-mayor"},
+      "endorsements": [
+        {"by": "Gov. Joe Lombardo (plus retired sheriffs and police chiefs)", "url": "https://www.2news.com/news/campaign/the-race-for-washoe-county-district-attorney-is-decided-in-june-primary-election/article_f6223128-9ace-4900-aa7a-e477d9039833.html"}
+      ]
+    },
+    {
+      "id": "wes-duncan",
+      "raised": 47000,
+      "cashOnHand": 522116,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Fox Reno / Sinclair", "url": "https://foxreno.com/news/election/fundraising-totals-are-in-heres-how-much-campaign-cash-top-nevada-local-candidates-have-governor-attorney-general-ford-lombardo-hill-reno-sparks-mayor"},
+      "endorsements": [
+        {"by": "Washoe County Sheriff's Deputies Association, Reno and Sparks police protective associations", "url": "https://www.2news.com/news/campaign/the-race-for-washoe-county-district-attorney-is-decided-in-june-primary-election/article_f6223128-9ace-4900-aa7a-e477d9039833.html"}
+      ]
+    },
+    {
+      "id": "ed-lawson",
+      "raised": 36250,
+      "cashOnHand": 59246,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"},
+      "endorsements": []
+    },
+    {
+      "id": "charlene-bybee",
+      "raised": 8078,
+      "cashOnHand": 34972,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"},
+      "endorsements": []
+    },
+    {
+      "id": "diana-mackey",
+      "raised": 4681,
+      "cashOnHand": 1291,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"},
+      "endorsements": []
+    },
+    {
+      "id": "wendi-rawson",
+      "raised": 10268,
+      "cashOnHand": 11162,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"},
+      "endorsements": []
+    },
+    {
+      "id": "jamie-oconnell",
+      "raised": 3000,
+      "cashOnHand": 2000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (includes self-loan)",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"},
+      "endorsements": []
+    },
+    {
+      "id": "hunter-rand",
+      "raised": 6000,
+      "cashOnHand": 2000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"},
+      "endorsements": []
+    },
+    {
+      "id": "dian-vanderwell",
+      "raised": 11000,
+      "cashOnHand": 9000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"},
+      "endorsements": [
+        {"by": "Reno Firefighters Association", "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"}
+      ]
+    },
+    {
+      "id": "anthony-goulet",
+      "raised": 0,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (no funds reported)",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"},
+      "endorsements": []
+    },
+    {
+      "id": "damon-harrell",
+      "raised": 800,
+      "cashOnHand": 700,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"},
+      "endorsements": []
+    },
+    {
+      "id": "adam-mayberry",
+      "raised": 18000,
+      "cashOnHand": 49000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"},
+      "endorsements": [
+        {"by": "Reno Firefighters Association", "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"}
+      ]
+    },
+    {
+      "id": "sean-mccaffrey",
+      "raised": 6000,
+      "cashOnHand": 4000,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"},
+      "endorsements": []
+    },
+    {
+      "id": "tracey-thomas",
+      "raised": 0,
+      "cashOnHand": 0,
+      "fundingAsOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (no funds reported)",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"},
+      "endorsements": []
+    },
+    {
+      "id": "sheena-harvey",
+      "raised": 23353,
+      "fundingAsOf": "NV SoS C&E report, filed Apr 15 2026",
+      "fundingSource": {"label": "Reno Gazette-Journal via AOL", "url": "https://www.aol.com/articles/benton-harvey-westlake-running-washoe-214708991.html"},
+      "endorsements": [
+        {"by": "WCSD Trustee Christine Hull", "url": "https://www.aol.com/articles/benton-harvey-westlake-running-washoe-214708991.html"},
+        {"by": "Former WCSD board president and state Sen. Angie Taylor", "url": "https://www.aol.com/articles/benton-harvey-westlake-running-washoe-214708991.html"}
+      ]
+    },
+    {
+      "id": "brooke-westlake",
+      "endorsements": [
+        {"by": "Washoe County Republican Party Central Committee", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake"},
+        {"by": "Western States Regional Council (Carpenters)", "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake"}
+      ]
+    }
+  ],
+  "racePolls": []
+}

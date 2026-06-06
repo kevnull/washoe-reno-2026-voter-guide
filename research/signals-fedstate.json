@@ -1,0 +1,261 @@
+{
+  "_note": "Viability signals for federal & statewide candidates in the June 9, 2026 Nevada primary. Statewide $ figures are from Q1 2026 (Jan-Mar) campaign-finance reports as summarized by The Nevada Independent unless noted; CD2 figures use FEC where a candidate ID was confirmed. Blank fields = not found. No fabricated data.",
+  "candidates": [
+    {
+      "id": "joe-lombardo",
+      "raised": 2200000,
+      "cashOnHand": 14000000,
+      "fundingAsOf": "Q1 2026 (campaign + Nevada Way PAC); cash-on-hand is combined campaign+PAC",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": []
+    },
+    {
+      "id": "aaron-ford",
+      "raised": 1500000,
+      "cashOnHand": 2700000,
+      "fundingAsOf": "Q1 2026 (campaign + Forward Nevada PAC); record direct haul for non-incumbent gov candidate",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "Sens. Jacky Rosen & Catherine Cortez Masto, Reps. Titus/Horsford/Lee (full NV Dem delegation)", "url": "https://www.fordfornevada.com/"},
+        {"by": "Nevada Conservation League", "url": "https://www.fox5vegas.com/2026/04/23/nevada-conservation-league-endorses-aaron-ford-governor/"},
+        {"by": "Las Vegas Weekly (Dem primary)", "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"}
+      ]
+    },
+    {
+      "id": "alexis-hill",
+      "raised": 171000,
+      "cashOnHand": null,
+      "fundingAsOf": "Q1 2026 (majority was $126K in loans from candidate and spouse)",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": []
+    },
+    {
+      "id": "stavros-anthony",
+      "raised": 134000,
+      "cashOnHand": 302000,
+      "fundingAsOf": "Q1 2026",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": []
+    },
+    {
+      "id": "sandra-jauregui",
+      "raised": 177100,
+      "cashOnHand": 318300,
+      "fundingAsOf": "Q1 2026",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "EMILYs List", "url": "https://emilyslist.org/news/emilys-list-endorses-sandra-jauregui-for-nevada-lieutenant-governor/"},
+        {"by": "Sen. Mark Kelly (AZ)", "url": "https://www.kolotv.com/2026/06/02/arizona-senator-mark-kelly-endorses-jauregui-lt-governor/"},
+        {"by": "Las Vegas Weekly (Dem primary)", "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"}
+      ]
+    },
+    {
+      "id": "zach-conine",
+      "raised": 1300000,
+      "cashOnHand": 2700000,
+      "fundingAsOf": "Q1 2026",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "Nevada State AFL-CIO", "url": "https://www.zachconine.com/endorsements"},
+        {"by": "Las Vegas Weekly & Las Vegas Sun (Dem primary)", "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"},
+        {"by": "Nevada State Education Association", "url": "https://www.zachconine.com/endorsements"}
+      ]
+    },
+    {
+      "id": "nicole-cannizzaro",
+      "raised": 272000,
+      "cashOnHand": 1000000,
+      "fundingAsOf": "Q1 2026 (cash on hand approx)",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "EMILYs List", "url": "https://emilyslist.org/news/emilys-list-endorses-nicole-cannizzaro-for-nevada-attorney-general/"},
+        {"by": "Reproductive Freedom for All", "url": "https://reproductivefreedomforall.org/news/reproductive-freedom-for-all-endorses-aaron-ford-for-governor-and-nicole-cannizzaro-for-attorney-general/"},
+        {"by": "Silver State Equality", "url": "https://www.kolotv.com/2026/04/02/lgbtq-civil-rights-advocacy-nonprofit-endorses-nicole-cannizzaro-attorney-general/"}
+      ]
+    },
+    {
+      "id": "danny-tarkanian",
+      "raised": 154000,
+      "cashOnHand": 461000,
+      "fundingAsOf": "Q1 2026",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": []
+    },
+    {
+      "id": "adriana-guzman-fralick",
+      "raised": 116000,
+      "cashOnHand": 150000,
+      "fundingAsOf": "Q1 2026 (cash on hand approx)",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "President Donald Trump (GOP primary)", "url": "https://news3lv.com/news/local/trump-endorses-republican-candidate-adriana-guzman-fralick-nevada-attorney-general-primary-election-politics-danny-tarkanian"},
+        {"by": "Gov. Joe Lombardo", "url": "https://www.nevadaappeal.com/news/2025/dec/10/governor-endorses-tarkanians-republican-opponent-for-attorney-general/"}
+      ]
+    },
+    {
+      "id": "cisco-aguilar",
+      "raised": 326000,
+      "cashOnHand": null,
+      "fundingAsOf": "Q1 2026",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "Nevada State Education Association", "url": "https://www.fox5vegas.com/2026/04/27/nevada-state-education-association-endorses-aguilar/"},
+        {"by": "The Next 50", "url": "https://thenext50.substack.com/p/why-were-endorsing-cisco-aguilar"}
+      ]
+    },
+    {
+      "id": "shirley-folkins-roberts",
+      "raised": 101000,
+      "cashOnHand": 90000,
+      "fundingAsOf": "Q1 2026 ($22K was a self-loan)",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "Gov. Joe Lombardo (GOP primary)", "url": "https://www.nevadaappeal.com/news/2026/may/16/jim-hartman-four-gop-candidates-for-secretary-of-state/"},
+        {"by": "Las Vegas Weekly (GOP primary)", "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"}
+      ]
+    },
+    {
+      "id": "sharron-angle",
+      "raised": 15000,
+      "cashOnHand": null,
+      "fundingAsOf": "Q1 2026 (Jan-Mar)",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/should-nevada-elections-be-overhauled-heres-what-gop-secretary-of-state-hopefuls-say"},
+      "endorsements": []
+    },
+    {
+      "id": "joe-dalia",
+      "raised": 55000,
+      "cashOnHand": 207000,
+      "fundingAsOf": "Q1 2026",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "Senate Majority Leader Nicole Cannizzaro", "url": "https://www.joedalia.com/endorsements"}
+      ]
+    },
+    {
+      "id": "tya-mathis-coleman",
+      "raised": 120400,
+      "cashOnHand": 106200,
+      "fundingAsOf": "Q1 2026",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "Las Vegas Weekly (Dem primary)", "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"}
+      ]
+    },
+    {
+      "id": "jeff-carter",
+      "raised": 222800,
+      "cashOnHand": 192000,
+      "fundingAsOf": "Q1 2026 ($70.3K+ was a self-loan)",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "Las Vegas Weekly (GOP primary)", "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"}
+      ]
+    },
+    {
+      "id": "drew-johnson",
+      "raised": 7600,
+      "cashOnHand": 32000,
+      "fundingAsOf": "Q1 2026 (Jan-Mar)",
+      "fundingSource": {"label": "Nevada Current", "url": "https://nevadacurrent.com/2026/04/29/mud-flies-in-republican-primary-for-state-treasurer/"},
+      "endorsements": [
+        {"by": "Washoe County Republican Party", "url": "https://www.ballotready.org/people/drew-johnson-9bbe1ace-a18e-47fa-b985-ca7f4eda616f"}
+      ]
+    },
+    {
+      "id": "andy-matthews",
+      "raised": 282738,
+      "cashOnHand": 254115,
+      "fundingAsOf": "Through Jan 12, 2026 annual report (record for a NV Controller race; GOP primary canceled, advanced unopposed)",
+      "fundingSource": {"label": "Nevada News & Views", "url": "https://nevadanewsandviews.com/nevada-controller-andy-matthews-reports-record-smashing-fundraising-haul-in-re-election-bid/"},
+      "endorsements": []
+    },
+    {
+      "id": "robert-blackstock",
+      "raised": 1600,
+      "cashOnHand": 300,
+      "fundingAsOf": "As of mid-April 2026",
+      "fundingSource": {"label": "Nevada Current", "url": "https://nevadacurrent.com/2026/04/23/yes-state-controller-is-a-job-and-democrats-are-vying-to-challenge-the-republican-who-holds-it/"},
+      "endorsements": [
+        {"by": "Las Vegas Weekly (Dem primary)", "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"}
+      ]
+    },
+    {
+      "id": "michael-macdougall",
+      "raised": 6400,
+      "cashOnHand": 27000,
+      "fundingAsOf": "As of mid-April 2026",
+      "fundingSource": {"label": "Nevada Current", "url": "https://nevadacurrent.com/2026/04/23/yes-state-controller-is-a-job-and-democrats-are-vying-to-challenge-the-republican-who-holds-it/"},
+      "endorsements": []
+    },
+    {
+      "id": "james-settelmeyer",
+      "raised": 105000,
+      "cashOnHand": null,
+      "fundingAsOf": "First ~20 days of candidacy, Q1 2026 (FEC; CD2 is federal)",
+      "fundingSource": {"label": "The Nevada Independent / FEC", "url": "https://www.fec.gov/data/elections/house/NV/02/2026/"},
+      "endorsements": [
+        {"by": "Rep. Mark Amodei (retiring CD2 incumbent)", "url": "https://thenevadaindependent.com/article/settelmeyer-backed-by-lombardo-amodei-in-bid-for-open-northern-nevada-congressional-seat"},
+        {"by": "Gov. Joe Lombardo", "url": "https://thenevadaindependent.com/article/settelmeyer-backed-by-lombardo-amodei-in-bid-for-open-northern-nevada-congressional-seat"},
+        {"by": "Nevada Right to Life", "url": "https://nevadanewsandviews.com/the-big-endorsement-lombardo-and-amodei-back-settelmeyer-for-nevadas-cd2/"}
+      ]
+    },
+    {
+      "id": "david-flippo",
+      "raised": 1769506,
+      "cashOnHand": 31466,
+      "fundingAsOf": "FEC cycle-to-date 01/01/2025-05/20/2026 (~$760K+ self-loans; spent $1.75M)",
+      "fundingSource": {"label": "FEC", "url": "https://www.fec.gov/data/candidate/H4NV04108/"},
+      "endorsements": [
+        {"by": "President Donald Trump (GOP primary)", "url": "https://nevadacurrent.com/briefs/trump-endorses-flippo-in-nevadas-cd2/"}
+      ]
+    },
+    {
+      "id": "teresa-benitez-thompson",
+      "raised": 57000,
+      "cashOnHand": null,
+      "fundingAsOf": "First ~20 days of candidacy, Q1 2026 ($20K self-loan)",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": [
+        {"by": "Northern Nevada Central Labor Council", "url": "https://nnclc.org/content/41992"},
+        {"by": "NOW Nevada PAC", "url": "https://electteresa.com/"}
+      ]
+    },
+    {
+      "id": "greg-kidd",
+      "raised": 185000,
+      "cashOnHand": null,
+      "fundingAsOf": "Q1 2026 (entirely a self-loan of $185K)",
+      "fundingSource": {"label": "The Nevada Independent", "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"},
+      "endorsements": []
+    }
+  ],
+  "racePolls": [
+    {
+      "raceId": "nv-governor",
+      "polls": [
+        {
+          "summary": "INTERNAL/CAMPAIGN POLL (Dem primary): Ford 48%, Hill 13% initial; after candidate messaging Hill 26%, Ford 47%",
+          "sponsor": "Alexis Hill campaign (conducted by Change Research) - clearly labeled internal/campaign poll",
+          "date": "2025-12 (Dec 11-18, 2025)",
+          "sampleSize": "555 Democratic primary voters, online, MOE +/-4.3%",
+          "url": "https://thenevadaindependent.com/article/poll-alexis-hill-trailing-in-nevada-gov-race-but-campaign-attractive-to-primary-voters"
+        },
+        {
+          "summary": "GENERAL-ELECTION matchup (not a primary poll): Lombardo (R) 41%, Ford (D) 41%, Undecided 18%",
+          "sponsor": "Emerson College Polling",
+          "date": "2025-11 (Nov 16-18, 2025)",
+          "sampleSize": "800 registered voters, MOE +/-3.4%",
+          "url": "https://emersoncollegepolling.com/nevada-2026-poll/"
+        },
+        {
+          "summary": "GENERAL-ELECTION matchup (not a primary poll): Lombardo (R) 39%, Ford (D) 38% (toss-up, within MOE)",
+          "sponsor": "Noble Predictive Insights",
+          "date": "2026-03",
+          "sampleSize": "",
+          "url": "https://www.noblepredictiveinsights.com/post/nevada-s-2026-governor-s-race-lombardo-and-ford-locked-in-early-dead-heat"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 'use strict';
 
+// Tie the data fetch to the asset version (?v=) so a deploy never serves stale cached JSON.
+const _vm = document.currentScript && document.currentScript.src.match(/[?&]v=([^&]+)/);
+const ASSET_V = _vm ? _vm[1] : '';
+
 const state = { party: 'all', level: 'all', issue: 'all', q: '' };
 let DATA = null;
 const $ = sel => document.querySelector(sel);
@@ -37,7 +41,7 @@ function ytLink(url, ts) {
 
 async function init() {
   try {
-    const res = await fetch('data/candidates.json');
+    const res = await fetch('data/candidates.json' + (ASSET_V ? '?v=' + ASSET_V : ''));
     DATA = await res.json();
   } catch (e) {
     $('#app').innerHTML = '<div class="empty-state"><h2>Could not load candidate data.</h2><p>If you opened this file directly, run a local server (e.g. <code>python3 -m http.server</code>) — browsers block <code>fetch()</code> on <code>file://</code>.</p></div>';
@@ -248,6 +252,9 @@ function raceCard({ race, cands, elig }) {
     return card;
   }
 
+  const sig = renderSignals(race, cands);
+  if (sig) card.appendChild(sig);
+
   // determine issue columns
   let cols;
   if (state.issue !== 'all') cols = [state.issue];
@@ -285,6 +292,71 @@ function raceCard({ race, cands, elig }) {
   scroll.appendChild(table);
   card.appendChild(scroll);
   return card;
+}
+
+function fmtMoney(n) {
+  if (n == null) return null;
+  if (n >= 1e6) return '$' + (n / 1e6).toFixed(2).replace(/\.?0+$/, '') + 'M';
+  if (n >= 1e3) return '$' + Math.round(n / 1e3) + 'K';
+  return '$' + n;
+}
+
+function renderSignals(race, cands) {
+  const funded = cands.filter(c => c.funding && (c.funding.raised != null || c.funding.cashOnHand != null));
+  const endorsed = cands.filter(c => c.endorsements && c.endorsements.length);
+  const polls = race.polls || [];
+  if (!funded.length && !endorsed.length && !polls.length) return null;
+
+  const det = el('details', 'signals');
+  const bits = ['money', endorsed.length && 'endorsements', polls.length && 'polls'].filter(Boolean);
+  const sum = el('summary', 'signals-summary');
+  sum.innerHTML = `<span class="sig-title">📊 Race signals — ${bits.join(' · ')}</span><span class="sig-toggle" aria-hidden="true"></span>`;
+  det.appendChild(sum);
+  const body = el('div', 'signals-body');
+  let html = '';
+
+  if (funded.length) {
+    const maxR = Math.max(1, ...funded.map(c => c.funding.raised || 0));
+    const sorted = [...funded].sort((a, b) => (b.funding.raised ?? b.funding.cashOnHand ?? 0) - (a.funding.raised ?? a.funding.cashOnHand ?? 0));
+    const srcs = new Map();
+    let rows = '';
+    for (const c of sorted) {
+      const f = c.funding;
+      const pct = f.raised != null ? Math.max(3, Math.round(f.raised / maxR * 100)) : 0;
+      const amt = [f.raised != null ? `${fmtMoney(f.raised)} raised` : null, f.cashOnHand != null ? `${fmtMoney(f.cashOnHand)} cash` : null].filter(Boolean).join(' · ');
+      rows += `<div class="fund-row"><span class="fund-name">${esc(c.name)}</span>` +
+        `<span class="fund-track">${f.raised != null ? `<span class="fund-fill" style="width:${pct}%"></span>` : ''}</span>` +
+        `<span class="fund-amt">${esc(amt)}</span></div>`;
+      if (f.source && f.source.url) srcs.set(f.source.url, f.source.label || 'source');
+    }
+    const srcLinks = [...srcs].map(([url, label]) => `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)} ↗</a>`).join(' · ');
+    html += `<div class="sig-section"><h4>💰 Fundraising this cycle</h4>${rows}` +
+      `<p class="sig-src">Most recent campaign-finance filings; figures rounded. ${srcLinks ? 'Source: ' + srcLinks : ''}</p></div>`;
+  }
+
+  if (endorsed.length) {
+    let rows = '';
+    for (const c of endorsed) {
+      const list = c.endorsements.map(e => e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.by)}</a>` : esc(e.by)).join(', ');
+      rows += `<div class="endo-row"><span class="endo-name">${esc(c.name)}</span><span class="endo-list">${list}</span></div>`;
+    }
+    html += `<div class="sig-section"><h4>🤝 Notable endorsements</h4>${rows}</div>`;
+  }
+
+  if (polls.length) {
+    let rows = '';
+    for (const p of polls) {
+      rows += `<div class="poll-row"><div class="poll-summary">${esc(p.summary)}</div>` +
+        `<div class="poll-meta">${[p.sponsor, p.date, p.sampleSize].filter(Boolean).map(esc).join(' · ')}` +
+        `${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">source ↗</a>` : ''}</div></div>`;
+    }
+    html += `<div class="sig-section"><h4>📊 Polls</h4>` +
+      `<p class="sig-caveat">⚠️ No independent public <em>primary</em> polls exist for this ballot. Entries below may be internal/campaign or general-election polls — read each label.</p>${rows}</div>`;
+  }
+
+  body.innerHTML = html;
+  det.appendChild(body);
+  return det;
 }
 
 function candCell(c, race) {

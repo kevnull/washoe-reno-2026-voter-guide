@@ -1,0 +1,98 @@
+{
+  "_note": "Viability signals for contested Washoe County NV Legislature primaries, June 9, 2026. Finance figures are 2026-cycle as reported by the Reno Gazette Journal / Nevada Independent candidate guides (drawn from NV SoS Aurora C&E reports). Amounts are rounded integer dollars as published by those sources. NEVER fabricated; candidates/fields left out where no real datum was found.",
+  "candidates": [
+    {
+      "id": "lisa-krasner",
+      "raised": 31000,
+      "cashOnHand": 123000,
+      "fundingAsOf": "2026 cycle (per RGJ/AOL candidate guide, updated May 2026)",
+      "fundingSource": {
+        "label": "Reno Gazette Journal / AOL 2026 SD16 candidate guide (NV SoS C&E data)",
+        "url": "https://www.aol.com/articles/krasner-stabbert-run-nv-senate-112518715.html"
+      },
+      "endorsements": [
+        {"by": "Gov. Joe Lombardo", "url": "https://lisakrasnerfornevada.com/"},
+        {"by": "NRA \"A\" rating (pro-2nd Amendment)", "url": "https://lisakrasnerfornevada.com/"},
+        {"by": "Nevada law enforcement (per campaign site)", "url": "https://lisakrasnerfornevada.com/"}
+      ]
+    },
+    {
+      "id": "monica-jaye-stabbert",
+      "raised": 32000,
+      "cashOnHand": 2800,
+      "fundingAsOf": "2026 cycle (per RGJ/AOL candidate guide, updated May 2026); funding heavily from personal loans (Martin Stabbert, Monica Jaye Stabbert)",
+      "fundingSource": {
+        "label": "Reno Gazette Journal / AOL 2026 SD16 candidate guide (NV SoS C&E data)",
+        "url": "https://www.aol.com/articles/krasner-stabbert-run-nv-senate-112518715.html"
+      },
+      "endorsements": [
+        {"by": "Joey Gilbert (NV attorney)", "url": "https://www.monicajayestabbert4nv.com/endorsements"},
+        {"by": "Former Washoe County Sheriff Chuck Allen", "url": "https://www.monicajayestabbert4nv.com/endorsements"},
+        {"by": "Colleen Westlake (Washoe County School District Board Trustee, District B)", "url": "https://www.monicajayestabbert4nv.com/endorsements"}
+      ]
+    },
+    {
+      "id": "michael-ginsburg",
+      "raised": 1000,
+      "cashOnHand": -324,
+      "fundingAsOf": "2026 cycle (per RGJ/AOL candidate guide, updated May 2026); largest contributor is the candidate (self-funded)",
+      "fundingSource": {
+        "label": "Reno Gazette Journal / AOL 2026 AD25 candidate guide (NV SoS C&E data)",
+        "url": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html"
+      },
+      "endorsements": []
+    },
+    {
+      "id": "julie-butler",
+      "raised": 9000,
+      "cashOnHand": 35000,
+      "fundingAsOf": "2026 cycle (per Nevada Independent / AOL candidate guide, May 2026)",
+      "fundingSource": {
+        "label": "The Nevada Independent / AOL 2026 AD40 candidate guide (NV SoS C&E data)",
+        "url": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+      },
+      "endorsements": [
+        {"by": "Gov. Joe Lombardo", "url": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"},
+        {"by": "Former Assemblyman P.K. O'Neill", "url": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"},
+        {"by": "Unions for state correctional officers and state troopers", "url": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"}
+      ]
+    },
+    {
+      "id": "rich-harvey",
+      "raised": 4300,
+      "cashOnHand": 1600,
+      "fundingAsOf": "2026 cycle (per Nevada Independent / AOL candidate guide, May 2026)",
+      "fundingSource": {
+        "label": "The Nevada Independent / AOL 2026 AD40 candidate guide (NV SoS C&E data)",
+        "url": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+      },
+      "endorsements": []
+    },
+    {
+      "id": "drew-ribar",
+      "raised": 3000,
+      "cashOnHand": 600,
+      "fundingAsOf": "2026 cycle (per Nevada Independent / AOL candidate guide, May 2026); largely self-funded (Ribar Holdings, candidate)",
+      "fundingSource": {
+        "label": "The Nevada Independent / AOL 2026 AD40 candidate guide (NV SoS C&E data)",
+        "url": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+      },
+      "endorsements": []
+    },
+    {
+      "id": "stacy-woodbury",
+      "raised": 37000,
+      "cashOnHand": 48000,
+      "fundingAsOf": "2026 cycle (per Nevada Independent / AOL candidate guide, May 2026); includes a $10,000 loan to her own campaign",
+      "fundingSource": {
+        "label": "The Nevada Independent / AOL 2026 AD40 candidate guide (NV SoS C&E data)",
+        "url": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+      },
+      "endorsements": [
+        {"by": "Former NV State Treasurer & Legislator Patty Cafferata", "url": "https://www.stacywoodbury.com/post/former-nevada-state-treasurer-and-legislator-patty-cafferata-endorses-stacy-woodbury-for-assembly-di"},
+        {"by": "Former Assemblyman / former Trump admin official Ken Gray", "url": "https://www.stacywoodbury.com/"}
+      ]
+    }
+  ],
+  "racePolls": []
+}

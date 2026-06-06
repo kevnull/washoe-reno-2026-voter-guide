@@ -115,7 +115,30 @@
       "tier": "marquee",
       "seats": 1,
       "notes": "CLOSED primary (June 9, 2026): only registered party members vote in their party's contest. Top vote-getter in each party advances to Nov. 3, 2026 general. Republican primary: incumbent Gov. Joe Lombardo vs. several longshot challengers. Democratic primary: term-limited AG Aaron Ford (frontrunner) vs. Washoe County Commission Chair Alexis Hill, plus minor candidates. Rated a competitive/leans-Republican race nationally.",
-      "level": "Statewide"
+      "level": "Statewide",
+      "polls": [
+        {
+          "summary": "INTERNAL/CAMPAIGN POLL (Dem primary): Ford 48%, Hill 13% initial; after candidate messaging Hill 26%, Ford 47%",
+          "sponsor": "Alexis Hill campaign (conducted by Change Research) - clearly labeled internal/campaign poll",
+          "date": "2025-12 (Dec 11-18, 2025)",
+          "sampleSize": "555 Democratic primary voters, online, MOE +/-4.3%",
+          "url": "https://thenevadaindependent.com/article/poll-alexis-hill-trailing-in-nevada-gov-race-but-campaign-attractive-to-primary-voters"
+        },
+        {
+          "summary": "GENERAL-ELECTION matchup (not a primary poll): Lombardo (R) 41%, Ford (D) 41%, Undecided 18%",
+          "sponsor": "Emerson College Polling",
+          "date": "2025-11 (Nov 16-18, 2025)",
+          "sampleSize": "800 registered voters, MOE +/-3.4%",
+          "url": "https://emersoncollegepolling.com/nevada-2026-poll/"
+        },
+        {
+          "summary": "GENERAL-ELECTION matchup (not a primary poll): Lombardo (R) 39%, Ford (D) 38% (toss-up, within MOE)",
+          "sponsor": "Noble Predictive Insights",
+          "date": "2026-03",
+          "sampleSize": "",
+          "url": "https://www.noblepredictiveinsights.com/post/nevada-s-2026-governor-s-race-lombardo-and-ford-locked-in-early-dead-heat"
+        }
+      ]
     },
     {
       "id": "nv-secretary-of-state",
@@ -535,7 +558,30 @@
       },
       "summary": "Establishment-backed rancher and ex-state Senate GOP leader; runs on low taxes, water rights, and border security.",
       "photo": "img/james-settelmeyer.jpg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 105000,
+        "cashOnHand": null,
+        "asOf": "First ~20 days of candidacy, Q1 2026 (FEC; CD2 is federal)",
+        "source": {
+          "label": "The Nevada Independent / FEC",
+          "url": "https://www.fec.gov/data/elections/house/NV/02/2026/"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Rep. Mark Amodei (retiring CD2 incumbent)",
+          "url": "https://thenevadaindependent.com/article/settelmeyer-backed-by-lombardo-amodei-in-bid-for-open-northern-nevada-congressional-seat"
+        },
+        {
+          "by": "Gov. Joe Lombardo",
+          "url": "https://thenevadaindependent.com/article/settelmeyer-backed-by-lombardo-amodei-in-bid-for-open-northern-nevada-congressional-seat"
+        },
+        {
+          "by": "Nevada Right to Life",
+          "url": "https://nevadanewsandviews.com/the-big-endorsement-lombardo-and-amodei-back-settelmeyer-for-nevadas-cd2/"
+        }
+      ]
     },
     {
       "id": "david-flippo",
@@ -582,7 +628,22 @@
       },
       "summary": "Trump-endorsed retired Air Force colonel making illegal immigration and border security his central issue.",
       "photo": "img/david-flippo.jpeg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 1769506,
+        "cashOnHand": 31466,
+        "asOf": "FEC cycle-to-date 01/01/2025-05/20/2026 (~$760K+ self-loans; spent $1.75M)",
+        "source": {
+          "label": "FEC",
+          "url": "https://www.fec.gov/data/candidate/H4NV04108/"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "President Donald Trump (GOP primary)",
+          "url": "https://nevadacurrent.com/briefs/trump-endorses-flippo-in-nevadas-cd2/"
+        }
+      ]
     },
     {
       "id": "fred-simon-jr",
@@ -1157,7 +1218,26 @@
       },
       "summary": "Former Assembly majority leader and social worker; the field's most experienced Democrat, focused on cost of living.",
       "photo": "img/teresa-benitez-thompson.jpg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 57000,
+        "cashOnHand": null,
+        "asOf": "First ~20 days of candidacy, Q1 2026 ($20K self-loan)",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Northern Nevada Central Labor Council",
+          "url": "https://nnclc.org/content/41992"
+        },
+        {
+          "by": "NOW Nevada PAC",
+          "url": "https://electteresa.com/"
+        }
+      ]
     },
     {
       "id": "greg-kidd",
@@ -1208,7 +1288,16 @@
       },
       "summary": "Self-funding venture investor and Benitez-Thompson's chief rival; runs on affordability and reining in data centers.",
       "photo": "img/greg-kidd.jpeg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 185000,
+        "cashOnHand": null,
+        "asOf": "Q1 2026 (entirely a self-loan of $185K)",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      }
     },
     {
       "id": "kathy-durham",
@@ -1617,7 +1706,30 @@
           "citationUrl": "https://www.nevadaappeal.com/news/2022/oct/12/senate-16-hopefuls-agree-issues-differ-solutions/"
         }
       },
-      "summary": "Incumbent SD16 senator and attorney naming wildfire, election integrity, and education as Nevada's top challenges."
+      "summary": "Incumbent SD16 senator and attorney naming wildfire, election integrity, and education as Nevada's top challenges.",
+      "funding": {
+        "raised": 31000,
+        "cashOnHand": 123000,
+        "asOf": "2026 cycle (per RGJ/AOL candidate guide, updated May 2026)",
+        "source": {
+          "label": "Reno Gazette Journal / AOL 2026 SD16 candidate guide (NV SoS C&E data)",
+          "url": "https://www.aol.com/articles/krasner-stabbert-run-nv-senate-112518715.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Gov. Joe Lombardo",
+          "url": "https://lisakrasnerfornevada.com/"
+        },
+        {
+          "by": "NRA \"A\" rating (pro-2nd Amendment)",
+          "url": "https://lisakrasnerfornevada.com/"
+        },
+        {
+          "by": "Nevada law enforcement (per campaign site)",
+          "url": "https://lisakrasnerfornevada.com/"
+        }
+      ]
     },
     {
       "id": "monica-jaye-stabbert",
@@ -1682,7 +1794,30 @@
           "timestamp": null
         }
       },
-      "summary": "Conservative talk-radio host challenging Krasner; centers cost of living, attainable housing, and local hiring."
+      "summary": "Conservative talk-radio host challenging Krasner; centers cost of living, attainable housing, and local hiring.",
+      "funding": {
+        "raised": 32000,
+        "cashOnHand": 2800,
+        "asOf": "2026 cycle (per RGJ/AOL candidate guide, updated May 2026); funding heavily from personal loans (Martin Stabbert, Monica Jaye Stabbert)",
+        "source": {
+          "label": "Reno Gazette Journal / AOL 2026 SD16 candidate guide (NV SoS C&E data)",
+          "url": "https://www.aol.com/articles/krasner-stabbert-run-nv-senate-112518715.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Joey Gilbert (NV attorney)",
+          "url": "https://www.monicajayestabbert4nv.com/endorsements"
+        },
+        {
+          "by": "Former Washoe County Sheriff Chuck Allen",
+          "url": "https://www.monicajayestabbert4nv.com/endorsements"
+        },
+        {
+          "by": "Colleen Westlake (Washoe County School District Board Trustee, District B)",
+          "url": "https://www.monicajayestabbert4nv.com/endorsements"
+        }
+      ]
     },
     {
       "id": "michael-ginsburg",
@@ -1742,7 +1877,16 @@
           "citationUrl": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html"
         }
       },
-      "summary": "Reno NV Energy manager wary of transferable tax credits; pushes EV highway fees and housing zoning reform."
+      "summary": "Reno NV Energy manager wary of transferable tax credits; pushes EV highway fees and housing zoning reform.",
+      "funding": {
+        "raised": 1000,
+        "cashOnHand": -324,
+        "asOf": "2026 cycle (per RGJ/AOL candidate guide, updated May 2026); largest contributor is the candidate (self-funded)",
+        "source": {
+          "label": "Reno Gazette Journal / AOL 2026 AD25 candidate guide (NV SoS C&E data)",
+          "url": "https://www.aol.com/news/republicans-ginsburg-bachman-dodge-seek-162023818.html"
+        }
+      }
     },
     {
       "id": "noah-bachman-dodge",
@@ -1824,7 +1968,30 @@
           "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
         }
       },
-      "summary": "30-year state executive touting deep budget expertise; flags infrastructure and fuel-supply vulnerability."
+      "summary": "30-year state executive touting deep budget expertise; flags infrastructure and fuel-supply vulnerability.",
+      "funding": {
+        "raised": 9000,
+        "cashOnHand": 35000,
+        "asOf": "2026 cycle (per Nevada Independent / AOL candidate guide, May 2026)",
+        "source": {
+          "label": "The Nevada Independent / AOL 2026 AD40 candidate guide (NV SoS C&E data)",
+          "url": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Gov. Joe Lombardo",
+          "url": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+        },
+        {
+          "by": "Former Assemblyman P.K. O'Neill",
+          "url": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+        },
+        {
+          "by": "Unions for state correctional officers and state troopers",
+          "url": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
+        }
+      ]
     },
     {
       "id": "rich-harvey",
@@ -1889,7 +2056,16 @@
           "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
         }
       },
-      "summary": "Career fire chief making water scarcity and wildfire prevention his signature issues."
+      "summary": "Career fire chief making water scarcity and wildfire prevention his signature issues.",
+      "funding": {
+        "raised": 4300,
+        "cashOnHand": 1600,
+        "asOf": "2026 cycle (per Nevada Independent / AOL candidate guide, May 2026)",
+        "source": {
+          "label": "The Nevada Independent / AOL 2026 AD40 candidate guide (NV SoS C&E data)",
+          "url": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+        }
+      }
     },
     {
       "id": "drew-ribar",
@@ -1947,7 +2123,16 @@
           "citationUrl": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
         }
       },
-      "summary": "Towing-association founder and government-meeting regular campaigning on accountability and constitutional literacy."
+      "summary": "Towing-association founder and government-meeting regular campaigning on accountability and constitutional literacy.",
+      "funding": {
+        "raised": 3000,
+        "cashOnHand": 600,
+        "asOf": "2026 cycle (per Nevada Independent / AOL candidate guide, May 2026); largely self-funded (Ribar Holdings, candidate)",
+        "source": {
+          "label": "The Nevada Independent / AOL 2026 AD40 candidate guide (NV SoS C&E data)",
+          "url": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+        }
+      }
     },
     {
       "id": "stacy-woodbury",
@@ -2014,7 +2199,26 @@
           "citationUrl": "https://thenevadaindependent.com/article/carson-citys-assembly-seat-is-open-meet-the-candidates-in-a-spirited-4-way-gop-primary"
         }
       },
-      "summary": "Veteran state administrator pitching affordability, a DOGE-style audit, and tougher crime and immigration enforcement."
+      "summary": "Veteran state administrator pitching affordability, a DOGE-style audit, and tougher crime and immigration enforcement.",
+      "funding": {
+        "raised": 37000,
+        "cashOnHand": 48000,
+        "asOf": "2026 cycle (per Nevada Independent / AOL candidate guide, May 2026); includes a $10,000 loan to her own campaign",
+        "source": {
+          "label": "The Nevada Independent / AOL 2026 AD40 candidate guide (NV SoS C&E data)",
+          "url": "https://www.aol.com/articles/republicans-butler-harvey-ribar-woodbury-162229218.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Former NV State Treasurer & Legislator Patty Cafferata",
+          "url": "https://www.stacywoodbury.com/post/former-nevada-state-treasurer-and-legislator-patty-cafferata-endorses-stacy-woodbury-for-assembly-di"
+        },
+        {
+          "by": "Former Assemblyman / former Trump admin official Ken Gray",
+          "url": "https://www.stacywoodbury.com/"
+        }
+      ]
     },
     {
       "id": "devon-reese",
@@ -2101,7 +2305,22 @@
           "citationUrl": "https://www.votereese.com/vision/"
         }
       },
-      "summary": "Sitting Reno councilmember pitching a Truckee River park; reversed in 2026 to back a data center moratorium."
+      "summary": "Sitting Reno councilmember pitching a Truckee River park; reversed in 2026 to back a data center moratorium.",
+      "funding": {
+        "raised": 74000,
+        "cashOnHand": 89781,
+        "asOf": "NV SoS C&E report, Q1 2026 (Jan 1-Mar 31), filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Reno Firefighters Association",
+          "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"
+        }
+      ]
     },
     {
       "id": "kate-marshall",
@@ -2166,7 +2385,22 @@
       },
       "summary": "Ex-state treasurer and lieutenant governor; consistent data-center opponent making housing and fiscal management central.",
       "photo": "img/kate-marshall.jpg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 66000,
+        "cashOnHand": 220551,
+        "asOf": "NV SoS C&E report, Q1 2026 (Jan 1-Mar 31), filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Sierra Club Toiyabe Chapter",
+          "url": "https://thisisreno.com/2026/06/reno-mayor-data-center-debate/"
+        }
+      ]
     },
     {
       "id": "kathleen-taylor",
@@ -2231,7 +2465,16 @@
       },
       "summary": "Lombardo-endorsed vice-mayor and fiscal hawk; the lone council vote against the data center moratorium.",
       "photo": "img/kathleen-taylor.jpg",
-      "photoCredit": "taylorforrenomayor.com"
+      "photoCredit": "taylorforrenomayor.com",
+      "funding": {
+        "raised": 81000,
+        "cashOnHand": 110979,
+        "asOf": "NV SoS C&E report, Q1 2026 (Jan 1-Mar 31), filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"
+        }
+      }
     },
     {
       "id": "eddie-lorton",
@@ -2303,7 +2546,16 @@
       },
       "summary": "Self-funded businessman on his fourth mayoral bid; would sell city property to cut debt and mandate 20% affordable housing.",
       "photo": "img/eddie-lorton.jpg",
-      "photoCredit": "eddielorton.com"
+      "photoCredit": "eddielorton.com",
+      "funding": {
+        "raised": null,
+        "cashOnHand": 167484,
+        "asOf": "NV SoS C&E report, Q1 2026 (Jan 1-Mar 31), filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"
+        }
+      }
     },
     {
       "id": "tim-ross",
@@ -2648,7 +2900,16 @@
           "citationUrl": "https://mattforreno.com/issues"
         }
       },
-      "summary": "Grassroots Ward 2 candidate stressing planning and neighborhood engagement over consultant-driven campaigns."
+      "summary": "Grassroots Ward 2 candidate stressing planning and neighborhood engagement over consultant-driven campaigns.",
+      "funding": {
+        "raised": 20000,
+        "cashOnHand": 13000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        }
+      }
     },
     {
       "id": "summer-pellett",
@@ -2691,7 +2952,16 @@
           "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
         }
       },
-      "summary": "Construction-firm COO and Ward 2 fundraising leader backed by development and trade interests."
+      "summary": "Construction-firm COO and Ward 2 fundraising leader backed by development and trade interests.",
+      "funding": {
+        "raised": 2000,
+        "cashOnHand": 75000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (cash on hand largely from prior self-funding)",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        }
+      }
     },
     {
       "id": "vanessa-vaupel",
@@ -2740,7 +3010,22 @@
           "citationUrl": "https://votewithvanessa.com/issues/"
         }
       },
-      "summary": "Former VA chief of pharmacy running PAC-free; argues Reno deserves a deliberate data center pause with guardrails."
+      "summary": "Former VA chief of pharmacy running PAC-free; argues Reno deserves a deliberate data center pause with guardrails.",
+      "funding": {
+        "raised": 30000,
+        "cashOnHand": 18000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Reno Firefighters Association",
+          "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"
+        }
+      ]
     },
     {
       "id": "ian-luetkehans",
@@ -2778,7 +3063,16 @@
           "citationUrl": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
         }
       },
-      "summary": "Ward 2 council candidate running a minimal campaign with no funds or website; limited position record."
+      "summary": "Ward 2 council candidate running a minimal campaign with no funds or website; limited position record.",
+      "funding": {
+        "raised": 0,
+        "cashOnHand": 0,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (no funds reported)",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/johnson-luetkehans-pellett-vaupel-running-171233151.html"
+        }
+      }
     },
     {
       "id": "meghan-ebert",
@@ -2813,7 +3107,13 @@
           "citationUrl": "https://mynews4.com/news/local/meet-the-candidates-running-to-represent-the-north-valleys-cold-springs-damonte-ranch-south-reno-on-the-city-council"
         }
       },
-      "summary": "Incumbent Ward 4 councilmember insisting any data center moratorium be tied to codified protections."
+      "summary": "Incumbent Ward 4 councilmember insisting any data center moratorium be tied to codified protections.",
+      "endorsements": [
+        {
+          "by": "Reno Firefighters Association",
+          "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"
+        }
+      ]
     },
     {
       "id": "eddie-gomez",
@@ -2924,7 +3224,16 @@
       },
       "summary": "Incumbent Sparks mayor pinning fiscal woes on public-safety costs; pushes property-tax reform and eastward land-bill growth.",
       "photo": "img/ed-lawson.jpg",
-      "photoCredit": "edlawson.net"
+      "photoCredit": "edlawson.net",
+      "funding": {
+        "raised": 36250,
+        "cashOnHand": 59246,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"
+        }
+      }
     },
     {
       "id": "charlene-bybee",
@@ -3002,7 +3311,16 @@
       },
       "summary": "Term-limited Sparks councilmember and self-styled fiscal conservative running on workforce housing and property-tax reset.",
       "photo": "img/charlene-bybee.jpg",
-      "photoCredit": "charleneforsparks.com"
+      "photoCredit": "charleneforsparks.com",
+      "funding": {
+        "raised": 8078,
+        "cashOnHand": 34972,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"
+        }
+      }
     },
     {
       "id": "diana-mackey",
@@ -3058,7 +3376,16 @@
       },
       "summary": "Late-entry single-issue candidate opposing the Red Hawk golf-course development; blames deficit on tax abatements.",
       "photo": "img/diana-mackey.jpg",
-      "photoCredit": "mackey4sparks.com"
+      "photoCredit": "mackey4sparks.com",
+      "funding": {
+        "raised": 4681,
+        "cashOnHand": 1291,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"
+        }
+      }
     },
     {
       "id": "wendi-rawson",
@@ -3097,7 +3424,16 @@
       },
       "summary": "Urban-winery founder and outsider blaming the deficit on current leadership; opposes new resident taxes.",
       "photo": "img/wendi-rawson.png",
-      "photoCredit": "wendiformayor.com"
+      "photoCredit": "wendiformayor.com",
+      "funding": {
+        "raised": 10268,
+        "cashOnHand": 11162,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/most-campaign-cash-reno-sparks-225747197.html"
+        }
+      }
     },
     {
       "id": "jamie-oconnell",
@@ -3147,7 +3483,16 @@
           "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
         }
       },
-      "summary": "Billing analyst and Democrat opposing the first-responder fee; would protect first responders, cut redundant contracts."
+      "summary": "Billing analyst and Democrat opposing the first-responder fee; would protect first responders, cut redundant contracts.",
+      "funding": {
+        "raised": 3000,
+        "cashOnHand": 2000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (includes self-loan)",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+        }
+      }
     },
     {
       "id": "hunter-rand",
@@ -3196,7 +3541,16 @@
           "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
         }
       },
-      "summary": "Pirate Party broadcast engineer pushing infrastructure-first growth and scrutiny of surveillance-tech spending."
+      "summary": "Pirate Party broadcast engineer pushing infrastructure-first growth and scrutiny of surveillance-tech spending.",
+      "funding": {
+        "raised": 6000,
+        "cashOnHand": 2000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+        }
+      }
     },
     {
       "id": "dian-vanderwell",
@@ -3241,7 +3595,22 @@
           "citationUrl": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
         }
       },
-      "summary": "Appointed Ward 2 incumbent and realtor favoring smart infill growth; cautious first-responder-fee support."
+      "summary": "Appointed Ward 2 incumbent and realtor favoring smart infill growth; cautious first-responder-fee support.",
+      "funding": {
+        "raised": 11000,
+        "cashOnHand": 9000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Reno Firefighters Association",
+          "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"
+        }
+      ]
     },
     {
       "id": "anthony-goulet",
@@ -3259,7 +3628,16 @@
       ],
       "youtubeInterviews": [],
       "positions": {},
-      "summary": "Sparks Ward 2 candidate who didn't respond to questionnaires and raised no funds; no stated positions."
+      "summary": "Sparks Ward 2 candidate who didn't respond to questionnaires and raised no funds; no stated positions.",
+      "funding": {
+        "raised": 0,
+        "cashOnHand": null,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (no funds reported)",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/election-2026-sparks-city-council-120255744.html"
+        }
+      }
     },
     {
       "id": "damon-harrell",
@@ -3299,7 +3677,16 @@
           "timestamp": null
         }
       },
-      "summary": "Marine veteran and realtor in his first race; protects public-safety funding and wants infrastructure before growth."
+      "summary": "Marine veteran and realtor in his first race; protects public-safety funding and wants infrastructure before growth.",
+      "funding": {
+        "raised": 800,
+        "cashOnHand": 700,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"
+        }
+      }
     },
     {
       "id": "adam-mayberry",
@@ -3343,7 +3730,22 @@
           "timestamp": null
         }
       },
-      "summary": "School board member leaving to run for council; prefers Medicaid reimbursement over a first-responder fee."
+      "summary": "School board member leaving to run for council; prefers Medicaid reimbursement over a first-responder fee.",
+      "funding": {
+        "raised": 18000,
+        "cashOnHand": 49000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Reno Firefighters Association",
+          "url": "https://www.kolotv.com/2026/05/23/reno-firefighters-association-endorses-candidates-city-council-reno-mayor/"
+        }
+      ]
     },
     {
       "id": "sean-mccaffrey",
@@ -3383,7 +3785,16 @@
           "timestamp": null
         }
       },
-      "summary": "Bin-cleaning business owner fiercely opposing the first-responder fee; prioritizes reopening Fire Station 5."
+      "summary": "Bin-cleaning business owner fiercely opposing the first-responder fee; prioritizes reopening Fire Station 5.",
+      "funding": {
+        "raised": 6000,
+        "cashOnHand": 4000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"
+        }
+      }
     },
     {
       "id": "tracey-thomas",
@@ -3432,7 +3843,16 @@
           "citationUrl": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"
         }
       },
-      "summary": "Independent American first-timer prioritizing maintaining existing assets and higher-density town centers over sprawl."
+      "summary": "Independent American first-timer prioritizing maintaining existing assets and higher-density town centers over sprawl.",
+      "funding": {
+        "raised": 0,
+        "cashOnHand": 0,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (no funds reported)",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/articles/see-whos-running-sparks-city-120942587.html"
+        }
+      }
     },
     {
       "id": "joe-lombardo",
@@ -3503,7 +3923,16 @@
       },
       "summary": "Incumbent GOP governor and ex-Clark County sheriff touting 87 vetoes, school choice, and tougher immigration stances.",
       "photo": "img/joe-lombardo.jpg",
-      "photoCredit": "upload.wikimedia.org"
+      "photoCredit": "upload.wikimedia.org",
+      "funding": {
+        "raised": 2200000,
+        "cashOnHand": 14000000,
+        "asOf": "Q1 2026 (campaign + Nevada Way PAC); cash-on-hand is combined campaign+PAC",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      }
     },
     {
       "id": "irina-hansen",
@@ -3600,7 +4029,30 @@
       },
       "summary": "Term-limited AG and Democratic gubernatorial frontrunner running on lowering costs, housing, and data-center fairness.",
       "photo": "img/aaron-ford.jpg",
-      "photoCredit": "upload.wikimedia.org"
+      "photoCredit": "upload.wikimedia.org",
+      "funding": {
+        "raised": 1500000,
+        "cashOnHand": 2700000,
+        "asOf": "Q1 2026 (campaign + Forward Nevada PAC); record direct haul for non-incumbent gov candidate",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Sens. Jacky Rosen & Catherine Cortez Masto, Reps. Titus/Horsford/Lee (full NV Dem delegation)",
+          "url": "https://www.fordfornevada.com/"
+        },
+        {
+          "by": "Nevada Conservation League",
+          "url": "https://www.fox5vegas.com/2026/04/23/nevada-conservation-league-endorses-aaron-ford-governor/"
+        },
+        {
+          "by": "Las Vegas Weekly (Dem primary)",
+          "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"
+        }
+      ]
     },
     {
       "id": "alexis-hill",
@@ -3657,7 +4109,16 @@
       },
       "summary": "Washoe Commission chair and underdog Democrat; targets corporate tax giveaways and big K-12 and climate investment.",
       "photo": "img/alexis-hill.jpeg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 171000,
+        "cashOnHand": null,
+        "asOf": "Q1 2026 (majority was $126K in loans from candidate and spouse)",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      }
     },
     {
       "id": "stavros-anthony",
@@ -3691,7 +4152,16 @@
           "citationUrl": "https://www.stavrosfornv.com/services"
         }
       },
-      "summary": "Incumbent GOP lieutenant governor and ex-LVMPD captain, unopposed in his primary."
+      "summary": "Incumbent GOP lieutenant governor and ex-LVMPD captain, unopposed in his primary.",
+      "funding": {
+        "raised": 134000,
+        "cashOnHand": 302000,
+        "asOf": "Q1 2026",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      }
     },
     {
       "id": "sandra-jauregui",
@@ -3729,7 +4199,30 @@
           "citationUrl": "https://sandrafornevada.com/"
         }
       },
-      "summary": "Assembly majority floor leader and Democratic LG frontrunner backed by Nevada's U.S. senators."
+      "summary": "Assembly majority floor leader and Democratic LG frontrunner backed by Nevada's U.S. senators.",
+      "funding": {
+        "raised": 177100,
+        "cashOnHand": 318300,
+        "asOf": "Q1 2026",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "EMILYs List",
+          "url": "https://emilyslist.org/news/emilys-list-endorses-sandra-jauregui-for-nevada-lieutenant-governor/"
+        },
+        {
+          "by": "Sen. Mark Kelly (AZ)",
+          "url": "https://www.kolotv.com/2026/06/02/arizona-senator-mark-kelly-endorses-jauregui-lt-governor/"
+        },
+        {
+          "by": "Las Vegas Weekly (Dem primary)",
+          "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"
+        }
+      ]
     },
     {
       "id": "courtney-burke",
@@ -3850,7 +4343,30 @@
       },
       "summary": "Senate majority leader and deputy DA touting sole courtroom experience in the Democratic AG primary.",
       "photo": "img/nicole-cannizzaro.jpg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 272000,
+        "cashOnHand": 1000000,
+        "asOf": "Q1 2026 (cash on hand approx)",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "EMILYs List",
+          "url": "https://emilyslist.org/news/emilys-list-endorses-nicole-cannizzaro-for-nevada-attorney-general/"
+        },
+        {
+          "by": "Reproductive Freedom for All",
+          "url": "https://reproductivefreedomforall.org/news/reproductive-freedom-for-all-endorses-aaron-ford-for-governor-and-nicole-cannizzaro-for-attorney-general/"
+        },
+        {
+          "by": "Silver State Equality",
+          "url": "https://www.kolotv.com/2026/04/02/lgbtq-civil-rights-advocacy-nonprofit-endorses-nicole-cannizzaro-attorney-general/"
+        }
+      ]
     },
     {
       "id": "zach-conine",
@@ -3916,7 +4432,30 @@
       },
       "summary": "Two-term state treasurer in the Democratic AG primary, running on fighting federal overreach and NV Energy rates.",
       "photo": "img/zach-conine.jpg",
-      "photoCredit": "upload.wikimedia.org"
+      "photoCredit": "upload.wikimedia.org",
+      "funding": {
+        "raised": 1300000,
+        "cashOnHand": 2700000,
+        "asOf": "Q1 2026",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Nevada State AFL-CIO",
+          "url": "https://www.zachconine.com/endorsements"
+        },
+        {
+          "by": "Las Vegas Weekly & Las Vegas Sun (Dem primary)",
+          "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"
+        },
+        {
+          "by": "Nevada State Education Association",
+          "url": "https://www.zachconine.com/endorsements"
+        }
+      ]
     },
     {
       "id": "adriana-guzman-fralick",
@@ -3958,7 +4497,26 @@
       },
       "summary": "Trump- and Lombardo-endorsed attorney in the GOP AG primary, campaigning on closer law-enforcement ties.",
       "photo": "img/adriana-guzman-fralick.png",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 116000,
+        "cashOnHand": 150000,
+        "asOf": "Q1 2026 (cash on hand approx)",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "President Donald Trump (GOP primary)",
+          "url": "https://news3lv.com/news/local/trump-endorses-republican-candidate-adriana-guzman-fralick-nevada-attorney-general-primary-election-politics-danny-tarkanian"
+        },
+        {
+          "by": "Gov. Joe Lombardo",
+          "url": "https://www.nevadaappeal.com/news/2025/dec/10/governor-endorses-tarkanians-republican-opponent-for-attorney-general/"
+        }
+      ]
     },
     {
       "id": "danny-tarkanian",
@@ -4005,7 +4563,16 @@
       },
       "summary": "Douglas County commissioner and perennial candidate with a famous name in the GOP AG primary.",
       "photo": "img/danny-tarkanian.jpg",
-      "photoCredit": "upload.wikimedia.org"
+      "photoCredit": "upload.wikimedia.org",
+      "funding": {
+        "raised": 154000,
+        "cashOnHand": 461000,
+        "asOf": "Q1 2026",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      }
     },
     {
       "id": "cisco-aguilar",
@@ -4027,7 +4594,26 @@
       ],
       "youtubeInterviews": [],
       "positions": {},
-      "summary": "Incumbent Democratic secretary of state who advanced unopposed in his primary."
+      "summary": "Incumbent Democratic secretary of state who advanced unopposed in his primary.",
+      "funding": {
+        "raised": 326000,
+        "cashOnHand": null,
+        "asOf": "Q1 2026",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Nevada State Education Association",
+          "url": "https://www.fox5vegas.com/2026/04/27/nevada-state-education-association-endorses-aguilar/"
+        },
+        {
+          "by": "The Next 50",
+          "url": "https://thenext50.substack.com/p/why-were-endorsing-cisco-aguilar"
+        }
+      ]
     },
     {
       "id": "jim-marchant",
@@ -4093,7 +4679,16 @@
           "citationUrl": "https://votesharronangle.com/"
         }
       },
-      "summary": "Former assemblywoman and 2010 GOP Senate nominee running on election-security doubts and voter ID."
+      "summary": "Former assemblywoman and 2010 GOP Senate nominee running on election-security doubts and voter ID.",
+      "funding": {
+        "raised": 15000,
+        "cashOnHand": null,
+        "asOf": "Q1 2026 (Jan-Mar)",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/should-nevada-elections-be-overhauled-heres-what-gop-secretary-of-state-hopefuls-say"
+        }
+      }
     },
     {
       "id": "shirley-folkins-roberts",
@@ -4119,7 +4714,26 @@
           "timestamp": null
         }
       },
-      "summary": "Lombardo-endorsed attorney and developer backing voter ID and limits on mail-in ballots without alleging fraud."
+      "summary": "Lombardo-endorsed attorney and developer backing voter ID and limits on mail-in ballots without alleging fraud.",
+      "funding": {
+        "raised": 101000,
+        "cashOnHand": 90000,
+        "asOf": "Q1 2026 ($22K was a self-loan)",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Gov. Joe Lombardo (GOP primary)",
+          "url": "https://www.nevadaappeal.com/news/2026/may/16/jim-hartman-four-gop-candidates-for-secretary-of-state/"
+        },
+        {
+          "by": "Las Vegas Weekly (GOP primary)",
+          "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"
+        }
+      ]
     },
     {
       "id": "socorro-keenan",
@@ -4188,7 +4802,22 @@
           "citationUrl": "https://www.joedalia.com/"
         }
       },
-      "summary": "First-term Henderson assemblymember and attorney (ex-Meta) in the Democratic treasurer primary."
+      "summary": "First-term Henderson assemblymember and attorney (ex-Meta) in the Democratic treasurer primary.",
+      "funding": {
+        "raised": 55000,
+        "cashOnHand": 207000,
+        "asOf": "Q1 2026",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Senate Majority Leader Nicole Cannizzaro",
+          "url": "https://www.joedalia.com/endorsements"
+        }
+      ]
     },
     {
       "id": "tya-mathis-coleman",
@@ -4214,7 +4843,22 @@
           "timestamp": null
         }
       },
-      "summary": "Deputy state treasurer arguing her in-office experience lets her manage state finances from day one."
+      "summary": "Deputy state treasurer arguing her in-office experience lets her manage state finances from day one.",
+      "funding": {
+        "raised": 120400,
+        "cashOnHand": 106200,
+        "asOf": "Q1 2026",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Las Vegas Weekly (Dem primary)",
+          "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"
+        }
+      ]
     },
     {
       "id": "jay-maharjan",
@@ -4288,7 +4932,22 @@
           "citationUrl": "https://drewfornevada.com/"
         }
       },
-      "summary": "Conservative think-tank founder running as a government-waste expert and budget watchdog for treasurer."
+      "summary": "Conservative think-tank founder running as a government-waste expert and budget watchdog for treasurer.",
+      "funding": {
+        "raised": 7600,
+        "cashOnHand": 32000,
+        "asOf": "Q1 2026 (Jan-Mar)",
+        "source": {
+          "label": "Nevada Current",
+          "url": "https://nevadacurrent.com/2026/04/29/mud-flies-in-republican-primary-for-state-treasurer/"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Washoe County Republican Party",
+          "url": "https://www.ballotready.org/people/drew-johnson-9bbe1ace-a18e-47fa-b985-ca7f4eda616f"
+        }
+      ]
     },
     {
       "id": "jeff-carter",
@@ -4326,7 +4985,22 @@
           "citationUrl": "https://www.jeffcarternv.com/why-i-am-running"
         }
       },
-      "summary": "Ex-Chicago Mercantile Exchange trader and first-time candidate in the GOP treasurer primary."
+      "summary": "Ex-Chicago Mercantile Exchange trader and first-time candidate in the GOP treasurer primary.",
+      "funding": {
+        "raised": 222800,
+        "cashOnHand": 192000,
+        "asOf": "Q1 2026 ($70.3K+ was a self-loan)",
+        "source": {
+          "label": "The Nevada Independent",
+          "url": "https://thenevadaindependent.com/article/which-nevada-candidates-have-raised-the-most-money-so-far-in-2026"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Las Vegas Weekly (GOP primary)",
+          "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"
+        }
+      ]
     },
     {
       "id": "andy-matthews",
@@ -4356,7 +5030,16 @@
           "timestamp": null
         }
       },
-      "summary": "Incumbent GOP controller and transparency advocate who built the state's online spending checkbook; unopposed."
+      "summary": "Incumbent GOP controller and transparency advocate who built the state's online spending checkbook; unopposed.",
+      "funding": {
+        "raised": 282738,
+        "cashOnHand": 254115,
+        "asOf": "Through Jan 12, 2026 annual report (record for a NV Controller race; GOP primary canceled, advanced unopposed)",
+        "source": {
+          "label": "Nevada News & Views",
+          "url": "https://nevadanewsandviews.com/nevada-controller-andy-matthews-reports-record-smashing-fundraising-haul-in-re-election-bid/"
+        }
+      }
     },
     {
       "id": "robert-blackstock",
@@ -4380,7 +5063,22 @@
           "citationUrl": "http://www.ourtownreno.com/our-stories-1/2026/5/20/engineer-teacher-and-navy-veteran-compete-in-democratic-primary-to-challenge-republican-incumbent-in-state-controller-race"
         }
       },
-      "summary": "Democratic candidate for Nevada State Controller with limited public position record."
+      "summary": "Democratic candidate for Nevada State Controller with limited public position record.",
+      "funding": {
+        "raised": 1600,
+        "cashOnHand": 300,
+        "asOf": "As of mid-April 2026",
+        "source": {
+          "label": "Nevada Current",
+          "url": "https://nevadacurrent.com/2026/04/23/yes-state-controller-is-a-job-and-democrats-are-vying-to-challenge-the-republican-who-holds-it/"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Las Vegas Weekly (Dem primary)",
+          "url": "https://lasvegasweekly.com/news/2026/may/21/2026-primary-election-guide-endorsements/"
+        }
+      ]
     },
     {
       "id": "michael-macdougall",
@@ -4413,7 +5111,16 @@
           "citationUrl": "https://nevadacurrent.com/2026/04/23/yes-state-controller-is-a-job-and-democrats-are-vying-to-challenge-the-republican-who-holds-it/"
         }
       },
-      "summary": "Henderson high-school teacher running in the Democratic controller primary."
+      "summary": "Henderson high-school teacher running in the Democratic controller primary.",
+      "funding": {
+        "raised": 6400,
+        "cashOnHand": 27000,
+        "asOf": "As of mid-April 2026",
+        "source": {
+          "label": "Nevada Current",
+          "url": "https://nevadacurrent.com/2026/04/23/yes-state-controller-is-a-job-and-democrats-are-vying-to-challenge-the-republican-who-holds-it/"
+        }
+      }
     },
     {
       "id": "robert-tolle",
@@ -4508,7 +5215,16 @@
       },
       "summary": "Incumbent District 2 commissioner and ex-assessor; conservative on fiscal discipline, voter ID, and infrastructure-first growth.",
       "photo": "img/mike-clark.webp",
-      "photoCredit": "commissionermikeclark.com"
+      "photoCredit": "commissionermikeclark.com",
+      "funding": {
+        "raised": 6600,
+        "cashOnHand": 700,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html"
+        }
+      }
     },
     {
       "id": "jon-killoran",
@@ -4558,7 +5274,16 @@
       },
       "summary": "Sports-coalition CEO and former news director challenging Clark; backs voter ID and streamlined emergency dispatch.",
       "photo": "img/jon-killoran.jpeg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 14000,
+        "cashOnHand": 33000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (includes self-loan)",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/articles/clark-killoran-face-off-washoe-172113229.html"
+        }
+      }
     },
     {
       "id": "tammy-holt-still",
@@ -4615,7 +5340,16 @@
       },
       "summary": "Flood-mitigation advocate energized by 2017 Lemmon Valley flooding; centers infrastructure, water, and transparency.",
       "photo": "img/tammy-holt-still.jpg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 6400,
+        "cashOnHand": 0,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026 (largely self-funded)",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html"
+        }
+      }
     },
     {
       "id": "rob-pierce",
@@ -4676,7 +5410,16 @@
       },
       "summary": "Navy veteran and ex-planning commissioner running on responsible, pro-business growth; Builders Alliance endorsed.",
       "photo": "img/rob-pierce.jpg",
-      "photoCredit": "robforwashoe.com"
+      "photoCredit": "robforwashoe.com",
+      "funding": {
+        "raised": 29000,
+        "cashOnHand": 14000,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html"
+        }
+      }
     },
     {
       "id": "katherine-yriarte",
@@ -4733,7 +5476,16 @@
       },
       "summary": "Horse trainer and Equine Council founder, Washoe GOP endorsed; balances open-space protection with development.",
       "photo": "img/katherine-yriarte.jpg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 8600,
+        "cashOnHand": 500,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/news/holt-still-pierce-yriarte-vie-120101425.html"
+        }
+      }
     },
     {
       "id": "darin-balaam",
@@ -4800,7 +5552,22 @@
       },
       "summary": "Incumbent DA since 2014 citing top-in-state incarceration rates as proof his approach keeps the county safe.",
       "photo": "img/chris-hicks.jpg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 127000,
+        "cashOnHand": 449876,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Fox Reno / Sinclair",
+          "url": "https://foxreno.com/news/election/fundraising-totals-are-in-heres-how-much-campaign-cash-top-nevada-local-candidates-have-governor-attorney-general-ford-lombardo-hill-reno-sparks-mayor"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Gov. Joe Lombardo (plus retired sheriffs and police chiefs)",
+          "url": "https://www.2news.com/news/campaign/the-race-for-washoe-county-district-attorney-is-decided-in-june-primary-election/article_f6223128-9ace-4900-aa7a-e477d9039833.html"
+        }
+      ]
     },
     {
       "id": "wes-duncan",
@@ -4846,7 +5613,22 @@
       },
       "summary": "Sparks city attorney and ex-prosecutor, police-union and GOP backed, attacking Hicks's charging policy as win-rate-driven.",
       "photo": "img/wes-duncan.jpg",
-      "photoCredit": "ballotpedia.org"
+      "photoCredit": "ballotpedia.org",
+      "funding": {
+        "raised": 47000,
+        "cashOnHand": 522116,
+        "asOf": "NV SoS C&E report, Q1 2026, filed Apr 15 2026",
+        "source": {
+          "label": "Fox Reno / Sinclair",
+          "url": "https://foxreno.com/news/election/fundraising-totals-are-in-heres-how-much-campaign-cash-top-nevada-local-candidates-have-governor-attorney-general-ford-lombardo-hill-reno-sparks-mayor"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "Washoe County Sheriff's Deputies Association, Reno and Sparks police protective associations",
+          "url": "https://www.2news.com/news/campaign/the-race-for-washoe-county-district-attorney-is-decided-in-june-primary-election/article_f6223128-9ace-4900-aa7a-e477d9039833.html"
+        }
+      ]
     },
     {
       "id": "chris-sarman",
@@ -4979,7 +5761,26 @@
           "citationUrl": "https://votedrharvey.com/1571-2/"
         }
       },
-      "summary": "Education-doctorate community volunteer naming chronic absenteeism the top issue in the WCSD District F race."
+      "summary": "Education-doctorate community volunteer naming chronic absenteeism the top issue in the WCSD District F race.",
+      "funding": {
+        "raised": 23353,
+        "cashOnHand": null,
+        "asOf": "NV SoS C&E report, filed Apr 15 2026",
+        "source": {
+          "label": "Reno Gazette-Journal via AOL",
+          "url": "https://www.aol.com/articles/benton-harvey-westlake-running-washoe-214708991.html"
+        }
+      },
+      "endorsements": [
+        {
+          "by": "WCSD Trustee Christine Hull",
+          "url": "https://www.aol.com/articles/benton-harvey-westlake-running-washoe-214708991.html"
+        },
+        {
+          "by": "Former WCSD board president and state Sen. Angie Taylor",
+          "url": "https://www.aol.com/articles/benton-harvey-westlake-running-washoe-214708991.html"
+        }
+      ]
     },
     {
       "id": "brooke-westlake",
@@ -5025,7 +5826,17 @@
           "citationUrl": "https://westlakeforwcsd.com/"
         }
       },
-      "summary": "Parent advocate and Washoe GOP-endorsed candidate prioritizing WCSD budget deficits, enrollment, and parent voice."
+      "summary": "Parent advocate and Washoe GOP-endorsed candidate prioritizing WCSD budget deficits, enrollment, and parent voice.",
+      "endorsements": [
+        {
+          "by": "Washoe County Republican Party Central Committee",
+          "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake"
+        },
+        {
+          "by": "Western States Regional Council (Carpenters)",
+          "url": "https://mynews4.com/news/know-your-candidates-2026/washoe-county-school-board-district-f-3-candidates-running-for-open-at-large-seat-wcsd-education-election-primary-midterms-harvey-benton-westlake"
+        }
+      ]
     },
     {
       "id": "scott-benton",
