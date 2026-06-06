@@ -70,6 +70,15 @@ a { color: var(--accent-2); }
   background: rgba(251,250,247,.92); backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line); padding: 14px 0 12px;
 }
+.filters-bar { display: none; }
+.filters-toggle {
+  display: flex; align-items: center; gap: 8px; width: 100%; justify-content: center;
+  font: inherit; font-weight: 700; font-size: 15px; color: var(--ink);
+  background: var(--paper-2); border: 1px solid var(--line-strong); border-radius: 9px;
+  padding: 11px 14px; cursor: pointer;
+}
+.filters-toggle .ft-chev { margin-left: auto; transition: transform .18s; color: var(--ink-faint); }
+.controls.open .filters-toggle .ft-chev { transform: rotate(180deg); }
 .controls-grid {
   display: grid; gap: 16px 22px;
   grid-template-columns: minmax(300px, 1.5fr) repeat(2, minmax(140px, .8fr)) minmax(180px, 1.1fr);
@@ -290,8 +299,23 @@ table.matrix { border-collapse: collapse; width: 100%; min-width: 640px; font-si
 .site-footer code { background: #e7e4db; padding: 1px 5px; border-radius: 4px; font-size: 11.5px; }
 
 @media (max-width: 760px) {
-  .controls-grid { grid-template-columns: 1fr; }
+  .header-grid { grid-template-columns: 1fr; }
+  .nv-outline { position: absolute; top: 18px; right: 16px; width: 76px; }
+  .site-header { padding: 28px 0 22px; position: relative; }
+
+  /* Sticky compact toggle; the panel itself scrolls away (not sticky) */
+  .filters-bar { display: block; position: sticky; top: 0; z-index: 41; padding: 10px 0; background: rgba(251,250,247,.96); backdrop-filter: blur(8px); }
+  .controls { position: static; backdrop-filter: none; padding: 0 0 10px; border-bottom: none; }
+  .controls-grid, .controls .stat-row, .controls .jumpnav { display: none; }
+  .controls.open { border-bottom: 1px solid var(--line); padding-bottom: 14px; }
+  .controls.open .controls-grid { display: grid; grid-template-columns: 1fr; gap: 14px; padding-top: 6px; }
+  .controls.open .stat-row { display: flex; }
+  .controls.open .jumpnav { display: flex; }
   .control--party { order: -1; }
-  .site-header { padding: 28px 0 22px; }
+  .control--party .seg { display: grid; grid-template-columns: 1fr 1fr; }
+  .jumpnav { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+  .jn-chip, .jn-select { flex: none; }
+  .level-group, .race-card { scroll-margin-top: 70px; }
+  .cell { min-width: 168px; max-width: 200px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

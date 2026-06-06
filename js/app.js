@@ -93,6 +93,10 @@ function wireEvents() {
   app.addEventListener('mousemove', moveTip);
   app.addEventListener('mouseout', e => { if (e.target.closest('.cell')) hideTip(); });
 
+  $('#filtersToggle').addEventListener('click', () => {
+    const c = $('#controls'); const open = c.classList.toggle('open');
+    $('#filtersToggle').setAttribute('aria-expanded', String(open));
+  });
   $('#backdrop').addEventListener('click', closeDrawer);
   $('#drawerClose').addEventListener('click', closeDrawer);
   $('#methodBtn').addEventListener('click', openMethod);
@@ -153,6 +157,8 @@ function render() {
 
   $('#statRow').innerHTML = `<span><b>${shownRaces}</b> races shown</span><span><b>${shownCands}</b> candidates</span>` +
     (state.party !== 'all' ? `<span>Filtered to what a <b>${state.party === 'Nonpartisan' ? 'nonpartisan' : state.party}</b> voter decides</span>` : '');
+  const ftl = $('#filtersToggleLabel');
+  if (ftl) ftl.textContent = `Filters · ${shownRaces} races` + (state.party !== 'all' ? ` · ${state.party === 'Nonpartisan' ? 'Nonpartisan' : state.party}` : '') + (state.q || state.level !== 'all' || state.issue !== 'all' ? ' · active' : '');
 
   const levels = Object.keys(groups).sort((a, b) => LEVEL_ORDER.indexOf(a) - LEVEL_ORDER.indexOf(b));
   buildJumpNav(levels, groups);
@@ -203,6 +209,12 @@ function buildJumpNav(levels, groups) {
 function jumpTo(id) {
   const node = document.getElementById(id);
   if (!node) return;
+  // On mobile, collapse the filter panel so the target is actually visible
+  const ctrl = $('#controls');
+  if (ctrl.classList.contains('open') && window.matchMedia('(max-width: 760px)').matches) {
+    ctrl.classList.remove('open');
+    $('#filtersToggle').setAttribute('aria-expanded', 'false');
+  }
   const grp = node.closest('.level-group') || node;
   if (grp.classList.contains('collapsed')) { grp.classList.remove('collapsed'); const h = grp.querySelector('.level-head'); if (h) h.setAttribute('aria-expanded', 'true'); }
   requestAnimationFrame(() => node.scrollIntoView({ behavior: 'smooth', block: 'start' }));
