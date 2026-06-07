@@ -524,6 +524,7 @@ function flashBtn(sel, txt) {
 
 async function imageBallot() {
   const btn = $('#ballotImage'); const old = btn.textContent; btn.textContent = '…rendering';
+  const done = () => { btn.textContent = old; };
   try {
     if (!window.html2canvas) {
       await new Promise((res, rej) => {
@@ -532,15 +533,38 @@ async function imageBallot() {
         s.onload = res; s.onerror = rej; document.head.appendChild(s);
       });
     }
-    const canvas = await window.html2canvas($('#ballotSheet'), { backgroundColor: '#ffffff', scale: 2, ignoreElements: el => el.classList?.contains('bs-missing') });
+    const sheet = $('#ballotSheet');
+    // Mobile Safari blanks canvases whose largest side exceeds ~4096px, so cap the scale for tall ballots.
+    const maxDim = Math.max(sheet.scrollWidth, sheet.scrollHeight) || 1;
+    const scale = Math.max(1, Math.min(2, 4096 / maxDim));
+    const canvas = await window.html2canvas(sheet, { backgroundColor: '#ffffff', scale, ignoreElements: el => el.classList?.contains('bs-missing') });
+    const blob = await new Promise(res => canvas.toBlob(res, 'image/png'));
+    if (!blob) throw new Error('toBlob returned null');
+    const file = new File([blob], 'my-washoe-reno-ballot-2026.png', { type: 'image/png' });
+
+    // Phones ignore the <a download> attribute, so the only reliable save path is the native
+    // share sheet ("Save Image" → Photos). Stays within the click's ~5s user-activation window.
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: 'My Sample Ballot', text: 'My Washoe County & Reno primary ballot · June 9, 2026' });
+        done(); return;
+      } catch (err) {
+        if (err && err.name === 'AbortError') { done(); return; } // user dismissed the share sheet
+        // any other share failure → fall through to the link/tab fallbacks below
+      }
+    }
+
+    const url = URL.createObjectURL(blob);
+    // Desktop / Android Chrome honor the download attribute.
     const a = document.createElement('a');
-    a.href = canvas.toDataURL('image/png');
-    a.download = 'my-washoe-reno-ballot-2026.png';
-    a.click();
-    btn.textContent = old;
+    a.href = url; a.download = file.name; document.body.appendChild(a); a.click(); a.remove();
+    // Last resort (e.g. older iOS with no file-share): open the image so the user can long-press → Save.
+    if (!('download' in a) || /iPad|iPhone|iPod/.test(navigator.userAgent)) window.open(url, '_blank');
+    setTimeout(() => URL.revokeObjectURL(url), 8000);
+    done();
   } catch (e) {
-    btn.textContent = old;
-    alert('Image export unavailable (offline?). Use “Print / Save PDF” instead — it also makes a clean screenshot-ready page.');
+    done();
+    alert('Couldn’t generate the image on this device. Use “Print / Save PDF” instead — on a phone choose “Save to Files,” or just screenshot this page.');
   }
 }
 
