@@ -94,6 +94,10 @@ function wireEvents() {
 
   const app = $('#app');
   app.addEventListener('click', e => {
+    const rpick = e.target.closest('.race-pick');
+    if (rpick) { rpick.closest('.race-card')?.classList.remove('collapsed'); return; } // "Change" → reopen the matrix
+    const rhead = e.target.closest('.race-head');
+    if (rhead) { const card = rhead.closest('.race-card'); if (card && card.querySelector('.matrix-wrap')) card.classList.toggle('collapsed'); return; }
     const exp = e.target.closest('.cand-expand');
     if (exp) { const tr = exp.closest('tr'); const open = tr.classList.toggle('expanded'); exp.setAttribute('aria-expanded', String(open)); return; }
     const details = e.target.closest('[data-open-cand]');
@@ -176,6 +180,9 @@ function render() {
 
   for (const race of races) {
     const elig = eligibility(race);
+    // Once the voter picks a party, drop races they can't vote in entirely (the dimmed
+    // "not on your ballot" treatment is only for the "Show everything" browse mode).
+    if (!elig.eligible && state.party !== 'all') continue;
     let cands = candidatesFor(race, elig);
     // issue focus: keep only candidates that have that issue, and only races with any
     if (state.issue !== 'all') cands = cands.filter(c => c.positions && c.positions[state.issue]);
@@ -213,6 +220,7 @@ function render() {
     app.appendChild(g);
   }
   requestAnimationFrame(() => requestAnimationFrame(setupFades));
+  updateBallotBar();
 }
 
 function buildJumpNav(levels, groups) {
@@ -254,10 +262,10 @@ function jumpTo(id) {
 function updateEligNote() {
   const note = $('#eligNote');
   const map = {
-    all: 'Showing every race and candidate on the Washoe ballot.',
-    Democratic: 'You decide Democratic partisan primaries + all nonpartisan races (mayors, council, school board, judges).',
-    Republican: 'You decide Republican partisan primaries + all nonpartisan races (mayors, council, school board, judges).',
-    Nonpartisan: 'You can’t vote partisan primaries, but you DO vote every nonpartisan race — those are dimmed-out below for partisan offices only.',
+    all: 'Browsing the full countywide ballot. Pick your party above to narrow it to just the races you vote.',
+    Democratic: 'Your ballot: Democratic partisan primaries + all nonpartisan races (mayors, council, school board, judges). Other-party races are hidden.',
+    Republican: 'Your ballot: Republican partisan primaries + all nonpartisan races (mayors, council, school board, judges). Other-party races are hidden.',
+    Nonpartisan: 'Your ballot: every nonpartisan race (mayors, council, school board, judges). Partisan primaries aren’t on your ballot, so they’re hidden.',
   };
   note.textContent = map[state.party] || '';
 }
@@ -288,6 +296,10 @@ function raceCard({ race, cands, elig }) {
     card.appendChild(el('div', 'no-primary-note', '➜ No primary contest here on June 9 — candidates (if any) advance straight to the November general election.'));
     return card;
   }
+
+  // Per-race collapse: a caret in the header bar toggles this card; the selected pick shows in a slim row.
+  head.querySelector('.race-title-row').insertAdjacentHTML('beforeend', '<span class="race-toggle" aria-hidden="true"></span>');
+  head.insertAdjacentElement('afterend', el('div', 'race-pick'));
 
   const sig = renderSignals(race, cands);
   if (sig) card.appendChild(sig);
@@ -338,7 +350,22 @@ function raceCard({ race, cands, elig }) {
   wrap.appendChild(scroll);
   wrap.appendChild(el('div', 'matrix-fade matrix-fade-r'));
   card.appendChild(wrap);
+  // Already-picked races render collapsed to the header bar + the chosen candidate.
+  if (selections[race.id]) { setRacePick(card, race.id); card.classList.add('collapsed'); }
   return card;
+}
+
+// Fill (or clear) a race card's collapsed pick row from the current selection, toggling .has-pick.
+function setRacePick(card, raceId) {
+  const pickEl = card.querySelector('.race-pick');
+  const race = DATA.races.find(r => r.id === raceId);
+  if (!pickEl || !race) return;
+  const c = DATA.candidates.find(x => x.id === selections[raceId]);
+  if (!c) { card.classList.remove('has-pick'); pickEl.innerHTML = ''; return; }
+  const meta = [race.type === 'partisan' && c.party ? esc(c.party) : '', c.incumbent ? 'incumbent' : ''].filter(Boolean).join(' · ');
+  pickEl.innerHTML = `${avatarHtml(c, 'avatar--sm')}<span class="race-pick-name">✓ ${esc(c.name)}` +
+    (meta ? ` <span class="race-pick-meta">${meta}</span>` : '') + `</span><span class="race-pick-change">Change ›</span>`;
+  card.classList.add('has-pick');
 }
 
 // Show a right-edge fade while there's more table to scroll to (desktop horizontal scroll cue).
@@ -372,16 +399,29 @@ function toggleSelect(tr) {
       r.querySelector('.cand-cell')?.setAttribute('aria-checked', String(on));
     });
   }
-  if (selections[race]) tr.closest('.race-card')?.classList.remove('needs-pick');
+  const card = tr.closest('.race-card');
+  if (card) {
+    setRacePick(card, race);
+    if (selections[race]) { card.classList.remove('needs-pick'); card.classList.add('collapsed'); } // decided → collapse to the bar + pick
+    else card.classList.remove('collapsed');                                                        // unpicked → reopen to choose again
+  }
   saveSelections();
   updateBallotBar();
 }
 
+// The races on this voter's ballot: everything when browsing, else only what their party votes.
+function votableRaces() {
+  if (state.party === 'all') return DATA.races;
+  return DATA.races.filter(r => eligibility(r).eligible);
+}
+
 function updateBallotBar() {
-  const n = Object.keys(selections).length;
+  const votable = votableRaces();
+  const ids = new Set(votable.map(r => r.id));
+  const picked = Object.keys(selections).filter(id => ids.has(id)).length;
   const bar = $('#ballotBar');
-  bar.hidden = n === 0;
-  if (n) $('#ballotCount').innerHTML = `<b>${n}</b> of ${DATA.races.length} race${n === 1 ? '' : 's'} picked`;
+  bar.hidden = picked === 0;
+  if (picked) $('#ballotCount').innerHTML = `<b>${picked}</b> of ${votable.length} race${votable.length === 1 ? '' : 's'} picked`;
 }
 
 function clearBallot() {
@@ -457,8 +497,10 @@ function highlightMissing() {
 function openBallot() {
   const groups = ballotGroups();
   const sheet = $('#ballotSheet');
-  const total = DATA.races.length;
-  const picked = Object.keys(selections).length;
+  const votable = votableRaces();
+  const votableIds = new Set(votable.map(r => r.id));
+  const total = votable.length;
+  const picked = Object.keys(selections).filter(id => votableIds.has(id)).length;
   let html = `<div class="bs-head"><h2 id="ballotTitle">My Sample Ballot</h2>` +
     `<p class="bs-sub">Washoe County &amp; Reno · Primary Election · Tuesday, June 9, 2026</p>` +
     `<p class="bs-meta">${picked} of ${total} races selected · Bring this as a reference; it is not an official ballot.</p></div>`;
