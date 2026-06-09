@@ -136,7 +136,10 @@ function wireEvents() {
   $('#methodBtn').addEventListener('click', openMethod);
   $('#methodClose').addEventListener('click', () => $('#methodModal').hidden = true);
   $('#methodModal').addEventListener('click', e => { if (e.target.id === 'methodModal') $('#methodModal').hidden = true; });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeDrawer(); $('#methodModal').hidden = true; $('#ballotModal').hidden = true; } });
+  $('#howBtn').addEventListener('click', openHow);
+  $('#howClose').addEventListener('click', () => $('#howModal').hidden = true);
+  $('#howModal').addEventListener('click', e => { if (e.target.id === 'howModal') $('#howModal').hidden = true; });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeDrawer(); $('#methodModal').hidden = true; $('#ballotModal').hidden = true; $('#howModal').hidden = true; } });
 }
 
 /* ---------- Eligibility ---------- */
@@ -788,6 +791,26 @@ function fmtTs(s) { return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '
 function closeDrawer() { $('#drawer').hidden = true; $('#backdrop').hidden = true; document.body.style.overflow = ''; }
 
 /* ---------- Methodology ---------- */
+function openHow() {
+  const day = fmtDate(DATA.meta.electionDate);
+  $('#howBody').innerHTML = `
+    <p class="how-lead">Vote centers are open <strong>7:00 am – 7:00 pm on ${day}</strong>. If you’re in line by 7 pm, you can vote.</p>
+    <h3>🗳️ Vote in person</h3>
+    <p>Washoe County uses <strong>vote centers</strong> — on Election Day you may vote at <em>any</em> vote center in the county, not just one assigned to you. Find locations at <a href="https://www.washoecounty.gov/votecenters" target="_blank" rel="noopener">washoecounty.gov/votecenters</a>.</p>
+    <h3>✉️ Return your mail ballot</h3>
+    <p>Every active registered voter was mailed a ballot. To count, it must be either:</p>
+    <ul>
+      <li><strong>Postmarked by ${day}</strong> and received by the Registrar by <strong>June 13</strong>, or</li>
+      <li><strong>Dropped off by 7 pm on ${day}</strong> at any vote center or secure drop box.</li>
+    </ul>
+    <h3>📝 Not registered? Register and vote the same day</h3>
+    <p>Nevada offers <strong>same-day registration</strong>: register or update your record and vote in one trip at any vote center on Election Day — bring a Nevada ID or proof of residence.</p>
+    <h3>✅ Check your registration &amp; your exact ballot</h3>
+    <p>Confirm where you’re registered and preview your specific ballot at <a href="https://www.washoecounty.gov/voters" target="_blank" rel="noopener">washoecounty.gov/voters</a> or <a href="https://www.vote.nv.gov" target="_blank" rel="noopener">vote.nv.gov</a>. (Early voting ran May 23 – June 5 and has ended.)</p>
+    <p class="how-foot">Official sources: Washoe County Registrar of Voters &amp; the Nevada Secretary of State. This guide is independent and non-endorsing — always verify with the official sources above.</p>`;
+  $('#howModal').hidden = false;
+}
+
 function openMethod() {
   $('#methodBody').innerHTML = `
     <p>${esc(DATA.meta.disclaimer)}</p>

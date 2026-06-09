@@ -52,6 +52,16 @@ a { color: var(--accent-2); }
 .site-header h1 span { color: #c9a14a; }
 .lede { max-width: 720px; color: #cfcdc7; margin: 16px 0 0; font-size: 16px; }
 .countdown { margin: 14px 0 0; font-weight: 600; color: #f0d79a; font-size: 15px; }
+.howvote-btn {
+  margin: 12px 0 0; display: inline-flex; align-items: center; gap: 7px;
+  padding: 8px 16px; font: inherit; font-size: 14px; font-weight: 700;
+  color: #1a1a1c; background: #f0d79a; border: none; border-radius: 999px; cursor: pointer;
+  transition: background .15s;
+}
+.howvote-btn:hover { background: #f6e4b8; }
+.howvote-btn:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.how-lead { font-size: 15px; font-weight: 600; background: #fbf3dd; border-left: 4px solid var(--gold); padding: 11px 14px; border-radius: 8px; margin: 0 0 4px; }
+.how-foot { font-size: 12.5px; color: #8a8a94; margin-top: 14px; }
 
 /* Rules banner (collapsible) */
 .rules-banner { background: #fff6e6; border-bottom: 1px solid #ecd9ad; color: #5a4a22; }
